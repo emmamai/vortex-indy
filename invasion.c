@@ -324,7 +324,7 @@ void invasiontank_die(edict_t *self, edict_t *inflictor, edict_t *attacker, int 
 
 void BossCheck(edict_t *e, edict_t *self)
 {
-	if (!(invasion_difficulty_level % 5))// every 5 levels, spawn a boss
+	if (!(invasion_difficulty_level % 5) && invasion->value > 1)// every 5 levels, spawn a boss
 	{
 		int bcount = 0;
 		int iter = 0;
