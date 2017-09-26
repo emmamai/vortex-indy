@@ -1,3 +1,0 @@
-/home/emmamai/code/quake-2-vortex/CMakeFiles/rebuild_cache.dir
-/home/emmamai/code/quake-2-vortex/CMakeFiles/gamex86_64.dir
-/home/emmamai/code/quake-2-vortex/CMakeFiles/edit_cache.dir
