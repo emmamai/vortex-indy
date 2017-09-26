@@ -1,6 +1,10 @@
 Class: Necromancer
 ======
 
+The Necromancer is a class primarily focused around using curses and summoning
+monsters to fight enemies. It can be both offensive and defensive, but leans
+towards the former.
+
 ### General Attributes
 
 | Stat                          |       |

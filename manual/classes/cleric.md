@@ -1,6 +1,10 @@
 Class: Cleric
 ======
 
+The Cleric is a typically offensive class with abilities that provide
+various buffs to allies and debuffs to enemies, as well as some abilities
+dealing directly in attacking.
+
 ### General Attributes
 
 | Stat                          |       |

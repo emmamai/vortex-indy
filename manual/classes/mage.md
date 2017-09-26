@@ -1,6 +1,11 @@
 Class: Mage
 ======
 
+The Mage is an offensive class with a range of very powerful magical abilities.
+The Mage can deal a very high amount of damage, but is relatively easy to kill
+compared to other classes, particularly at higher levels. Mage abilities tend
+to have a very high Power Cube cost.
+
 ### General Attributes
 
 | Stat                          |       |

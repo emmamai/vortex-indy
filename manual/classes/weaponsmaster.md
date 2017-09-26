@@ -1,6 +1,12 @@
 Class: Weapons Master
 ======
 
+The Weapons Master is a class that does not have any of its own
+class abilities. It is primarily an offensive class, focused
+on upgrading weapons far beyond what other classes are able to.
+
+This class is an easy choice for those new to Vortex.
+
 ### General Attributes
 
 | Stat                          |       |

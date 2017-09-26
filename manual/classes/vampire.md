@@ -1,7 +1,7 @@
 Class: Vampire
 ======
 
-The Vampire is a class focused on absorbing health from the enemy.
+The Vampire is a typically offensive class focused on absorbing health from the enemy.
 It has the highest health of any class and can become very difficult to kill.
 
 ### General Attributes

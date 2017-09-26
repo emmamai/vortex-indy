@@ -1,6 +1,11 @@
 Class: Soldier
 ======
 
+The soldier is a primarily offensive class, mostly focusing on using various
+types of grenades and powered-up weapons to deal damage.
+
+This class is an easy choice for those new to Vortex.
+
 ### General Attributes
 
 | Stat                          |       |

@@ -1,6 +1,10 @@
 Class: Poltergeist
 ======
 
+The Poltergeist is a class focused on abilities that allow you to transform
+into different types of enemies. Due to the variation in how each of these
+enemies play, the Poltergeist can just as easily be offensive as defensive.
+
 ### General Attributes
 
 Due to poltergeist being a morphing class, this table

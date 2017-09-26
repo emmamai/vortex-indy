@@ -1,8 +1,8 @@
 Class: Engineer
 ======
 
-The Engineer is a class primarily focusing on building and maintaining
-devices that deal damage to the enemy.
+The Engineer is a typically defensive class primarily focusing on
+building and maintaining devices that deal damage to the enemy.
 
 ### General Attributes
 

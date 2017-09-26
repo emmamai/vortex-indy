@@ -1,6 +1,11 @@
 Class: Alien
 ======
 
+The Alien is a class focused around spawning small biological
+structures and using abilities like [Acid](../abilities/acid.md) and
+[Spike](../abilities/spike.md) to deal damage to enemies. It can
+just as easily be an offensive class as a defensive one.
+
 ### General Attributes
 
 | Stat                          |       |

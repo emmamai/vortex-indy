@@ -1,6 +1,9 @@
 Class: Shaman
 ======
 
+The Shaman is a class focused around spawning totems that provide various sorts
+of buffs and debuffs. It can just as easily be offensive as defensive.
+
 ### General Attributes
 
 | Stat                          |       |
