@@ -14,6 +14,20 @@ Class: Mage
 
 ### Abilities
 
+At level 0, the Mage starts out with 1 point in [Teleport](../abilities/teleport.md).
+
+|                   Ability                         | Max |
+| -------------------------------------------       | --- |
+| [Magic Bolt](../abilities/magic_bolt.md)          | 15  |
+| [Nova](../abilities/nova.md)                      | 15  |
+| [Bomb Spell](../abilities/bomb_spell.md)          | 15  |
+| [Force Wall](../abilities/force_wall.md)          | 15  |
+| [Lightning](../abilities/lightning.md)            | 15  |
+| [Meteor](../abilities/meteor.md)                  | 15  |
+| [Fireball](../abilities/fireball.md)              | 15  |
+| [Lightning Storm](../abilities/lightning_storm.md)| 15  |
+| [Teleport](../abilities/teleport.md)              | 1   |
+
 ### Talents
 * [Ice Bolt](../talents/ice_bolt.md)
 * [Mana Charge](../talents/mana_charge.md)

@@ -14,6 +14,8 @@ Class: Weapons Master
 
 ### Abilities
 
+The Weapons Master has no class abilities.
+
 ### Talents
 * [Ammo Regen](../talents/ammo_regen.md)
 * [Combat Exp.](../talents/combat_exp.md)

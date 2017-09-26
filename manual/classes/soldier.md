@@ -12,8 +12,9 @@ Class: Soldier
 | Max powercubes at lvl 0       | 200   |
 | Max powercubes per lvl        | 10    |
 
+### Abilities
 
-### Class Abilities
+At level 0, the Soldier starts out with 3 points in [Grapple Hook](../abilities/grapple_hook.md).
 
 |                   Ability                         | Max |
 | -------------------------------------------       | --- |

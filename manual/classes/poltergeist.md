@@ -19,6 +19,27 @@ you use.
 
 ### Abilities
 
+At level 0, the Poltergeist starts out with 1 point in all class abilities
+except for [Monster Summon](../abilities/monster_summon.md),
+which has 0, and [Ghost](../abilities/ghost.md), which has 99.
+Note that Ghost applies to Poltergeists differently than other
+classes - Ghost only exists to protect you while you are
+not yet morphed.
+
+|                   Ability                         | Max |
+| -------------------------------------------       | --- |
+| [Berserker](../abilities/berserker.md)            | 20  |
+| [Cacodemon](../abilities/cacodemon.md)            | 20  |
+| [Parasite](../abilities/parasite.md)              | 20  |
+| [Brain](../abilities/brain.md)                    | 20  |
+| [Flyer](../abilities/flyer.md)                    | 20  |
+| [Mutant](../abilities/mutant.md)                  | 20  |
+| [Tank](../abilities/tank.md)                      | 20  |
+| [Medic](../abilities/medic.md)                    | 20  |
+| [Ghost](../abilities/ghost.md)                    | 99  |
+| [Morph Mastery](../abilities/morph_mastery.md)    | 1   |
+| [Monster Summon](../abilities/monster_summon.md)  | 1   |
+
 ### Talents
 * [Morphing](../talents/morphing.md)
 * [More Ammo](../talents/more_ammo.md)

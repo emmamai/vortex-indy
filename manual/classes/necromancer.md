@@ -14,6 +14,20 @@ Class: Necromancer
 
 ### Abilities
 
+At level 0, the Necromancer starts out with 1 point in [Jetpack](../abilities/jetpack.md).
+
+|                   Ability                         | Max |
+| -------------------------------------------       | --- |
+| [Monster Summon](../abilities/monster_summon.md)  | 20  |
+| [Hellspawn](../abilities/hellspawn.md)            | 20  |
+| [Plague](../abilities/plague.md)                  | 15  |
+| [Amp Damage](../abilities/amp_damage.md)          | 15  |
+| [Cripple](../abilities/cripple.md)                | 15  |
+| [Curse](../abilities/curse.md)                    | 15  |
+| [Weaken](../abilities/weaken.md)                  | 15  |
+| [Conversion](../abilities/conversion.md)          | 15  |
+| [Jetpack](../abilities/jetpack.md)                | 1   |
+
 ### Talents
 * [Evil Curse](../talents/evil_curse.md)
 * [Cheaper Curses](../talents/cheaper_curses.md)

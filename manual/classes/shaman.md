@@ -14,6 +14,22 @@ Class: Shaman
 
 ### Abilities
 
+At level 0, the Shaman starts out with 1 point in [Super Speed](../abilities/super_speed.md)
+and 1 point in [Totem Mastery](../abilities/totem_mastery.md)
+
+|                   Ability                         | Max |
+| -------------------------------------------       | --- |
+| [Fire Totem](../abilities/fire_totem.md)          | 20  |
+| [Water Totem](../abilities/water_totem.md)        | 20  |
+| [Air Totem](../abilities/air_totem.md)            | 20  |
+| [Earth Totem](../abilities/earth_totem.md)        | 20  |
+| [Dark Totem](../abilities/dark_totem.md)          | 20  |
+| [Nature Totem](../abilities/nature_totem.md)      | 20  |
+| [Fury](../abilities/fury.md)                      | 15  |
+| [Haste](../abilities/haste.md)                    | 5   |
+| [Super Speed](../abilities/super_speed.md)        | 1   |
+| [Totem Mastery](../abilities/totem_mastery.md)    | 1   |
+
 ### Talents
 * [Ice](../talents/ice.md)
 * [Wind](../talents/wind.md)

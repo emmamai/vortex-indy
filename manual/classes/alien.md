@@ -14,7 +14,22 @@ Class: Alien
 
 ### Abilities
 
+At level 0, the Alien starts out with 1 point in [Wormhole](../abilities/wormhole.md).
+
+|                   Ability                         | Max |
+| -------------------------------------------       | --- |
+| [Spiker](../abilities/spiker.md)                  | 15  |
+| [Obstacle](../abilities/obstacle.md)              | 15  |
+| [Gasser](../abilities/gasser.md)                  | 15  |
+| [Healer](../abilities/healer.md)                  | 15  |
+| [Spore](../abilities/spore.md)                    | 15  |
+| [Acid](../abilities/acid.md)                      | 15  |
+| [Spike](../abilities/spike.md)                    | 15  |
+| [Cocoon](../abilities/cocoon.md)                  | 15  |
+| [Wormhole](../abilities/wormhole.md)              | 1   |
+
 ### Talents
+
 * [Hidden Obstacle](../talents/hidden_obstacle.md)
 * [Super Healer](../talents/super_healer.md)
 * [Phantom Cocoon](../talents/phantom_cocooon.md)
