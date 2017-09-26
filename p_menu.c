@@ -197,7 +197,7 @@ void setClassAbilities (edict_t *ent)
 		break;
 	case CLASS_CLERIC:// 80 points
 		enableAbility(ent, SALVATION, 0, 15, 0);
-		
+		enableAbility(ent, HOLY_FREEZE, 0, 15, 0);
 		enableAbility(ent, HEALING, 0, 15, 0);
 		enableAbility(ent, BLESS, 0, 15, 0);
 		enableAbility(ent, YIN, 0, 15, 0);
