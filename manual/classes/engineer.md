@@ -21,16 +21,16 @@ At level 0, the Engineer starts out with 1 point in [Antigrav](../abilities/anti
 
 |                   Ability                         | Max |
 | -------------------------------------------       | --- |
-| [Proxy](../abilities/.md)                         | 15  |
-| [Sentry](../abilities/.md)                        | 20  |
-| [Supply Station](../abilities/.md)                | 15  |
-| [Laser](../abilities/.md)                         | 15  |
-| [Magmine](../abilities/.md)                       | 20  |
-| [Caltrops](../abilities/.md)                      | 15  |
-| [Autocannon](../abilities/.md)                    | 15  |
-| [Detector](../abilities/.md)                      | 15  |
-| [Decoy](../abilities/.md)                         | 15  |
-| [Antigrav](../abilities/.md)                      | 1   |
+| [Proxy](../abilities/proxy.md)                    | 15  |
+| [Sentry](../abilities/sentry.md)                  | 20  |
+| [Supply Station](../abilities/supply_station.md)  | 15  |
+| [Laser](../abilities/laser.md)                    | 15  |
+| [Magmine](../abilities/magmine.md)                | 20  |
+| [Caltrops](../abilities/caltrops.md)              | 15  |
+| [Autocannon](../abilities/autocannon.md)          | 15  |
+| [Detector](../abilities/detector.md)              | 15  |
+| [Decoy](../abilities/decoy.md)                    | 15  |
+| [Antigrav](../abilities/antigrav.md)              | 1   |
 
 ### Talents
 * [Laser Platform](../talents/laser_platform.md)
