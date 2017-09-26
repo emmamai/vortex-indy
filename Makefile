@@ -123,3515 +123,3515 @@ gamex86_64/fast:
 	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/build
 .PHONY : gamex86_64/fast
 
-Player.o: Player.c.o
+src/Player.o: src/Player.c.o
 
-.PHONY : Player.o
+.PHONY : src/Player.o
 
 # target to build an object file
-Player.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/Player.c.o
-.PHONY : Player.c.o
+src/Player.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/Player.c.o
+.PHONY : src/Player.c.o
 
-Player.i: Player.c.i
+src/Player.i: src/Player.c.i
 
-.PHONY : Player.i
+.PHONY : src/Player.i
 
 # target to preprocess a source file
-Player.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/Player.c.i
-.PHONY : Player.c.i
+src/Player.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/Player.c.i
+.PHONY : src/Player.c.i
 
-Player.s: Player.c.s
+src/Player.s: src/Player.c.s
 
-.PHONY : Player.s
+.PHONY : src/Player.s
 
 # target to generate assembly for a file
-Player.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/Player.c.s
-.PHONY : Player.c.s
+src/Player.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/Player.c.s
+.PHONY : src/Player.c.s
 
-Spirit.o: Spirit.c.o
+src/Spirit.o: src/Spirit.c.o
 
-.PHONY : Spirit.o
+.PHONY : src/Spirit.o
 
 # target to build an object file
-Spirit.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/Spirit.c.o
-.PHONY : Spirit.c.o
+src/Spirit.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/Spirit.c.o
+.PHONY : src/Spirit.c.o
 
-Spirit.i: Spirit.c.i
+src/Spirit.i: src/Spirit.c.i
 
-.PHONY : Spirit.i
+.PHONY : src/Spirit.i
 
 # target to preprocess a source file
-Spirit.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/Spirit.c.i
-.PHONY : Spirit.c.i
+src/Spirit.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/Spirit.c.i
+.PHONY : src/Spirit.c.i
 
-Spirit.s: Spirit.c.s
+src/Spirit.s: src/Spirit.c.s
 
-.PHONY : Spirit.s
+.PHONY : src/Spirit.s
 
 # target to generate assembly for a file
-Spirit.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/Spirit.c.s
-.PHONY : Spirit.c.s
+src/Spirit.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/Spirit.c.s
+.PHONY : src/Spirit.c.s
 
-Talents.o: Talents.c.o
+src/Talents.o: src/Talents.c.o
 
-.PHONY : Talents.o
+.PHONY : src/Talents.o
 
 # target to build an object file
-Talents.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/Talents.c.o
-.PHONY : Talents.c.o
+src/Talents.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/Talents.c.o
+.PHONY : src/Talents.c.o
 
-Talents.i: Talents.c.i
+src/Talents.i: src/Talents.c.i
 
-.PHONY : Talents.i
+.PHONY : src/Talents.i
 
 # target to preprocess a source file
-Talents.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/Talents.c.i
-.PHONY : Talents.c.i
+src/Talents.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/Talents.c.i
+.PHONY : src/Talents.c.i
 
-Talents.s: Talents.c.s
+src/Talents.s: src/Talents.c.s
 
-.PHONY : Talents.s
+.PHONY : src/Talents.s
 
 # target to generate assembly for a file
-Talents.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/Talents.c.s
-.PHONY : Talents.c.s
+src/Talents.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/Talents.c.s
+.PHONY : src/Talents.c.s
 
-ai/AStar.o: ai/AStar.c.o
+src/ai/AStar.o: src/ai/AStar.c.o
 
-.PHONY : ai/AStar.o
+.PHONY : src/ai/AStar.o
 
 # target to build an object file
-ai/AStar.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/AStar.c.o
-.PHONY : ai/AStar.c.o
+src/ai/AStar.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/AStar.c.o
+.PHONY : src/ai/AStar.c.o
 
-ai/AStar.i: ai/AStar.c.i
+src/ai/AStar.i: src/ai/AStar.c.i
 
-.PHONY : ai/AStar.i
+.PHONY : src/ai/AStar.i
 
 # target to preprocess a source file
-ai/AStar.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/AStar.c.i
-.PHONY : ai/AStar.c.i
+src/ai/AStar.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/AStar.c.i
+.PHONY : src/ai/AStar.c.i
 
-ai/AStar.s: ai/AStar.c.s
+src/ai/AStar.s: src/ai/AStar.c.s
 
-.PHONY : ai/AStar.s
+.PHONY : src/ai/AStar.s
 
 # target to generate assembly for a file
-ai/AStar.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/AStar.c.s
-.PHONY : ai/AStar.c.s
+src/ai/AStar.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/AStar.c.s
+.PHONY : src/ai/AStar.c.s
 
-ai/ai_class_dmbot.o: ai/ai_class_dmbot.c.o
+src/ai/ai_class_dmbot.o: src/ai/ai_class_dmbot.c.o
 
-.PHONY : ai/ai_class_dmbot.o
+.PHONY : src/ai/ai_class_dmbot.o
 
 # target to build an object file
-ai/ai_class_dmbot.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_class_dmbot.c.o
-.PHONY : ai/ai_class_dmbot.c.o
+src/ai/ai_class_dmbot.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_class_dmbot.c.o
+.PHONY : src/ai/ai_class_dmbot.c.o
 
-ai/ai_class_dmbot.i: ai/ai_class_dmbot.c.i
+src/ai/ai_class_dmbot.i: src/ai/ai_class_dmbot.c.i
 
-.PHONY : ai/ai_class_dmbot.i
+.PHONY : src/ai/ai_class_dmbot.i
 
 # target to preprocess a source file
-ai/ai_class_dmbot.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_class_dmbot.c.i
-.PHONY : ai/ai_class_dmbot.c.i
+src/ai/ai_class_dmbot.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_class_dmbot.c.i
+.PHONY : src/ai/ai_class_dmbot.c.i
 
-ai/ai_class_dmbot.s: ai/ai_class_dmbot.c.s
+src/ai/ai_class_dmbot.s: src/ai/ai_class_dmbot.c.s
 
-.PHONY : ai/ai_class_dmbot.s
+.PHONY : src/ai/ai_class_dmbot.s
 
 # target to generate assembly for a file
-ai/ai_class_dmbot.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_class_dmbot.c.s
-.PHONY : ai/ai_class_dmbot.c.s
+src/ai/ai_class_dmbot.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_class_dmbot.c.s
+.PHONY : src/ai/ai_class_dmbot.c.s
 
-ai/ai_class_monster_default.o: ai/ai_class_monster_default.c.o
+src/ai/ai_class_monster_default.o: src/ai/ai_class_monster_default.c.o
 
-.PHONY : ai/ai_class_monster_default.o
+.PHONY : src/ai/ai_class_monster_default.o
 
 # target to build an object file
-ai/ai_class_monster_default.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_class_monster_default.c.o
-.PHONY : ai/ai_class_monster_default.c.o
+src/ai/ai_class_monster_default.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_class_monster_default.c.o
+.PHONY : src/ai/ai_class_monster_default.c.o
 
-ai/ai_class_monster_default.i: ai/ai_class_monster_default.c.i
+src/ai/ai_class_monster_default.i: src/ai/ai_class_monster_default.c.i
 
-.PHONY : ai/ai_class_monster_default.i
+.PHONY : src/ai/ai_class_monster_default.i
 
 # target to preprocess a source file
-ai/ai_class_monster_default.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_class_monster_default.c.i
-.PHONY : ai/ai_class_monster_default.c.i
+src/ai/ai_class_monster_default.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_class_monster_default.c.i
+.PHONY : src/ai/ai_class_monster_default.c.i
 
-ai/ai_class_monster_default.s: ai/ai_class_monster_default.c.s
+src/ai/ai_class_monster_default.s: src/ai/ai_class_monster_default.c.s
 
-.PHONY : ai/ai_class_monster_default.s
+.PHONY : src/ai/ai_class_monster_default.s
 
 # target to generate assembly for a file
-ai/ai_class_monster_default.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_class_monster_default.c.s
-.PHONY : ai/ai_class_monster_default.c.s
+src/ai/ai_class_monster_default.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_class_monster_default.c.s
+.PHONY : src/ai/ai_class_monster_default.c.s
 
-ai/ai_dropnodes.o: ai/ai_dropnodes.c.o
+src/ai/ai_dropnodes.o: src/ai/ai_dropnodes.c.o
 
-.PHONY : ai/ai_dropnodes.o
+.PHONY : src/ai/ai_dropnodes.o
 
 # target to build an object file
-ai/ai_dropnodes.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_dropnodes.c.o
-.PHONY : ai/ai_dropnodes.c.o
+src/ai/ai_dropnodes.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_dropnodes.c.o
+.PHONY : src/ai/ai_dropnodes.c.o
 
-ai/ai_dropnodes.i: ai/ai_dropnodes.c.i
+src/ai/ai_dropnodes.i: src/ai/ai_dropnodes.c.i
 
-.PHONY : ai/ai_dropnodes.i
+.PHONY : src/ai/ai_dropnodes.i
 
 # target to preprocess a source file
-ai/ai_dropnodes.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_dropnodes.c.i
-.PHONY : ai/ai_dropnodes.c.i
+src/ai/ai_dropnodes.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_dropnodes.c.i
+.PHONY : src/ai/ai_dropnodes.c.i
 
-ai/ai_dropnodes.s: ai/ai_dropnodes.c.s
+src/ai/ai_dropnodes.s: src/ai/ai_dropnodes.c.s
 
-.PHONY : ai/ai_dropnodes.s
+.PHONY : src/ai/ai_dropnodes.s
 
 # target to generate assembly for a file
-ai/ai_dropnodes.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_dropnodes.c.s
-.PHONY : ai/ai_dropnodes.c.s
+src/ai/ai_dropnodes.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_dropnodes.c.s
+.PHONY : src/ai/ai_dropnodes.c.s
 
-ai/ai_items.o: ai/ai_items.c.o
+src/ai/ai_items.o: src/ai/ai_items.c.o
 
-.PHONY : ai/ai_items.o
+.PHONY : src/ai/ai_items.o
 
 # target to build an object file
-ai/ai_items.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_items.c.o
-.PHONY : ai/ai_items.c.o
+src/ai/ai_items.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_items.c.o
+.PHONY : src/ai/ai_items.c.o
 
-ai/ai_items.i: ai/ai_items.c.i
+src/ai/ai_items.i: src/ai/ai_items.c.i
 
-.PHONY : ai/ai_items.i
+.PHONY : src/ai/ai_items.i
 
 # target to preprocess a source file
-ai/ai_items.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_items.c.i
-.PHONY : ai/ai_items.c.i
+src/ai/ai_items.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_items.c.i
+.PHONY : src/ai/ai_items.c.i
 
-ai/ai_items.s: ai/ai_items.c.s
+src/ai/ai_items.s: src/ai/ai_items.c.s
 
-.PHONY : ai/ai_items.s
+.PHONY : src/ai/ai_items.s
 
 # target to generate assembly for a file
-ai/ai_items.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_items.c.s
-.PHONY : ai/ai_items.c.s
+src/ai/ai_items.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_items.c.s
+.PHONY : src/ai/ai_items.c.s
 
-ai/ai_links.o: ai/ai_links.c.o
+src/ai/ai_links.o: src/ai/ai_links.c.o
 
-.PHONY : ai/ai_links.o
+.PHONY : src/ai/ai_links.o
 
 # target to build an object file
-ai/ai_links.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_links.c.o
-.PHONY : ai/ai_links.c.o
+src/ai/ai_links.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_links.c.o
+.PHONY : src/ai/ai_links.c.o
 
-ai/ai_links.i: ai/ai_links.c.i
+src/ai/ai_links.i: src/ai/ai_links.c.i
 
-.PHONY : ai/ai_links.i
+.PHONY : src/ai/ai_links.i
 
 # target to preprocess a source file
-ai/ai_links.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_links.c.i
-.PHONY : ai/ai_links.c.i
+src/ai/ai_links.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_links.c.i
+.PHONY : src/ai/ai_links.c.i
 
-ai/ai_links.s: ai/ai_links.c.s
+src/ai/ai_links.s: src/ai/ai_links.c.s
 
-.PHONY : ai/ai_links.s
+.PHONY : src/ai/ai_links.s
 
 # target to generate assembly for a file
-ai/ai_links.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_links.c.s
-.PHONY : ai/ai_links.c.s
+src/ai/ai_links.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_links.c.s
+.PHONY : src/ai/ai_links.c.s
 
-ai/ai_main.o: ai/ai_main.c.o
+src/ai/ai_main.o: src/ai/ai_main.c.o
 
-.PHONY : ai/ai_main.o
+.PHONY : src/ai/ai_main.o
 
 # target to build an object file
-ai/ai_main.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_main.c.o
-.PHONY : ai/ai_main.c.o
+src/ai/ai_main.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_main.c.o
+.PHONY : src/ai/ai_main.c.o
 
-ai/ai_main.i: ai/ai_main.c.i
+src/ai/ai_main.i: src/ai/ai_main.c.i
 
-.PHONY : ai/ai_main.i
+.PHONY : src/ai/ai_main.i
 
 # target to preprocess a source file
-ai/ai_main.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_main.c.i
-.PHONY : ai/ai_main.c.i
+src/ai/ai_main.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_main.c.i
+.PHONY : src/ai/ai_main.c.i
 
-ai/ai_main.s: ai/ai_main.c.s
+src/ai/ai_main.s: src/ai/ai_main.c.s
 
-.PHONY : ai/ai_main.s
+.PHONY : src/ai/ai_main.s
 
 # target to generate assembly for a file
-ai/ai_main.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_main.c.s
-.PHONY : ai/ai_main.c.s
+src/ai/ai_main.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_main.c.s
+.PHONY : src/ai/ai_main.c.s
 
-ai/ai_movement.o: ai/ai_movement.c.o
+src/ai/ai_movement.o: src/ai/ai_movement.c.o
 
-.PHONY : ai/ai_movement.o
+.PHONY : src/ai/ai_movement.o
 
 # target to build an object file
-ai/ai_movement.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_movement.c.o
-.PHONY : ai/ai_movement.c.o
+src/ai/ai_movement.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_movement.c.o
+.PHONY : src/ai/ai_movement.c.o
 
-ai/ai_movement.i: ai/ai_movement.c.i
+src/ai/ai_movement.i: src/ai/ai_movement.c.i
 
-.PHONY : ai/ai_movement.i
+.PHONY : src/ai/ai_movement.i
 
 # target to preprocess a source file
-ai/ai_movement.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_movement.c.i
-.PHONY : ai/ai_movement.c.i
+src/ai/ai_movement.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_movement.c.i
+.PHONY : src/ai/ai_movement.c.i
 
-ai/ai_movement.s: ai/ai_movement.c.s
+src/ai/ai_movement.s: src/ai/ai_movement.c.s
 
-.PHONY : ai/ai_movement.s
+.PHONY : src/ai/ai_movement.s
 
 # target to generate assembly for a file
-ai/ai_movement.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_movement.c.s
-.PHONY : ai/ai_movement.c.s
+src/ai/ai_movement.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_movement.c.s
+.PHONY : src/ai/ai_movement.c.s
 
-ai/ai_navigation.o: ai/ai_navigation.c.o
+src/ai/ai_navigation.o: src/ai/ai_navigation.c.o
 
-.PHONY : ai/ai_navigation.o
+.PHONY : src/ai/ai_navigation.o
 
 # target to build an object file
-ai/ai_navigation.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_navigation.c.o
-.PHONY : ai/ai_navigation.c.o
+src/ai/ai_navigation.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_navigation.c.o
+.PHONY : src/ai/ai_navigation.c.o
 
-ai/ai_navigation.i: ai/ai_navigation.c.i
+src/ai/ai_navigation.i: src/ai/ai_navigation.c.i
 
-.PHONY : ai/ai_navigation.i
+.PHONY : src/ai/ai_navigation.i
 
 # target to preprocess a source file
-ai/ai_navigation.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_navigation.c.i
-.PHONY : ai/ai_navigation.c.i
+src/ai/ai_navigation.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_navigation.c.i
+.PHONY : src/ai/ai_navigation.c.i
 
-ai/ai_navigation.s: ai/ai_navigation.c.s
+src/ai/ai_navigation.s: src/ai/ai_navigation.c.s
 
-.PHONY : ai/ai_navigation.s
+.PHONY : src/ai/ai_navigation.s
 
 # target to generate assembly for a file
-ai/ai_navigation.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_navigation.c.s
-.PHONY : ai/ai_navigation.c.s
+src/ai/ai_navigation.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_navigation.c.s
+.PHONY : src/ai/ai_navigation.c.s
 
-ai/ai_nodes.o: ai/ai_nodes.c.o
+src/ai/ai_nodes.o: src/ai/ai_nodes.c.o
 
-.PHONY : ai/ai_nodes.o
+.PHONY : src/ai/ai_nodes.o
 
 # target to build an object file
-ai/ai_nodes.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_nodes.c.o
-.PHONY : ai/ai_nodes.c.o
+src/ai/ai_nodes.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_nodes.c.o
+.PHONY : src/ai/ai_nodes.c.o
 
-ai/ai_nodes.i: ai/ai_nodes.c.i
+src/ai/ai_nodes.i: src/ai/ai_nodes.c.i
 
-.PHONY : ai/ai_nodes.i
+.PHONY : src/ai/ai_nodes.i
 
 # target to preprocess a source file
-ai/ai_nodes.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_nodes.c.i
-.PHONY : ai/ai_nodes.c.i
+src/ai/ai_nodes.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_nodes.c.i
+.PHONY : src/ai/ai_nodes.c.i
 
-ai/ai_nodes.s: ai/ai_nodes.c.s
+src/ai/ai_nodes.s: src/ai/ai_nodes.c.s
 
-.PHONY : ai/ai_nodes.s
+.PHONY : src/ai/ai_nodes.s
 
 # target to generate assembly for a file
-ai/ai_nodes.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_nodes.c.s
-.PHONY : ai/ai_nodes.c.s
+src/ai/ai_nodes.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_nodes.c.s
+.PHONY : src/ai/ai_nodes.c.s
 
-ai/ai_tools.o: ai/ai_tools.c.o
+src/ai/ai_tools.o: src/ai/ai_tools.c.o
 
-.PHONY : ai/ai_tools.o
+.PHONY : src/ai/ai_tools.o
 
 # target to build an object file
-ai/ai_tools.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_tools.c.o
-.PHONY : ai/ai_tools.c.o
+src/ai/ai_tools.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_tools.c.o
+.PHONY : src/ai/ai_tools.c.o
 
-ai/ai_tools.i: ai/ai_tools.c.i
+src/ai/ai_tools.i: src/ai/ai_tools.c.i
 
-.PHONY : ai/ai_tools.i
+.PHONY : src/ai/ai_tools.i
 
 # target to preprocess a source file
-ai/ai_tools.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_tools.c.i
-.PHONY : ai/ai_tools.c.i
+src/ai/ai_tools.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_tools.c.i
+.PHONY : src/ai/ai_tools.c.i
 
-ai/ai_tools.s: ai/ai_tools.c.s
+src/ai/ai_tools.s: src/ai/ai_tools.c.s
 
-.PHONY : ai/ai_tools.s
+.PHONY : src/ai/ai_tools.s
 
 # target to generate assembly for a file
-ai/ai_tools.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_tools.c.s
-.PHONY : ai/ai_tools.c.s
+src/ai/ai_tools.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_tools.c.s
+.PHONY : src/ai/ai_tools.c.s
 
-ai/ai_weapons.o: ai/ai_weapons.c.o
+src/ai/ai_weapons.o: src/ai/ai_weapons.c.o
 
-.PHONY : ai/ai_weapons.o
+.PHONY : src/ai/ai_weapons.o
 
 # target to build an object file
-ai/ai_weapons.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_weapons.c.o
-.PHONY : ai/ai_weapons.c.o
+src/ai/ai_weapons.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_weapons.c.o
+.PHONY : src/ai/ai_weapons.c.o
 
-ai/ai_weapons.i: ai/ai_weapons.c.i
+src/ai/ai_weapons.i: src/ai/ai_weapons.c.i
 
-.PHONY : ai/ai_weapons.i
+.PHONY : src/ai/ai_weapons.i
 
 # target to preprocess a source file
-ai/ai_weapons.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_weapons.c.i
-.PHONY : ai/ai_weapons.c.i
+src/ai/ai_weapons.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_weapons.c.i
+.PHONY : src/ai/ai_weapons.c.i
 
-ai/ai_weapons.s: ai/ai_weapons.c.s
+src/ai/ai_weapons.s: src/ai/ai_weapons.c.s
 
-.PHONY : ai/ai_weapons.s
+.PHONY : src/ai/ai_weapons.s
 
 # target to generate assembly for a file
-ai/ai_weapons.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/ai_weapons.c.s
-.PHONY : ai/ai_weapons.c.s
+src/ai/ai_weapons.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/ai_weapons.c.s
+.PHONY : src/ai/ai_weapons.c.s
 
-ai/bot_common.o: ai/bot_common.c.o
+src/ai/bot_common.o: src/ai/bot_common.c.o
 
-.PHONY : ai/bot_common.o
+.PHONY : src/ai/bot_common.o
 
 # target to build an object file
-ai/bot_common.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/bot_common.c.o
-.PHONY : ai/bot_common.c.o
+src/ai/bot_common.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/bot_common.c.o
+.PHONY : src/ai/bot_common.c.o
 
-ai/bot_common.i: ai/bot_common.c.i
+src/ai/bot_common.i: src/ai/bot_common.c.i
 
-.PHONY : ai/bot_common.i
+.PHONY : src/ai/bot_common.i
 
 # target to preprocess a source file
-ai/bot_common.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/bot_common.c.i
-.PHONY : ai/bot_common.c.i
+src/ai/bot_common.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/bot_common.c.i
+.PHONY : src/ai/bot_common.c.i
 
-ai/bot_common.s: ai/bot_common.c.s
+src/ai/bot_common.s: src/ai/bot_common.c.s
 
-.PHONY : ai/bot_common.s
+.PHONY : src/ai/bot_common.s
 
 # target to generate assembly for a file
-ai/bot_common.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/bot_common.c.s
-.PHONY : ai/bot_common.c.s
+src/ai/bot_common.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/bot_common.c.s
+.PHONY : src/ai/bot_common.c.s
 
-ai/bot_spawn.o: ai/bot_spawn.c.o
+src/ai/bot_spawn.o: src/ai/bot_spawn.c.o
 
-.PHONY : ai/bot_spawn.o
+.PHONY : src/ai/bot_spawn.o
 
 # target to build an object file
-ai/bot_spawn.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/bot_spawn.c.o
-.PHONY : ai/bot_spawn.c.o
+src/ai/bot_spawn.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/bot_spawn.c.o
+.PHONY : src/ai/bot_spawn.c.o
 
-ai/bot_spawn.i: ai/bot_spawn.c.i
+src/ai/bot_spawn.i: src/ai/bot_spawn.c.i
 
-.PHONY : ai/bot_spawn.i
+.PHONY : src/ai/bot_spawn.i
 
 # target to preprocess a source file
-ai/bot_spawn.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/bot_spawn.c.i
-.PHONY : ai/bot_spawn.c.i
+src/ai/bot_spawn.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/bot_spawn.c.i
+.PHONY : src/ai/bot_spawn.c.i
 
-ai/bot_spawn.s: ai/bot_spawn.c.s
+src/ai/bot_spawn.s: src/ai/bot_spawn.c.s
 
-.PHONY : ai/bot_spawn.s
+.PHONY : src/ai/bot_spawn.s
 
 # target to generate assembly for a file
-ai/bot_spawn.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ai/bot_spawn.c.s
-.PHONY : ai/bot_spawn.c.s
+src/ai/bot_spawn.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ai/bot_spawn.c.s
+.PHONY : src/ai/bot_spawn.c.s
 
-ally.o: ally.c.o
+src/ally.o: src/ally.c.o
 
-.PHONY : ally.o
+.PHONY : src/ally.o
 
 # target to build an object file
-ally.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ally.c.o
-.PHONY : ally.c.o
+src/ally.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ally.c.o
+.PHONY : src/ally.c.o
 
-ally.i: ally.c.i
+src/ally.i: src/ally.c.i
 
-.PHONY : ally.i
+.PHONY : src/ally.i
 
 # target to preprocess a source file
-ally.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ally.c.i
-.PHONY : ally.c.i
+src/ally.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ally.c.i
+.PHONY : src/ally.c.i
 
-ally.s: ally.c.s
+src/ally.s: src/ally.c.s
 
-.PHONY : ally.s
+.PHONY : src/ally.s
 
 # target to generate assembly for a file
-ally.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ally.c.s
-.PHONY : ally.c.s
+src/ally.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ally.c.s
+.PHONY : src/ally.c.s
 
-armory.o: armory.c.o
+src/armory.o: src/armory.c.o
 
-.PHONY : armory.o
+.PHONY : src/armory.o
 
 # target to build an object file
-armory.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/armory.c.o
-.PHONY : armory.c.o
+src/armory.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/armory.c.o
+.PHONY : src/armory.c.o
 
-armory.i: armory.c.i
+src/armory.i: src/armory.c.i
 
-.PHONY : armory.i
+.PHONY : src/armory.i
 
 # target to preprocess a source file
-armory.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/armory.c.i
-.PHONY : armory.c.i
+src/armory.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/armory.c.i
+.PHONY : src/armory.c.i
 
-armory.s: armory.c.s
+src/armory.s: src/armory.c.s
 
-.PHONY : armory.s
+.PHONY : src/armory.s
 
 # target to generate assembly for a file
-armory.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/armory.c.s
-.PHONY : armory.c.s
+src/armory.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/armory.c.s
+.PHONY : src/armory.c.s
 
-auras.o: auras.c.o
+src/auras.o: src/auras.c.o
 
-.PHONY : auras.o
+.PHONY : src/auras.o
 
 # target to build an object file
-auras.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/auras.c.o
-.PHONY : auras.c.o
+src/auras.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/auras.c.o
+.PHONY : src/auras.c.o
 
-auras.i: auras.c.i
+src/auras.i: src/auras.c.i
 
-.PHONY : auras.i
+.PHONY : src/auras.i
 
 # target to preprocess a source file
-auras.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/auras.c.i
-.PHONY : auras.c.i
+src/auras.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/auras.c.i
+.PHONY : src/auras.c.i
 
-auras.s: auras.c.s
+src/auras.s: src/auras.c.s
 
-.PHONY : auras.s
+.PHONY : src/auras.s
 
 # target to generate assembly for a file
-auras.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/auras.c.s
-.PHONY : auras.c.s
+src/auras.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/auras.c.s
+.PHONY : src/auras.c.s
 
-backpack.o: backpack.c.o
+src/backpack.o: src/backpack.c.o
 
-.PHONY : backpack.o
+.PHONY : src/backpack.o
 
 # target to build an object file
-backpack.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/backpack.c.o
-.PHONY : backpack.c.o
+src/backpack.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/backpack.c.o
+.PHONY : src/backpack.c.o
 
-backpack.i: backpack.c.i
+src/backpack.i: src/backpack.c.i
 
-.PHONY : backpack.i
+.PHONY : src/backpack.i
 
 # target to preprocess a source file
-backpack.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/backpack.c.i
-.PHONY : backpack.c.i
+src/backpack.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/backpack.c.i
+.PHONY : src/backpack.c.i
 
-backpack.s: backpack.c.s
+src/backpack.s: src/backpack.c.s
 
-.PHONY : backpack.s
+.PHONY : src/backpack.s
 
 # target to generate assembly for a file
-backpack.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/backpack.c.s
-.PHONY : backpack.c.s
+src/backpack.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/backpack.c.s
+.PHONY : src/backpack.c.s
 
-bombspell.o: bombspell.c.o
+src/bombspell.o: src/bombspell.c.o
 
-.PHONY : bombspell.o
+.PHONY : src/bombspell.o
 
 # target to build an object file
-bombspell.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/bombspell.c.o
-.PHONY : bombspell.c.o
+src/bombspell.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/bombspell.c.o
+.PHONY : src/bombspell.c.o
 
-bombspell.i: bombspell.c.i
+src/bombspell.i: src/bombspell.c.i
 
-.PHONY : bombspell.i
+.PHONY : src/bombspell.i
 
 # target to preprocess a source file
-bombspell.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/bombspell.c.i
-.PHONY : bombspell.c.i
+src/bombspell.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/bombspell.c.i
+.PHONY : src/bombspell.c.i
 
-bombspell.s: bombspell.c.s
+src/bombspell.s: src/bombspell.c.s
 
-.PHONY : bombspell.s
+.PHONY : src/bombspell.s
 
 # target to generate assembly for a file
-bombspell.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/bombspell.c.s
-.PHONY : bombspell.c.s
+src/bombspell.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/bombspell.c.s
+.PHONY : src/bombspell.c.s
 
-boss_general.o: boss_general.c.o
+src/boss_general.o: src/boss_general.c.o
 
-.PHONY : boss_general.o
+.PHONY : src/boss_general.o
 
 # target to build an object file
-boss_general.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/boss_general.c.o
-.PHONY : boss_general.c.o
+src/boss_general.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/boss_general.c.o
+.PHONY : src/boss_general.c.o
 
-boss_general.i: boss_general.c.i
+src/boss_general.i: src/boss_general.c.i
 
-.PHONY : boss_general.i
+.PHONY : src/boss_general.i
 
 # target to preprocess a source file
-boss_general.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/boss_general.c.i
-.PHONY : boss_general.c.i
+src/boss_general.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/boss_general.c.i
+.PHONY : src/boss_general.c.i
 
-boss_general.s: boss_general.c.s
+src/boss_general.s: src/boss_general.c.s
 
-.PHONY : boss_general.s
+.PHONY : src/boss_general.s
 
 # target to generate assembly for a file
-boss_general.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/boss_general.c.s
-.PHONY : boss_general.c.s
+src/boss_general.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/boss_general.c.s
+.PHONY : src/boss_general.c.s
 
-boss_makron.o: boss_makron.c.o
+src/boss_makron.o: src/boss_makron.c.o
 
-.PHONY : boss_makron.o
+.PHONY : src/boss_makron.o
 
 # target to build an object file
-boss_makron.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/boss_makron.c.o
-.PHONY : boss_makron.c.o
+src/boss_makron.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/boss_makron.c.o
+.PHONY : src/boss_makron.c.o
 
-boss_makron.i: boss_makron.c.i
+src/boss_makron.i: src/boss_makron.c.i
 
-.PHONY : boss_makron.i
+.PHONY : src/boss_makron.i
 
 # target to preprocess a source file
-boss_makron.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/boss_makron.c.i
-.PHONY : boss_makron.c.i
+src/boss_makron.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/boss_makron.c.i
+.PHONY : src/boss_makron.c.i
 
-boss_makron.s: boss_makron.c.s
+src/boss_makron.s: src/boss_makron.c.s
 
-.PHONY : boss_makron.s
+.PHONY : src/boss_makron.s
 
 # target to generate assembly for a file
-boss_makron.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/boss_makron.c.s
-.PHONY : boss_makron.c.s
+src/boss_makron.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/boss_makron.c.s
+.PHONY : src/boss_makron.c.s
 
-boss_tank.o: boss_tank.c.o
+src/boss_tank.o: src/boss_tank.c.o
 
-.PHONY : boss_tank.o
+.PHONY : src/boss_tank.o
 
 # target to build an object file
-boss_tank.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/boss_tank.c.o
-.PHONY : boss_tank.c.o
+src/boss_tank.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/boss_tank.c.o
+.PHONY : src/boss_tank.c.o
 
-boss_tank.i: boss_tank.c.i
+src/boss_tank.i: src/boss_tank.c.i
 
-.PHONY : boss_tank.i
+.PHONY : src/boss_tank.i
 
 # target to preprocess a source file
-boss_tank.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/boss_tank.c.i
-.PHONY : boss_tank.c.i
+src/boss_tank.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/boss_tank.c.i
+.PHONY : src/boss_tank.c.i
 
-boss_tank.s: boss_tank.c.s
+src/boss_tank.s: src/boss_tank.c.s
 
-.PHONY : boss_tank.s
+.PHONY : src/boss_tank.s
 
 # target to generate assembly for a file
-boss_tank.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/boss_tank.c.s
-.PHONY : boss_tank.c.s
+src/boss_tank.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/boss_tank.c.s
+.PHONY : src/boss_tank.c.s
 
-class_brain.o: class_brain.c.o
+src/class_brain.o: src/class_brain.c.o
 
-.PHONY : class_brain.o
+.PHONY : src/class_brain.o
 
 # target to build an object file
-class_brain.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/class_brain.c.o
-.PHONY : class_brain.c.o
+src/class_brain.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/class_brain.c.o
+.PHONY : src/class_brain.c.o
 
-class_brain.i: class_brain.c.i
+src/class_brain.i: src/class_brain.c.i
 
-.PHONY : class_brain.i
+.PHONY : src/class_brain.i
 
 # target to preprocess a source file
-class_brain.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/class_brain.c.i
-.PHONY : class_brain.c.i
+src/class_brain.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/class_brain.c.i
+.PHONY : src/class_brain.c.i
 
-class_brain.s: class_brain.c.s
+src/class_brain.s: src/class_brain.c.s
 
-.PHONY : class_brain.s
+.PHONY : src/class_brain.s
 
 # target to generate assembly for a file
-class_brain.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/class_brain.c.s
-.PHONY : class_brain.c.s
+src/class_brain.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/class_brain.c.s
+.PHONY : src/class_brain.c.s
 
-class_demon.o: class_demon.c.o
+src/class_demon.o: src/class_demon.c.o
 
-.PHONY : class_demon.o
+.PHONY : src/class_demon.o
 
 # target to build an object file
-class_demon.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/class_demon.c.o
-.PHONY : class_demon.c.o
+src/class_demon.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/class_demon.c.o
+.PHONY : src/class_demon.c.o
 
-class_demon.i: class_demon.c.i
+src/class_demon.i: src/class_demon.c.i
 
-.PHONY : class_demon.i
+.PHONY : src/class_demon.i
 
 # target to preprocess a source file
-class_demon.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/class_demon.c.i
-.PHONY : class_demon.c.i
+src/class_demon.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/class_demon.c.i
+.PHONY : src/class_demon.c.i
 
-class_demon.s: class_demon.c.s
+src/class_demon.s: src/class_demon.c.s
 
-.PHONY : class_demon.s
+.PHONY : src/class_demon.s
 
 # target to generate assembly for a file
-class_demon.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/class_demon.c.s
-.PHONY : class_demon.c.s
+src/class_demon.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/class_demon.c.s
+.PHONY : src/class_demon.c.s
 
-cloak.o: cloak.c.o
+src/cloak.o: src/cloak.c.o
 
-.PHONY : cloak.o
+.PHONY : src/cloak.o
 
 # target to build an object file
-cloak.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/cloak.c.o
-.PHONY : cloak.c.o
+src/cloak.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/cloak.c.o
+.PHONY : src/cloak.c.o
 
-cloak.i: cloak.c.i
+src/cloak.i: src/cloak.c.i
 
-.PHONY : cloak.i
+.PHONY : src/cloak.i
 
 # target to preprocess a source file
-cloak.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/cloak.c.i
-.PHONY : cloak.c.i
+src/cloak.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/cloak.c.i
+.PHONY : src/cloak.c.i
 
-cloak.s: cloak.c.s
+src/cloak.s: src/cloak.c.s
 
-.PHONY : cloak.s
+.PHONY : src/cloak.s
 
 # target to generate assembly for a file
-cloak.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/cloak.c.s
-.PHONY : cloak.c.s
+src/cloak.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/cloak.c.s
+.PHONY : src/cloak.c.s
 
-ctf.o: ctf.c.o
+src/ctf.o: src/ctf.c.o
 
-.PHONY : ctf.o
+.PHONY : src/ctf.o
 
 # target to build an object file
-ctf.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ctf.c.o
-.PHONY : ctf.c.o
+src/ctf.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ctf.c.o
+.PHONY : src/ctf.c.o
 
-ctf.i: ctf.c.i
+src/ctf.i: src/ctf.c.i
 
-.PHONY : ctf.i
+.PHONY : src/ctf.i
 
 # target to preprocess a source file
-ctf.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ctf.c.i
-.PHONY : ctf.c.i
+src/ctf.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ctf.c.i
+.PHONY : src/ctf.c.i
 
-ctf.s: ctf.c.s
+src/ctf.s: src/ctf.c.s
 
-.PHONY : ctf.s
+.PHONY : src/ctf.s
 
 # target to generate assembly for a file
-ctf.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ctf.c.s
-.PHONY : ctf.c.s
+src/ctf.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ctf.c.s
+.PHONY : src/ctf.c.s
 
-damage.o: damage.c.o
+src/damage.o: src/damage.c.o
 
-.PHONY : damage.o
+.PHONY : src/damage.o
 
 # target to build an object file
-damage.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/damage.c.o
-.PHONY : damage.c.o
+src/damage.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/damage.c.o
+.PHONY : src/damage.c.o
 
-damage.i: damage.c.i
+src/damage.i: src/damage.c.i
 
-.PHONY : damage.i
+.PHONY : src/damage.i
 
 # target to preprocess a source file
-damage.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/damage.c.i
-.PHONY : damage.c.i
+src/damage.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/damage.c.i
+.PHONY : src/damage.c.i
 
-damage.s: damage.c.s
+src/damage.s: src/damage.c.s
 
-.PHONY : damage.s
+.PHONY : src/damage.s
 
 # target to generate assembly for a file
-damage.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/damage.c.s
-.PHONY : damage.c.s
+src/damage.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/damage.c.s
+.PHONY : src/damage.c.s
 
-domination.o: domination.c.o
+src/domination.o: src/domination.c.o
 
-.PHONY : domination.o
+.PHONY : src/domination.o
 
 # target to build an object file
-domination.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/domination.c.o
-.PHONY : domination.c.o
+src/domination.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/domination.c.o
+.PHONY : src/domination.c.o
 
-domination.i: domination.c.i
+src/domination.i: src/domination.c.i
 
-.PHONY : domination.i
+.PHONY : src/domination.i
 
 # target to preprocess a source file
-domination.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/domination.c.i
-.PHONY : domination.c.i
+src/domination.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/domination.c.i
+.PHONY : src/domination.c.i
 
-domination.s: domination.c.s
+src/domination.s: src/domination.c.s
 
-.PHONY : domination.s
+.PHONY : src/domination.s
 
 # target to generate assembly for a file
-domination.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/domination.c.s
-.PHONY : domination.c.s
+src/domination.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/domination.c.s
+.PHONY : src/domination.c.s
 
-drone_ai.o: drone_ai.c.o
+src/drone_ai.o: src/drone_ai.c.o
 
-.PHONY : drone_ai.o
+.PHONY : src/drone_ai.o
 
 # target to build an object file
-drone_ai.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_ai.c.o
-.PHONY : drone_ai.c.o
+src/drone_ai.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_ai.c.o
+.PHONY : src/drone_ai.c.o
 
-drone_ai.i: drone_ai.c.i
+src/drone_ai.i: src/drone_ai.c.i
 
-.PHONY : drone_ai.i
+.PHONY : src/drone_ai.i
 
 # target to preprocess a source file
-drone_ai.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_ai.c.i
-.PHONY : drone_ai.c.i
+src/drone_ai.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_ai.c.i
+.PHONY : src/drone_ai.c.i
 
-drone_ai.s: drone_ai.c.s
+src/drone_ai.s: src/drone_ai.c.s
 
-.PHONY : drone_ai.s
+.PHONY : src/drone_ai.s
 
 # target to generate assembly for a file
-drone_ai.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_ai.c.s
-.PHONY : drone_ai.c.s
+src/drone_ai.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_ai.c.s
+.PHONY : src/drone_ai.c.s
 
-drone_berserk.o: drone_berserk.c.o
+src/drone_berserk.o: src/drone_berserk.c.o
 
-.PHONY : drone_berserk.o
+.PHONY : src/drone_berserk.o
 
 # target to build an object file
-drone_berserk.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_berserk.c.o
-.PHONY : drone_berserk.c.o
+src/drone_berserk.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_berserk.c.o
+.PHONY : src/drone_berserk.c.o
 
-drone_berserk.i: drone_berserk.c.i
+src/drone_berserk.i: src/drone_berserk.c.i
 
-.PHONY : drone_berserk.i
+.PHONY : src/drone_berserk.i
 
 # target to preprocess a source file
-drone_berserk.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_berserk.c.i
-.PHONY : drone_berserk.c.i
+src/drone_berserk.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_berserk.c.i
+.PHONY : src/drone_berserk.c.i
 
-drone_berserk.s: drone_berserk.c.s
+src/drone_berserk.s: src/drone_berserk.c.s
 
-.PHONY : drone_berserk.s
+.PHONY : src/drone_berserk.s
 
 # target to generate assembly for a file
-drone_berserk.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_berserk.c.s
-.PHONY : drone_berserk.c.s
+src/drone_berserk.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_berserk.c.s
+.PHONY : src/drone_berserk.c.s
 
-drone_bitch.o: drone_bitch.c.o
+src/drone_bitch.o: src/drone_bitch.c.o
 
-.PHONY : drone_bitch.o
+.PHONY : src/drone_bitch.o
 
 # target to build an object file
-drone_bitch.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_bitch.c.o
-.PHONY : drone_bitch.c.o
+src/drone_bitch.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_bitch.c.o
+.PHONY : src/drone_bitch.c.o
 
-drone_bitch.i: drone_bitch.c.i
+src/drone_bitch.i: src/drone_bitch.c.i
 
-.PHONY : drone_bitch.i
+.PHONY : src/drone_bitch.i
 
 # target to preprocess a source file
-drone_bitch.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_bitch.c.i
-.PHONY : drone_bitch.c.i
+src/drone_bitch.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_bitch.c.i
+.PHONY : src/drone_bitch.c.i
 
-drone_bitch.s: drone_bitch.c.s
+src/drone_bitch.s: src/drone_bitch.c.s
 
-.PHONY : drone_bitch.s
+.PHONY : src/drone_bitch.s
 
 # target to generate assembly for a file
-drone_bitch.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_bitch.c.s
-.PHONY : drone_bitch.c.s
+src/drone_bitch.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_bitch.c.s
+.PHONY : src/drone_bitch.c.s
 
-drone_brain.o: drone_brain.c.o
+src/drone_brain.o: src/drone_brain.c.o
 
-.PHONY : drone_brain.o
+.PHONY : src/drone_brain.o
 
 # target to build an object file
-drone_brain.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_brain.c.o
-.PHONY : drone_brain.c.o
+src/drone_brain.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_brain.c.o
+.PHONY : src/drone_brain.c.o
 
-drone_brain.i: drone_brain.c.i
+src/drone_brain.i: src/drone_brain.c.i
 
-.PHONY : drone_brain.i
+.PHONY : src/drone_brain.i
 
 # target to preprocess a source file
-drone_brain.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_brain.c.i
-.PHONY : drone_brain.c.i
+src/drone_brain.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_brain.c.i
+.PHONY : src/drone_brain.c.i
 
-drone_brain.s: drone_brain.c.s
+src/drone_brain.s: src/drone_brain.c.s
 
-.PHONY : drone_brain.s
+.PHONY : src/drone_brain.s
 
 # target to generate assembly for a file
-drone_brain.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_brain.c.s
-.PHONY : drone_brain.c.s
+src/drone_brain.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_brain.c.s
+.PHONY : src/drone_brain.c.s
 
-drone_decoy.o: drone_decoy.c.o
+src/drone_decoy.o: src/drone_decoy.c.o
 
-.PHONY : drone_decoy.o
+.PHONY : src/drone_decoy.o
 
 # target to build an object file
-drone_decoy.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_decoy.c.o
-.PHONY : drone_decoy.c.o
+src/drone_decoy.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_decoy.c.o
+.PHONY : src/drone_decoy.c.o
 
-drone_decoy.i: drone_decoy.c.i
+src/drone_decoy.i: src/drone_decoy.c.i
 
-.PHONY : drone_decoy.i
+.PHONY : src/drone_decoy.i
 
 # target to preprocess a source file
-drone_decoy.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_decoy.c.i
-.PHONY : drone_decoy.c.i
+src/drone_decoy.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_decoy.c.i
+.PHONY : src/drone_decoy.c.i
 
-drone_decoy.s: drone_decoy.c.s
+src/drone_decoy.s: src/drone_decoy.c.s
 
-.PHONY : drone_decoy.s
+.PHONY : src/drone_decoy.s
 
 # target to generate assembly for a file
-drone_decoy.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_decoy.c.s
-.PHONY : drone_decoy.c.s
+src/drone_decoy.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_decoy.c.s
+.PHONY : src/drone_decoy.c.s
 
-drone_gladiator.o: drone_gladiator.c.o
+src/drone_gladiator.o: src/drone_gladiator.c.o
 
-.PHONY : drone_gladiator.o
+.PHONY : src/drone_gladiator.o
 
 # target to build an object file
-drone_gladiator.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_gladiator.c.o
-.PHONY : drone_gladiator.c.o
+src/drone_gladiator.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_gladiator.c.o
+.PHONY : src/drone_gladiator.c.o
 
-drone_gladiator.i: drone_gladiator.c.i
+src/drone_gladiator.i: src/drone_gladiator.c.i
 
-.PHONY : drone_gladiator.i
+.PHONY : src/drone_gladiator.i
 
 # target to preprocess a source file
-drone_gladiator.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_gladiator.c.i
-.PHONY : drone_gladiator.c.i
+src/drone_gladiator.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_gladiator.c.i
+.PHONY : src/drone_gladiator.c.i
 
-drone_gladiator.s: drone_gladiator.c.s
+src/drone_gladiator.s: src/drone_gladiator.c.s
 
-.PHONY : drone_gladiator.s
+.PHONY : src/drone_gladiator.s
 
 # target to generate assembly for a file
-drone_gladiator.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_gladiator.c.s
-.PHONY : drone_gladiator.c.s
+src/drone_gladiator.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_gladiator.c.s
+.PHONY : src/drone_gladiator.c.s
 
-drone_gunner.o: drone_gunner.c.o
+src/drone_gunner.o: src/drone_gunner.c.o
 
-.PHONY : drone_gunner.o
+.PHONY : src/drone_gunner.o
 
 # target to build an object file
-drone_gunner.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_gunner.c.o
-.PHONY : drone_gunner.c.o
+src/drone_gunner.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_gunner.c.o
+.PHONY : src/drone_gunner.c.o
 
-drone_gunner.i: drone_gunner.c.i
+src/drone_gunner.i: src/drone_gunner.c.i
 
-.PHONY : drone_gunner.i
+.PHONY : src/drone_gunner.i
 
 # target to preprocess a source file
-drone_gunner.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_gunner.c.i
-.PHONY : drone_gunner.c.i
+src/drone_gunner.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_gunner.c.i
+.PHONY : src/drone_gunner.c.i
 
-drone_gunner.s: drone_gunner.c.s
+src/drone_gunner.s: src/drone_gunner.c.s
 
-.PHONY : drone_gunner.s
+.PHONY : src/drone_gunner.s
 
 # target to generate assembly for a file
-drone_gunner.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_gunner.c.s
-.PHONY : drone_gunner.c.s
+src/drone_gunner.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_gunner.c.s
+.PHONY : src/drone_gunner.c.s
 
-drone_infantry.o: drone_infantry.c.o
+src/drone_infantry.o: src/drone_infantry.c.o
 
-.PHONY : drone_infantry.o
+.PHONY : src/drone_infantry.o
 
 # target to build an object file
-drone_infantry.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_infantry.c.o
-.PHONY : drone_infantry.c.o
+src/drone_infantry.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_infantry.c.o
+.PHONY : src/drone_infantry.c.o
 
-drone_infantry.i: drone_infantry.c.i
+src/drone_infantry.i: src/drone_infantry.c.i
 
-.PHONY : drone_infantry.i
+.PHONY : src/drone_infantry.i
 
 # target to preprocess a source file
-drone_infantry.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_infantry.c.i
-.PHONY : drone_infantry.c.i
+src/drone_infantry.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_infantry.c.i
+.PHONY : src/drone_infantry.c.i
 
-drone_infantry.s: drone_infantry.c.s
+src/drone_infantry.s: src/drone_infantry.c.s
 
-.PHONY : drone_infantry.s
+.PHONY : src/drone_infantry.s
 
 # target to generate assembly for a file
-drone_infantry.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_infantry.c.s
-.PHONY : drone_infantry.c.s
+src/drone_infantry.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_infantry.c.s
+.PHONY : src/drone_infantry.c.s
 
-drone_jorg.o: drone_jorg.c.o
+src/drone_jorg.o: src/drone_jorg.c.o
 
-.PHONY : drone_jorg.o
+.PHONY : src/drone_jorg.o
 
 # target to build an object file
-drone_jorg.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_jorg.c.o
-.PHONY : drone_jorg.c.o
+src/drone_jorg.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_jorg.c.o
+.PHONY : src/drone_jorg.c.o
 
-drone_jorg.i: drone_jorg.c.i
+src/drone_jorg.i: src/drone_jorg.c.i
 
-.PHONY : drone_jorg.i
+.PHONY : src/drone_jorg.i
 
 # target to preprocess a source file
-drone_jorg.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_jorg.c.i
-.PHONY : drone_jorg.c.i
+src/drone_jorg.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_jorg.c.i
+.PHONY : src/drone_jorg.c.i
 
-drone_jorg.s: drone_jorg.c.s
+src/drone_jorg.s: src/drone_jorg.c.s
 
-.PHONY : drone_jorg.s
+.PHONY : src/drone_jorg.s
 
 # target to generate assembly for a file
-drone_jorg.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_jorg.c.s
-.PHONY : drone_jorg.c.s
+src/drone_jorg.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_jorg.c.s
+.PHONY : src/drone_jorg.c.s
 
-drone_makron.o: drone_makron.c.o
+src/drone_makron.o: src/drone_makron.c.o
 
-.PHONY : drone_makron.o
+.PHONY : src/drone_makron.o
 
 # target to build an object file
-drone_makron.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_makron.c.o
-.PHONY : drone_makron.c.o
+src/drone_makron.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_makron.c.o
+.PHONY : src/drone_makron.c.o
 
-drone_makron.i: drone_makron.c.i
+src/drone_makron.i: src/drone_makron.c.i
 
-.PHONY : drone_makron.i
+.PHONY : src/drone_makron.i
 
 # target to preprocess a source file
-drone_makron.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_makron.c.i
-.PHONY : drone_makron.c.i
+src/drone_makron.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_makron.c.i
+.PHONY : src/drone_makron.c.i
 
-drone_makron.s: drone_makron.c.s
+src/drone_makron.s: src/drone_makron.c.s
 
-.PHONY : drone_makron.s
+.PHONY : src/drone_makron.s
 
 # target to generate assembly for a file
-drone_makron.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_makron.c.s
-.PHONY : drone_makron.c.s
+src/drone_makron.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_makron.c.s
+.PHONY : src/drone_makron.c.s
 
-drone_medic.o: drone_medic.c.o
+src/drone_medic.o: src/drone_medic.c.o
 
-.PHONY : drone_medic.o
+.PHONY : src/drone_medic.o
 
 # target to build an object file
-drone_medic.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_medic.c.o
-.PHONY : drone_medic.c.o
+src/drone_medic.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_medic.c.o
+.PHONY : src/drone_medic.c.o
 
-drone_medic.i: drone_medic.c.i
+src/drone_medic.i: src/drone_medic.c.i
 
-.PHONY : drone_medic.i
+.PHONY : src/drone_medic.i
 
 # target to preprocess a source file
-drone_medic.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_medic.c.i
-.PHONY : drone_medic.c.i
+src/drone_medic.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_medic.c.i
+.PHONY : src/drone_medic.c.i
 
-drone_medic.s: drone_medic.c.s
+src/drone_medic.s: src/drone_medic.c.s
 
-.PHONY : drone_medic.s
+.PHONY : src/drone_medic.s
 
 # target to generate assembly for a file
-drone_medic.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_medic.c.s
-.PHONY : drone_medic.c.s
+src/drone_medic.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_medic.c.s
+.PHONY : src/drone_medic.c.s
 
-drone_misc.o: drone_misc.c.o
+src/drone_misc.o: src/drone_misc.c.o
 
-.PHONY : drone_misc.o
+.PHONY : src/drone_misc.o
 
 # target to build an object file
-drone_misc.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_misc.c.o
-.PHONY : drone_misc.c.o
+src/drone_misc.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_misc.c.o
+.PHONY : src/drone_misc.c.o
 
-drone_misc.i: drone_misc.c.i
+src/drone_misc.i: src/drone_misc.c.i
 
-.PHONY : drone_misc.i
+.PHONY : src/drone_misc.i
 
 # target to preprocess a source file
-drone_misc.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_misc.c.i
-.PHONY : drone_misc.c.i
+src/drone_misc.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_misc.c.i
+.PHONY : src/drone_misc.c.i
 
-drone_misc.s: drone_misc.c.s
+src/drone_misc.s: src/drone_misc.c.s
 
-.PHONY : drone_misc.s
+.PHONY : src/drone_misc.s
 
 # target to generate assembly for a file
-drone_misc.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_misc.c.s
-.PHONY : drone_misc.c.s
+src/drone_misc.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_misc.c.s
+.PHONY : src/drone_misc.c.s
 
-drone_move.o: drone_move.c.o
+src/drone_move.o: src/drone_move.c.o
 
-.PHONY : drone_move.o
+.PHONY : src/drone_move.o
 
 # target to build an object file
-drone_move.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_move.c.o
-.PHONY : drone_move.c.o
+src/drone_move.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_move.c.o
+.PHONY : src/drone_move.c.o
 
-drone_move.i: drone_move.c.i
+src/drone_move.i: src/drone_move.c.i
 
-.PHONY : drone_move.i
+.PHONY : src/drone_move.i
 
 # target to preprocess a source file
-drone_move.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_move.c.i
-.PHONY : drone_move.c.i
+src/drone_move.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_move.c.i
+.PHONY : src/drone_move.c.i
 
-drone_move.s: drone_move.c.s
+src/drone_move.s: src/drone_move.c.s
 
-.PHONY : drone_move.s
+.PHONY : src/drone_move.s
 
 # target to generate assembly for a file
-drone_move.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_move.c.s
-.PHONY : drone_move.c.s
+src/drone_move.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_move.c.s
+.PHONY : src/drone_move.c.s
 
-drone_mutant.o: drone_mutant.c.o
+src/drone_mutant.o: src/drone_mutant.c.o
 
-.PHONY : drone_mutant.o
+.PHONY : src/drone_mutant.o
 
 # target to build an object file
-drone_mutant.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_mutant.c.o
-.PHONY : drone_mutant.c.o
+src/drone_mutant.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_mutant.c.o
+.PHONY : src/drone_mutant.c.o
 
-drone_mutant.i: drone_mutant.c.i
+src/drone_mutant.i: src/drone_mutant.c.i
 
-.PHONY : drone_mutant.i
+.PHONY : src/drone_mutant.i
 
 # target to preprocess a source file
-drone_mutant.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_mutant.c.i
-.PHONY : drone_mutant.c.i
+src/drone_mutant.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_mutant.c.i
+.PHONY : src/drone_mutant.c.i
 
-drone_mutant.s: drone_mutant.c.s
+src/drone_mutant.s: src/drone_mutant.c.s
 
-.PHONY : drone_mutant.s
+.PHONY : src/drone_mutant.s
 
 # target to generate assembly for a file
-drone_mutant.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_mutant.c.s
-.PHONY : drone_mutant.c.s
+src/drone_mutant.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_mutant.c.s
+.PHONY : src/drone_mutant.c.s
 
-drone_parasite.o: drone_parasite.c.o
+src/drone_parasite.o: src/drone_parasite.c.o
 
-.PHONY : drone_parasite.o
+.PHONY : src/drone_parasite.o
 
 # target to build an object file
-drone_parasite.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_parasite.c.o
-.PHONY : drone_parasite.c.o
+src/drone_parasite.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_parasite.c.o
+.PHONY : src/drone_parasite.c.o
 
-drone_parasite.i: drone_parasite.c.i
+src/drone_parasite.i: src/drone_parasite.c.i
 
-.PHONY : drone_parasite.i
+.PHONY : src/drone_parasite.i
 
 # target to preprocess a source file
-drone_parasite.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_parasite.c.i
-.PHONY : drone_parasite.c.i
+src/drone_parasite.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_parasite.c.i
+.PHONY : src/drone_parasite.c.i
 
-drone_parasite.s: drone_parasite.c.s
+src/drone_parasite.s: src/drone_parasite.c.s
 
-.PHONY : drone_parasite.s
+.PHONY : src/drone_parasite.s
 
 # target to generate assembly for a file
-drone_parasite.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_parasite.c.s
-.PHONY : drone_parasite.c.s
+src/drone_parasite.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_parasite.c.s
+.PHONY : src/drone_parasite.c.s
 
-drone_retard.o: drone_retard.c.o
+src/drone_retard.o: src/drone_retard.c.o
 
-.PHONY : drone_retard.o
+.PHONY : src/drone_retard.o
 
 # target to build an object file
-drone_retard.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_retard.c.o
-.PHONY : drone_retard.c.o
+src/drone_retard.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_retard.c.o
+.PHONY : src/drone_retard.c.o
 
-drone_retard.i: drone_retard.c.i
+src/drone_retard.i: src/drone_retard.c.i
 
-.PHONY : drone_retard.i
+.PHONY : src/drone_retard.i
 
 # target to preprocess a source file
-drone_retard.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_retard.c.i
-.PHONY : drone_retard.c.i
+src/drone_retard.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_retard.c.i
+.PHONY : src/drone_retard.c.i
 
-drone_retard.s: drone_retard.c.s
+src/drone_retard.s: src/drone_retard.c.s
 
-.PHONY : drone_retard.s
+.PHONY : src/drone_retard.s
 
 # target to generate assembly for a file
-drone_retard.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_retard.c.s
-.PHONY : drone_retard.c.s
+src/drone_retard.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_retard.c.s
+.PHONY : src/drone_retard.c.s
 
-drone_soldier.o: drone_soldier.c.o
+src/drone_soldier.o: src/drone_soldier.c.o
 
-.PHONY : drone_soldier.o
+.PHONY : src/drone_soldier.o
 
 # target to build an object file
-drone_soldier.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_soldier.c.o
-.PHONY : drone_soldier.c.o
+src/drone_soldier.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_soldier.c.o
+.PHONY : src/drone_soldier.c.o
 
-drone_soldier.i: drone_soldier.c.i
+src/drone_soldier.i: src/drone_soldier.c.i
 
-.PHONY : drone_soldier.i
+.PHONY : src/drone_soldier.i
 
 # target to preprocess a source file
-drone_soldier.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_soldier.c.i
-.PHONY : drone_soldier.c.i
+src/drone_soldier.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_soldier.c.i
+.PHONY : src/drone_soldier.c.i
 
-drone_soldier.s: drone_soldier.c.s
+src/drone_soldier.s: src/drone_soldier.c.s
 
-.PHONY : drone_soldier.s
+.PHONY : src/drone_soldier.s
 
 # target to generate assembly for a file
-drone_soldier.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_soldier.c.s
-.PHONY : drone_soldier.c.s
+src/drone_soldier.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_soldier.c.s
+.PHONY : src/drone_soldier.c.s
 
-drone_supertank.o: drone_supertank.c.o
+src/drone_supertank.o: src/drone_supertank.c.o
 
-.PHONY : drone_supertank.o
+.PHONY : src/drone_supertank.o
 
 # target to build an object file
-drone_supertank.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_supertank.c.o
-.PHONY : drone_supertank.c.o
+src/drone_supertank.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_supertank.c.o
+.PHONY : src/drone_supertank.c.o
 
-drone_supertank.i: drone_supertank.c.i
+src/drone_supertank.i: src/drone_supertank.c.i
 
-.PHONY : drone_supertank.i
+.PHONY : src/drone_supertank.i
 
 # target to preprocess a source file
-drone_supertank.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_supertank.c.i
-.PHONY : drone_supertank.c.i
+src/drone_supertank.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_supertank.c.i
+.PHONY : src/drone_supertank.c.i
 
-drone_supertank.s: drone_supertank.c.s
+src/drone_supertank.s: src/drone_supertank.c.s
 
-.PHONY : drone_supertank.s
+.PHONY : src/drone_supertank.s
 
 # target to generate assembly for a file
-drone_supertank.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_supertank.c.s
-.PHONY : drone_supertank.c.s
+src/drone_supertank.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_supertank.c.s
+.PHONY : src/drone_supertank.c.s
 
-drone_tank.o: drone_tank.c.o
+src/drone_tank.o: src/drone_tank.c.o
 
-.PHONY : drone_tank.o
+.PHONY : src/drone_tank.o
 
 # target to build an object file
-drone_tank.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_tank.c.o
-.PHONY : drone_tank.c.o
+src/drone_tank.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_tank.c.o
+.PHONY : src/drone_tank.c.o
 
-drone_tank.i: drone_tank.c.i
+src/drone_tank.i: src/drone_tank.c.i
 
-.PHONY : drone_tank.i
+.PHONY : src/drone_tank.i
 
 # target to preprocess a source file
-drone_tank.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_tank.c.i
-.PHONY : drone_tank.c.i
+src/drone_tank.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_tank.c.i
+.PHONY : src/drone_tank.c.i
 
-drone_tank.s: drone_tank.c.s
+src/drone_tank.s: src/drone_tank.c.s
 
-.PHONY : drone_tank.s
+.PHONY : src/drone_tank.s
 
 # target to generate assembly for a file
-drone_tank.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/drone_tank.c.s
-.PHONY : drone_tank.c.s
+src/drone_tank.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/drone_tank.c.s
+.PHONY : src/drone_tank.c.s
 
-ents.o: ents.c.o
+src/ents.o: src/ents.c.o
 
-.PHONY : ents.o
+.PHONY : src/ents.o
 
 # target to build an object file
-ents.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ents.c.o
-.PHONY : ents.c.o
+src/ents.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ents.c.o
+.PHONY : src/ents.c.o
 
-ents.i: ents.c.i
+src/ents.i: src/ents.c.i
 
-.PHONY : ents.i
+.PHONY : src/ents.i
 
 # target to preprocess a source file
-ents.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ents.c.i
-.PHONY : ents.c.i
+src/ents.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ents.c.i
+.PHONY : src/ents.c.i
 
-ents.s: ents.c.s
+src/ents.s: src/ents.c.s
 
-.PHONY : ents.s
+.PHONY : src/ents.s
 
 # target to generate assembly for a file
-ents.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/ents.c.s
-.PHONY : ents.c.s
+src/ents.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/ents.c.s
+.PHONY : src/ents.c.s
 
-file_output.o: file_output.c.o
+src/file_output.o: src/file_output.c.o
 
-.PHONY : file_output.o
+.PHONY : src/file_output.o
 
 # target to build an object file
-file_output.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/file_output.c.o
-.PHONY : file_output.c.o
+src/file_output.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/file_output.c.o
+.PHONY : src/file_output.c.o
 
-file_output.i: file_output.c.i
+src/file_output.i: src/file_output.c.i
 
-.PHONY : file_output.i
+.PHONY : src/file_output.i
 
 # target to preprocess a source file
-file_output.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/file_output.c.i
-.PHONY : file_output.c.i
+src/file_output.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/file_output.c.i
+.PHONY : src/file_output.c.i
 
-file_output.s: file_output.c.s
+src/file_output.s: src/file_output.c.s
 
-.PHONY : file_output.s
+.PHONY : src/file_output.s
 
 # target to generate assembly for a file
-file_output.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/file_output.c.s
-.PHONY : file_output.c.s
+src/file_output.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/file_output.c.s
+.PHONY : src/file_output.c.s
 
-flying_skull.o: flying_skull.c.o
+src/flying_skull.o: src/flying_skull.c.o
 
-.PHONY : flying_skull.o
+.PHONY : src/flying_skull.o
 
 # target to build an object file
-flying_skull.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/flying_skull.c.o
-.PHONY : flying_skull.c.o
+src/flying_skull.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/flying_skull.c.o
+.PHONY : src/flying_skull.c.o
 
-flying_skull.i: flying_skull.c.i
+src/flying_skull.i: src/flying_skull.c.i
 
-.PHONY : flying_skull.i
+.PHONY : src/flying_skull.i
 
 # target to preprocess a source file
-flying_skull.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/flying_skull.c.i
-.PHONY : flying_skull.c.i
+src/flying_skull.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/flying_skull.c.i
+.PHONY : src/flying_skull.c.i
 
-flying_skull.s: flying_skull.c.s
+src/flying_skull.s: src/flying_skull.c.s
 
-.PHONY : flying_skull.s
+.PHONY : src/flying_skull.s
 
 # target to generate assembly for a file
-flying_skull.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/flying_skull.c.s
-.PHONY : flying_skull.c.s
+src/flying_skull.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/flying_skull.c.s
+.PHONY : src/flying_skull.c.s
 
-forcewall.o: forcewall.c.o
+src/forcewall.o: src/forcewall.c.o
 
-.PHONY : forcewall.o
+.PHONY : src/forcewall.o
 
 # target to build an object file
-forcewall.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/forcewall.c.o
-.PHONY : forcewall.c.o
+src/forcewall.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/forcewall.c.o
+.PHONY : src/forcewall.c.o
 
-forcewall.i: forcewall.c.i
+src/forcewall.i: src/forcewall.c.i
 
-.PHONY : forcewall.i
+.PHONY : src/forcewall.i
 
 # target to preprocess a source file
-forcewall.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/forcewall.c.i
-.PHONY : forcewall.c.i
+src/forcewall.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/forcewall.c.i
+.PHONY : src/forcewall.c.i
 
-forcewall.s: forcewall.c.s
+src/forcewall.s: src/forcewall.c.s
 
-.PHONY : forcewall.s
+.PHONY : src/forcewall.s
 
 # target to generate assembly for a file
-forcewall.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/forcewall.c.s
-.PHONY : forcewall.c.s
+src/forcewall.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/forcewall.c.s
+.PHONY : src/forcewall.c.s
 
-g_chase.o: g_chase.c.o
+src/g_chase.o: src/g_chase.c.o
 
-.PHONY : g_chase.o
+.PHONY : src/g_chase.o
 
 # target to build an object file
-g_chase.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_chase.c.o
-.PHONY : g_chase.c.o
+src/g_chase.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_chase.c.o
+.PHONY : src/g_chase.c.o
 
-g_chase.i: g_chase.c.i
+src/g_chase.i: src/g_chase.c.i
 
-.PHONY : g_chase.i
+.PHONY : src/g_chase.i
 
 # target to preprocess a source file
-g_chase.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_chase.c.i
-.PHONY : g_chase.c.i
+src/g_chase.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_chase.c.i
+.PHONY : src/g_chase.c.i
 
-g_chase.s: g_chase.c.s
+src/g_chase.s: src/g_chase.c.s
 
-.PHONY : g_chase.s
+.PHONY : src/g_chase.s
 
 # target to generate assembly for a file
-g_chase.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_chase.c.s
-.PHONY : g_chase.c.s
+src/g_chase.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_chase.c.s
+.PHONY : src/g_chase.c.s
 
-g_cmds.o: g_cmds.c.o
+src/g_cmds.o: src/g_cmds.c.o
 
-.PHONY : g_cmds.o
+.PHONY : src/g_cmds.o
 
 # target to build an object file
-g_cmds.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_cmds.c.o
-.PHONY : g_cmds.c.o
+src/g_cmds.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_cmds.c.o
+.PHONY : src/g_cmds.c.o
 
-g_cmds.i: g_cmds.c.i
+src/g_cmds.i: src/g_cmds.c.i
 
-.PHONY : g_cmds.i
+.PHONY : src/g_cmds.i
 
 # target to preprocess a source file
-g_cmds.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_cmds.c.i
-.PHONY : g_cmds.c.i
+src/g_cmds.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_cmds.c.i
+.PHONY : src/g_cmds.c.i
 
-g_cmds.s: g_cmds.c.s
+src/g_cmds.s: src/g_cmds.c.s
 
-.PHONY : g_cmds.s
+.PHONY : src/g_cmds.s
 
 # target to generate assembly for a file
-g_cmds.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_cmds.c.s
-.PHONY : g_cmds.c.s
+src/g_cmds.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_cmds.c.s
+.PHONY : src/g_cmds.c.s
 
-g_combat.o: g_combat.c.o
+src/g_combat.o: src/g_combat.c.o
 
-.PHONY : g_combat.o
+.PHONY : src/g_combat.o
 
 # target to build an object file
-g_combat.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_combat.c.o
-.PHONY : g_combat.c.o
+src/g_combat.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_combat.c.o
+.PHONY : src/g_combat.c.o
 
-g_combat.i: g_combat.c.i
+src/g_combat.i: src/g_combat.c.i
 
-.PHONY : g_combat.i
+.PHONY : src/g_combat.i
 
 # target to preprocess a source file
-g_combat.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_combat.c.i
-.PHONY : g_combat.c.i
+src/g_combat.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_combat.c.i
+.PHONY : src/g_combat.c.i
 
-g_combat.s: g_combat.c.s
+src/g_combat.s: src/g_combat.c.s
 
-.PHONY : g_combat.s
+.PHONY : src/g_combat.s
 
 # target to generate assembly for a file
-g_combat.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_combat.c.s
-.PHONY : g_combat.c.s
+src/g_combat.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_combat.c.s
+.PHONY : src/g_combat.c.s
 
-g_flame.o: g_flame.c.o
+src/g_flame.o: src/g_flame.c.o
 
-.PHONY : g_flame.o
+.PHONY : src/g_flame.o
 
 # target to build an object file
-g_flame.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_flame.c.o
-.PHONY : g_flame.c.o
+src/g_flame.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_flame.c.o
+.PHONY : src/g_flame.c.o
 
-g_flame.i: g_flame.c.i
+src/g_flame.i: src/g_flame.c.i
 
-.PHONY : g_flame.i
+.PHONY : src/g_flame.i
 
 # target to preprocess a source file
-g_flame.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_flame.c.i
-.PHONY : g_flame.c.i
+src/g_flame.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_flame.c.i
+.PHONY : src/g_flame.c.i
 
-g_flame.s: g_flame.c.s
+src/g_flame.s: src/g_flame.c.s
 
-.PHONY : g_flame.s
+.PHONY : src/g_flame.s
 
 # target to generate assembly for a file
-g_flame.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_flame.c.s
-.PHONY : g_flame.c.s
+src/g_flame.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_flame.c.s
+.PHONY : src/g_flame.c.s
 
-g_func.o: g_func.c.o
+src/g_func.o: src/g_func.c.o
 
-.PHONY : g_func.o
+.PHONY : src/g_func.o
 
 # target to build an object file
-g_func.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_func.c.o
-.PHONY : g_func.c.o
+src/g_func.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_func.c.o
+.PHONY : src/g_func.c.o
 
-g_func.i: g_func.c.i
+src/g_func.i: src/g_func.c.i
 
-.PHONY : g_func.i
+.PHONY : src/g_func.i
 
 # target to preprocess a source file
-g_func.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_func.c.i
-.PHONY : g_func.c.i
+src/g_func.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_func.c.i
+.PHONY : src/g_func.c.i
 
-g_func.s: g_func.c.s
+src/g_func.s: src/g_func.c.s
 
-.PHONY : g_func.s
+.PHONY : src/g_func.s
 
 # target to generate assembly for a file
-g_func.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_func.c.s
-.PHONY : g_func.c.s
+src/g_func.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_func.c.s
+.PHONY : src/g_func.c.s
 
-g_items.o: g_items.c.o
+src/g_items.o: src/g_items.c.o
 
-.PHONY : g_items.o
+.PHONY : src/g_items.o
 
 # target to build an object file
-g_items.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_items.c.o
-.PHONY : g_items.c.o
+src/g_items.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_items.c.o
+.PHONY : src/g_items.c.o
 
-g_items.i: g_items.c.i
+src/g_items.i: src/g_items.c.i
 
-.PHONY : g_items.i
+.PHONY : src/g_items.i
 
 # target to preprocess a source file
-g_items.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_items.c.i
-.PHONY : g_items.c.i
+src/g_items.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_items.c.i
+.PHONY : src/g_items.c.i
 
-g_items.s: g_items.c.s
+src/g_items.s: src/g_items.c.s
 
-.PHONY : g_items.s
+.PHONY : src/g_items.s
 
 # target to generate assembly for a file
-g_items.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_items.c.s
-.PHONY : g_items.c.s
+src/g_items.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_items.c.s
+.PHONY : src/g_items.c.s
 
-g_lasers.o: g_lasers.c.o
+src/g_lasers.o: src/g_lasers.c.o
 
-.PHONY : g_lasers.o
+.PHONY : src/g_lasers.o
 
 # target to build an object file
-g_lasers.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_lasers.c.o
-.PHONY : g_lasers.c.o
+src/g_lasers.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_lasers.c.o
+.PHONY : src/g_lasers.c.o
 
-g_lasers.i: g_lasers.c.i
+src/g_lasers.i: src/g_lasers.c.i
 
-.PHONY : g_lasers.i
+.PHONY : src/g_lasers.i
 
 # target to preprocess a source file
-g_lasers.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_lasers.c.i
-.PHONY : g_lasers.c.i
+src/g_lasers.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_lasers.c.i
+.PHONY : src/g_lasers.c.i
 
-g_lasers.s: g_lasers.c.s
+src/g_lasers.s: src/g_lasers.c.s
 
-.PHONY : g_lasers.s
+.PHONY : src/g_lasers.s
 
 # target to generate assembly for a file
-g_lasers.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_lasers.c.s
-.PHONY : g_lasers.c.s
+src/g_lasers.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_lasers.c.s
+.PHONY : src/g_lasers.c.s
 
-g_main.o: g_main.c.o
+src/g_main.o: src/g_main.c.o
 
-.PHONY : g_main.o
+.PHONY : src/g_main.o
 
 # target to build an object file
-g_main.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_main.c.o
-.PHONY : g_main.c.o
+src/g_main.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_main.c.o
+.PHONY : src/g_main.c.o
 
-g_main.i: g_main.c.i
+src/g_main.i: src/g_main.c.i
 
-.PHONY : g_main.i
+.PHONY : src/g_main.i
 
 # target to preprocess a source file
-g_main.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_main.c.i
-.PHONY : g_main.c.i
+src/g_main.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_main.c.i
+.PHONY : src/g_main.c.i
 
-g_main.s: g_main.c.s
+src/g_main.s: src/g_main.c.s
 
-.PHONY : g_main.s
+.PHONY : src/g_main.s
 
 # target to generate assembly for a file
-g_main.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_main.c.s
-.PHONY : g_main.c.s
+src/g_main.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_main.c.s
+.PHONY : src/g_main.c.s
 
-g_misc.o: g_misc.c.o
+src/g_misc.o: src/g_misc.c.o
 
-.PHONY : g_misc.o
+.PHONY : src/g_misc.o
 
 # target to build an object file
-g_misc.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_misc.c.o
-.PHONY : g_misc.c.o
+src/g_misc.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_misc.c.o
+.PHONY : src/g_misc.c.o
 
-g_misc.i: g_misc.c.i
+src/g_misc.i: src/g_misc.c.i
 
-.PHONY : g_misc.i
+.PHONY : src/g_misc.i
 
 # target to preprocess a source file
-g_misc.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_misc.c.i
-.PHONY : g_misc.c.i
+src/g_misc.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_misc.c.i
+.PHONY : src/g_misc.c.i
 
-g_misc.s: g_misc.c.s
+src/g_misc.s: src/g_misc.c.s
 
-.PHONY : g_misc.s
+.PHONY : src/g_misc.s
 
 # target to generate assembly for a file
-g_misc.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_misc.c.s
-.PHONY : g_misc.c.s
+src/g_misc.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_misc.c.s
+.PHONY : src/g_misc.c.s
 
-g_monster.o: g_monster.c.o
+src/g_monster.o: src/g_monster.c.o
 
-.PHONY : g_monster.o
+.PHONY : src/g_monster.o
 
 # target to build an object file
-g_monster.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_monster.c.o
-.PHONY : g_monster.c.o
+src/g_monster.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_monster.c.o
+.PHONY : src/g_monster.c.o
 
-g_monster.i: g_monster.c.i
+src/g_monster.i: src/g_monster.c.i
 
-.PHONY : g_monster.i
+.PHONY : src/g_monster.i
 
 # target to preprocess a source file
-g_monster.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_monster.c.i
-.PHONY : g_monster.c.i
+src/g_monster.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_monster.c.i
+.PHONY : src/g_monster.c.i
 
-g_monster.s: g_monster.c.s
+src/g_monster.s: src/g_monster.c.s
 
-.PHONY : g_monster.s
+.PHONY : src/g_monster.s
 
 # target to generate assembly for a file
-g_monster.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_monster.c.s
-.PHONY : g_monster.c.s
+src/g_monster.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_monster.c.s
+.PHONY : src/g_monster.c.s
 
-g_phys.o: g_phys.c.o
+src/g_phys.o: src/g_phys.c.o
 
-.PHONY : g_phys.o
+.PHONY : src/g_phys.o
 
 # target to build an object file
-g_phys.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_phys.c.o
-.PHONY : g_phys.c.o
+src/g_phys.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_phys.c.o
+.PHONY : src/g_phys.c.o
 
-g_phys.i: g_phys.c.i
+src/g_phys.i: src/g_phys.c.i
 
-.PHONY : g_phys.i
+.PHONY : src/g_phys.i
 
 # target to preprocess a source file
-g_phys.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_phys.c.i
-.PHONY : g_phys.c.i
+src/g_phys.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_phys.c.i
+.PHONY : src/g_phys.c.i
 
-g_phys.s: g_phys.c.s
+src/g_phys.s: src/g_phys.c.s
 
-.PHONY : g_phys.s
+.PHONY : src/g_phys.s
 
 # target to generate assembly for a file
-g_phys.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_phys.c.s
-.PHONY : g_phys.c.s
+src/g_phys.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_phys.c.s
+.PHONY : src/g_phys.c.s
 
-g_save.o: g_save.c.o
+src/g_save.o: src/g_save.c.o
 
-.PHONY : g_save.o
+.PHONY : src/g_save.o
 
 # target to build an object file
-g_save.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_save.c.o
-.PHONY : g_save.c.o
+src/g_save.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_save.c.o
+.PHONY : src/g_save.c.o
 
-g_save.i: g_save.c.i
+src/g_save.i: src/g_save.c.i
 
-.PHONY : g_save.i
+.PHONY : src/g_save.i
 
 # target to preprocess a source file
-g_save.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_save.c.i
-.PHONY : g_save.c.i
+src/g_save.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_save.c.i
+.PHONY : src/g_save.c.i
 
-g_save.s: g_save.c.s
+src/g_save.s: src/g_save.c.s
 
-.PHONY : g_save.s
+.PHONY : src/g_save.s
 
 # target to generate assembly for a file
-g_save.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_save.c.s
-.PHONY : g_save.c.s
+src/g_save.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_save.c.s
+.PHONY : src/g_save.c.s
 
-g_spawn.o: g_spawn.c.o
+src/g_spawn.o: src/g_spawn.c.o
 
-.PHONY : g_spawn.o
+.PHONY : src/g_spawn.o
 
 # target to build an object file
-g_spawn.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_spawn.c.o
-.PHONY : g_spawn.c.o
+src/g_spawn.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_spawn.c.o
+.PHONY : src/g_spawn.c.o
 
-g_spawn.i: g_spawn.c.i
+src/g_spawn.i: src/g_spawn.c.i
 
-.PHONY : g_spawn.i
+.PHONY : src/g_spawn.i
 
 # target to preprocess a source file
-g_spawn.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_spawn.c.i
-.PHONY : g_spawn.c.i
+src/g_spawn.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_spawn.c.i
+.PHONY : src/g_spawn.c.i
 
-g_spawn.s: g_spawn.c.s
+src/g_spawn.s: src/g_spawn.c.s
 
-.PHONY : g_spawn.s
+.PHONY : src/g_spawn.s
 
 # target to generate assembly for a file
-g_spawn.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_spawn.c.s
-.PHONY : g_spawn.c.s
+src/g_spawn.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_spawn.c.s
+.PHONY : src/g_spawn.c.s
 
-g_svcmds.o: g_svcmds.c.o
+src/g_svcmds.o: src/g_svcmds.c.o
 
-.PHONY : g_svcmds.o
+.PHONY : src/g_svcmds.o
 
 # target to build an object file
-g_svcmds.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_svcmds.c.o
-.PHONY : g_svcmds.c.o
+src/g_svcmds.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_svcmds.c.o
+.PHONY : src/g_svcmds.c.o
 
-g_svcmds.i: g_svcmds.c.i
+src/g_svcmds.i: src/g_svcmds.c.i
 
-.PHONY : g_svcmds.i
+.PHONY : src/g_svcmds.i
 
 # target to preprocess a source file
-g_svcmds.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_svcmds.c.i
-.PHONY : g_svcmds.c.i
+src/g_svcmds.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_svcmds.c.i
+.PHONY : src/g_svcmds.c.i
 
-g_svcmds.s: g_svcmds.c.s
+src/g_svcmds.s: src/g_svcmds.c.s
 
-.PHONY : g_svcmds.s
+.PHONY : src/g_svcmds.s
 
 # target to generate assembly for a file
-g_svcmds.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_svcmds.c.s
-.PHONY : g_svcmds.c.s
+src/g_svcmds.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_svcmds.c.s
+.PHONY : src/g_svcmds.c.s
 
-g_sword.o: g_sword.c.o
+src/g_sword.o: src/g_sword.c.o
 
-.PHONY : g_sword.o
+.PHONY : src/g_sword.o
 
 # target to build an object file
-g_sword.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_sword.c.o
-.PHONY : g_sword.c.o
+src/g_sword.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_sword.c.o
+.PHONY : src/g_sword.c.o
 
-g_sword.i: g_sword.c.i
+src/g_sword.i: src/g_sword.c.i
 
-.PHONY : g_sword.i
+.PHONY : src/g_sword.i
 
 # target to preprocess a source file
-g_sword.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_sword.c.i
-.PHONY : g_sword.c.i
+src/g_sword.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_sword.c.i
+.PHONY : src/g_sword.c.i
 
-g_sword.s: g_sword.c.s
+src/g_sword.s: src/g_sword.c.s
 
-.PHONY : g_sword.s
+.PHONY : src/g_sword.s
 
 # target to generate assembly for a file
-g_sword.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_sword.c.s
-.PHONY : g_sword.c.s
+src/g_sword.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_sword.c.s
+.PHONY : src/g_sword.c.s
 
-g_target.o: g_target.c.o
+src/g_target.o: src/g_target.c.o
 
-.PHONY : g_target.o
+.PHONY : src/g_target.o
 
 # target to build an object file
-g_target.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_target.c.o
-.PHONY : g_target.c.o
+src/g_target.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_target.c.o
+.PHONY : src/g_target.c.o
 
-g_target.i: g_target.c.i
+src/g_target.i: src/g_target.c.i
 
-.PHONY : g_target.i
+.PHONY : src/g_target.i
 
 # target to preprocess a source file
-g_target.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_target.c.i
-.PHONY : g_target.c.i
+src/g_target.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_target.c.i
+.PHONY : src/g_target.c.i
 
-g_target.s: g_target.c.s
+src/g_target.s: src/g_target.c.s
 
-.PHONY : g_target.s
+.PHONY : src/g_target.s
 
 # target to generate assembly for a file
-g_target.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_target.c.s
-.PHONY : g_target.c.s
+src/g_target.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_target.c.s
+.PHONY : src/g_target.c.s
 
-g_trigger.o: g_trigger.c.o
+src/g_trigger.o: src/g_trigger.c.o
 
-.PHONY : g_trigger.o
+.PHONY : src/g_trigger.o
 
 # target to build an object file
-g_trigger.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_trigger.c.o
-.PHONY : g_trigger.c.o
+src/g_trigger.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_trigger.c.o
+.PHONY : src/g_trigger.c.o
 
-g_trigger.i: g_trigger.c.i
+src/g_trigger.i: src/g_trigger.c.i
 
-.PHONY : g_trigger.i
+.PHONY : src/g_trigger.i
 
 # target to preprocess a source file
-g_trigger.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_trigger.c.i
-.PHONY : g_trigger.c.i
+src/g_trigger.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_trigger.c.i
+.PHONY : src/g_trigger.c.i
 
-g_trigger.s: g_trigger.c.s
+src/g_trigger.s: src/g_trigger.c.s
 
-.PHONY : g_trigger.s
+.PHONY : src/g_trigger.s
 
 # target to generate assembly for a file
-g_trigger.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_trigger.c.s
-.PHONY : g_trigger.c.s
+src/g_trigger.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_trigger.c.s
+.PHONY : src/g_trigger.c.s
 
-g_utils.o: g_utils.c.o
+src/g_utils.o: src/g_utils.c.o
 
-.PHONY : g_utils.o
+.PHONY : src/g_utils.o
 
 # target to build an object file
-g_utils.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_utils.c.o
-.PHONY : g_utils.c.o
+src/g_utils.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_utils.c.o
+.PHONY : src/g_utils.c.o
 
-g_utils.i: g_utils.c.i
+src/g_utils.i: src/g_utils.c.i
 
-.PHONY : g_utils.i
+.PHONY : src/g_utils.i
 
 # target to preprocess a source file
-g_utils.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_utils.c.i
-.PHONY : g_utils.c.i
+src/g_utils.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_utils.c.i
+.PHONY : src/g_utils.c.i
 
-g_utils.s: g_utils.c.s
+src/g_utils.s: src/g_utils.c.s
 
-.PHONY : g_utils.s
+.PHONY : src/g_utils.s
 
 # target to generate assembly for a file
-g_utils.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_utils.c.s
-.PHONY : g_utils.c.s
+src/g_utils.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_utils.c.s
+.PHONY : src/g_utils.c.s
 
-g_weapon.o: g_weapon.c.o
+src/g_weapon.o: src/g_weapon.c.o
 
-.PHONY : g_weapon.o
+.PHONY : src/g_weapon.o
 
 # target to build an object file
-g_weapon.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_weapon.c.o
-.PHONY : g_weapon.c.o
+src/g_weapon.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_weapon.c.o
+.PHONY : src/g_weapon.c.o
 
-g_weapon.i: g_weapon.c.i
+src/g_weapon.i: src/g_weapon.c.i
 
-.PHONY : g_weapon.i
+.PHONY : src/g_weapon.i
 
 # target to preprocess a source file
-g_weapon.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_weapon.c.i
-.PHONY : g_weapon.c.i
+src/g_weapon.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_weapon.c.i
+.PHONY : src/g_weapon.c.i
 
-g_weapon.s: g_weapon.c.s
+src/g_weapon.s: src/g_weapon.c.s
 
-.PHONY : g_weapon.s
+.PHONY : src/g_weapon.s
 
 # target to generate assembly for a file
-g_weapon.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/g_weapon.c.s
-.PHONY : g_weapon.c.s
+src/g_weapon.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/g_weapon.c.s
+.PHONY : src/g_weapon.c.s
 
-gds.o: gds.c.o
+src/gds.o: src/gds.c.o
 
-.PHONY : gds.o
+.PHONY : src/gds.o
 
 # target to build an object file
-gds.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/gds.c.o
-.PHONY : gds.c.o
+src/gds.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/gds.c.o
+.PHONY : src/gds.c.o
 
-gds.i: gds.c.i
+src/gds.i: src/gds.c.i
 
-.PHONY : gds.i
+.PHONY : src/gds.i
 
 # target to preprocess a source file
-gds.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/gds.c.i
-.PHONY : gds.c.i
+src/gds.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/gds.c.i
+.PHONY : src/gds.c.i
 
-gds.s: gds.c.s
+src/gds.s: src/gds.c.s
 
-.PHONY : gds.s
+.PHONY : src/gds.s
 
 # target to generate assembly for a file
-gds.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/gds.c.s
-.PHONY : gds.c.s
+src/gds.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/gds.c.s
+.PHONY : src/gds.c.s
 
-grid.o: grid.c.o
+src/grid.o: src/grid.c.o
 
-.PHONY : grid.o
+.PHONY : src/grid.o
 
 # target to build an object file
-grid.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/grid.c.o
-.PHONY : grid.c.o
+src/grid.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/grid.c.o
+.PHONY : src/grid.c.o
 
-grid.i: grid.c.i
+src/grid.i: src/grid.c.i
 
-.PHONY : grid.i
+.PHONY : src/grid.i
 
 # target to preprocess a source file
-grid.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/grid.c.i
-.PHONY : grid.c.i
+src/grid.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/grid.c.i
+.PHONY : src/grid.c.i
 
-grid.s: grid.c.s
+src/grid.s: src/grid.c.s
 
-.PHONY : grid.s
+.PHONY : src/grid.s
 
 # target to generate assembly for a file
-grid.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/grid.c.s
-.PHONY : grid.c.s
+src/grid.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/grid.c.s
+.PHONY : src/grid.c.s
 
-hash_32a.o: hash_32a.c.o
+src/hash_32a.o: src/hash_32a.c.o
 
-.PHONY : hash_32a.o
+.PHONY : src/hash_32a.o
 
 # target to build an object file
-hash_32a.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/hash_32a.c.o
-.PHONY : hash_32a.c.o
+src/hash_32a.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/hash_32a.c.o
+.PHONY : src/hash_32a.c.o
 
-hash_32a.i: hash_32a.c.i
+src/hash_32a.i: src/hash_32a.c.i
 
-.PHONY : hash_32a.i
+.PHONY : src/hash_32a.i
 
 # target to preprocess a source file
-hash_32a.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/hash_32a.c.i
-.PHONY : hash_32a.c.i
+src/hash_32a.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/hash_32a.c.i
+.PHONY : src/hash_32a.c.i
 
-hash_32a.s: hash_32a.c.s
+src/hash_32a.s: src/hash_32a.c.s
 
-.PHONY : hash_32a.s
+.PHONY : src/hash_32a.s
 
 # target to generate assembly for a file
-hash_32a.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/hash_32a.c.s
-.PHONY : hash_32a.c.s
+src/hash_32a.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/hash_32a.c.s
+.PHONY : src/hash_32a.c.s
 
-help.o: help.c.o
+src/help.o: src/help.c.o
 
-.PHONY : help.o
+.PHONY : src/help.o
 
 # target to build an object file
-help.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/help.c.o
-.PHONY : help.c.o
+src/help.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/help.c.o
+.PHONY : src/help.c.o
 
-help.i: help.c.i
+src/help.i: src/help.c.i
 
-.PHONY : help.i
+.PHONY : src/help.i
 
 # target to preprocess a source file
-help.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/help.c.i
-.PHONY : help.c.i
+src/help.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/help.c.i
+.PHONY : src/help.c.i
 
-help.s: help.c.s
+src/help.s: src/help.c.s
 
-.PHONY : help.s
+.PHONY : src/help.s
 
 # target to generate assembly for a file
-help.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/help.c.s
-.PHONY : help.c.s
+src/help.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/help.c.s
+.PHONY : src/help.c.s
 
-invasion.o: invasion.c.o
+src/invasion.o: src/invasion.c.o
 
-.PHONY : invasion.o
+.PHONY : src/invasion.o
 
 # target to build an object file
-invasion.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/invasion.c.o
-.PHONY : invasion.c.o
+src/invasion.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/invasion.c.o
+.PHONY : src/invasion.c.o
 
-invasion.i: invasion.c.i
+src/invasion.i: src/invasion.c.i
 
-.PHONY : invasion.i
+.PHONY : src/invasion.i
 
 # target to preprocess a source file
-invasion.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/invasion.c.i
-.PHONY : invasion.c.i
+src/invasion.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/invasion.c.i
+.PHONY : src/invasion.c.i
 
-invasion.s: invasion.c.s
+src/invasion.s: src/invasion.c.s
 
-.PHONY : invasion.s
+.PHONY : src/invasion.s
 
 # target to generate assembly for a file
-invasion.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/invasion.c.s
-.PHONY : invasion.c.s
+src/invasion.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/invasion.c.s
+.PHONY : src/invasion.c.s
 
-item_menu.o: item_menu.c.o
+src/item_menu.o: src/item_menu.c.o
 
-.PHONY : item_menu.o
+.PHONY : src/item_menu.o
 
 # target to build an object file
-item_menu.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/item_menu.c.o
-.PHONY : item_menu.c.o
+src/item_menu.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/item_menu.c.o
+.PHONY : src/item_menu.c.o
 
-item_menu.i: item_menu.c.i
+src/item_menu.i: src/item_menu.c.i
 
-.PHONY : item_menu.i
+.PHONY : src/item_menu.i
 
 # target to preprocess a source file
-item_menu.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/item_menu.c.i
-.PHONY : item_menu.c.i
+src/item_menu.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/item_menu.c.i
+.PHONY : src/item_menu.c.i
 
-item_menu.s: item_menu.c.s
+src/item_menu.s: src/item_menu.c.s
 
-.PHONY : item_menu.s
+.PHONY : src/item_menu.s
 
 # target to generate assembly for a file
-item_menu.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/item_menu.c.s
-.PHONY : item_menu.c.s
+src/item_menu.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/item_menu.c.s
+.PHONY : src/item_menu.c.s
 
-jetpack.o: jetpack.c.o
+src/jetpack.o: src/jetpack.c.o
 
-.PHONY : jetpack.o
+.PHONY : src/jetpack.o
 
 # target to build an object file
-jetpack.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/jetpack.c.o
-.PHONY : jetpack.c.o
+src/jetpack.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/jetpack.c.o
+.PHONY : src/jetpack.c.o
 
-jetpack.i: jetpack.c.i
+src/jetpack.i: src/jetpack.c.i
 
-.PHONY : jetpack.i
+.PHONY : src/jetpack.i
 
 # target to preprocess a source file
-jetpack.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/jetpack.c.i
-.PHONY : jetpack.c.i
+src/jetpack.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/jetpack.c.i
+.PHONY : src/jetpack.c.i
 
-jetpack.s: jetpack.c.s
+src/jetpack.s: src/jetpack.c.s
 
-.PHONY : jetpack.s
+.PHONY : src/jetpack.s
 
 # target to generate assembly for a file
-jetpack.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/jetpack.c.s
-.PHONY : jetpack.c.s
+src/jetpack.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/jetpack.c.s
+.PHONY : src/jetpack.c.s
 
-lasers.o: lasers.c.o
+src/lasers.o: src/lasers.c.o
 
-.PHONY : lasers.o
+.PHONY : src/lasers.o
 
 # target to build an object file
-lasers.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/lasers.c.o
-.PHONY : lasers.c.o
+src/lasers.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/lasers.c.o
+.PHONY : src/lasers.c.o
 
-lasers.i: lasers.c.i
+src/lasers.i: src/lasers.c.i
 
-.PHONY : lasers.i
+.PHONY : src/lasers.i
 
 # target to preprocess a source file
-lasers.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/lasers.c.i
-.PHONY : lasers.c.i
+src/lasers.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/lasers.c.i
+.PHONY : src/lasers.c.i
 
-lasers.s: lasers.c.s
+src/lasers.s: src/lasers.c.s
 
-.PHONY : lasers.s
+.PHONY : src/lasers.s
 
 # target to generate assembly for a file
-lasers.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/lasers.c.s
-.PHONY : lasers.c.s
+src/lasers.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/lasers.c.s
+.PHONY : src/lasers.c.s
 
-lasersight.o: lasersight.c.o
+src/lasersight.o: src/lasersight.c.o
 
-.PHONY : lasersight.o
+.PHONY : src/lasersight.o
 
 # target to build an object file
-lasersight.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/lasersight.c.o
-.PHONY : lasersight.c.o
+src/lasersight.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/lasersight.c.o
+.PHONY : src/lasersight.c.o
 
-lasersight.i: lasersight.c.i
+src/lasersight.i: src/lasersight.c.i
 
-.PHONY : lasersight.i
+.PHONY : src/lasersight.i
 
 # target to preprocess a source file
-lasersight.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/lasersight.c.i
-.PHONY : lasersight.c.i
+src/lasersight.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/lasersight.c.i
+.PHONY : src/lasersight.c.i
 
-lasersight.s: lasersight.c.s
+src/lasersight.s: src/lasersight.c.s
 
-.PHONY : lasersight.s
+.PHONY : src/lasersight.s
 
 # target to generate assembly for a file
-lasersight.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/lasersight.c.s
-.PHONY : lasersight.c.s
+src/lasersight.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/lasersight.c.s
+.PHONY : src/lasersight.c.s
 
-laserstuff.o: laserstuff.c.o
+src/laserstuff.o: src/laserstuff.c.o
 
-.PHONY : laserstuff.o
+.PHONY : src/laserstuff.o
 
 # target to build an object file
-laserstuff.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/laserstuff.c.o
-.PHONY : laserstuff.c.o
+src/laserstuff.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/laserstuff.c.o
+.PHONY : src/laserstuff.c.o
 
-laserstuff.i: laserstuff.c.i
+src/laserstuff.i: src/laserstuff.c.i
 
-.PHONY : laserstuff.i
+.PHONY : src/laserstuff.i
 
 # target to preprocess a source file
-laserstuff.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/laserstuff.c.i
-.PHONY : laserstuff.c.i
+src/laserstuff.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/laserstuff.c.i
+.PHONY : src/laserstuff.c.i
 
-laserstuff.s: laserstuff.c.s
+src/laserstuff.s: src/laserstuff.c.s
 
-.PHONY : laserstuff.s
+.PHONY : src/laserstuff.s
 
 # target to generate assembly for a file
-laserstuff.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/laserstuff.c.s
-.PHONY : laserstuff.c.s
+src/laserstuff.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/laserstuff.c.s
+.PHONY : src/laserstuff.c.s
 
-m_flash.o: m_flash.c.o
+src/m_flash.o: src/m_flash.c.o
 
-.PHONY : m_flash.o
+.PHONY : src/m_flash.o
 
 # target to build an object file
-m_flash.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/m_flash.c.o
-.PHONY : m_flash.c.o
+src/m_flash.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/m_flash.c.o
+.PHONY : src/m_flash.c.o
 
-m_flash.i: m_flash.c.i
+src/m_flash.i: src/m_flash.c.i
 
-.PHONY : m_flash.i
+.PHONY : src/m_flash.i
 
 # target to preprocess a source file
-m_flash.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/m_flash.c.i
-.PHONY : m_flash.c.i
+src/m_flash.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/m_flash.c.i
+.PHONY : src/m_flash.c.i
 
-m_flash.s: m_flash.c.s
+src/m_flash.s: src/m_flash.c.s
 
-.PHONY : m_flash.s
+.PHONY : src/m_flash.s
 
 # target to generate assembly for a file
-m_flash.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/m_flash.c.s
-.PHONY : m_flash.c.s
+src/m_flash.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/m_flash.c.s
+.PHONY : src/m_flash.c.s
 
-magic.o: magic.c.o
+src/magic.o: src/magic.c.o
 
-.PHONY : magic.o
+.PHONY : src/magic.o
 
 # target to build an object file
-magic.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/magic.c.o
-.PHONY : magic.c.o
+src/magic.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/magic.c.o
+.PHONY : src/magic.c.o
 
-magic.i: magic.c.i
+src/magic.i: src/magic.c.i
 
-.PHONY : magic.i
+.PHONY : src/magic.i
 
 # target to preprocess a source file
-magic.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/magic.c.i
-.PHONY : magic.c.i
+src/magic.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/magic.c.i
+.PHONY : src/magic.c.i
 
-magic.s: magic.c.s
+src/magic.s: src/magic.c.s
 
-.PHONY : magic.s
+.PHONY : src/magic.s
 
 # target to generate assembly for a file
-magic.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/magic.c.s
-.PHONY : magic.c.s
+src/magic.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/magic.c.s
+.PHONY : src/magic.c.s
 
-maplist.o: maplist.c.o
+src/maplist.o: src/maplist.c.o
 
-.PHONY : maplist.o
+.PHONY : src/maplist.o
 
 # target to build an object file
-maplist.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/maplist.c.o
-.PHONY : maplist.c.o
+src/maplist.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/maplist.c.o
+.PHONY : src/maplist.c.o
 
-maplist.i: maplist.c.i
+src/maplist.i: src/maplist.c.i
 
-.PHONY : maplist.i
+.PHONY : src/maplist.i
 
 # target to preprocess a source file
-maplist.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/maplist.c.i
-.PHONY : maplist.c.i
+src/maplist.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/maplist.c.i
+.PHONY : src/maplist.c.i
 
-maplist.s: maplist.c.s
+src/maplist.s: src/maplist.c.s
 
-.PHONY : maplist.s
+.PHONY : src/maplist.s
 
 # target to generate assembly for a file
-maplist.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/maplist.c.s
-.PHONY : maplist.c.s
+src/maplist.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/maplist.c.s
+.PHONY : src/maplist.c.s
 
-menu.o: menu.c.o
+src/menu.o: src/menu.c.o
 
-.PHONY : menu.o
+.PHONY : src/menu.o
 
 # target to build an object file
-menu.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/menu.c.o
-.PHONY : menu.c.o
+src/menu.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/menu.c.o
+.PHONY : src/menu.c.o
 
-menu.i: menu.c.i
+src/menu.i: src/menu.c.i
 
-.PHONY : menu.i
+.PHONY : src/menu.i
 
 # target to preprocess a source file
-menu.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/menu.c.i
-.PHONY : menu.c.i
+src/menu.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/menu.c.i
+.PHONY : src/menu.c.i
 
-menu.s: menu.c.s
+src/menu.s: src/menu.c.s
 
-.PHONY : menu.s
+.PHONY : src/menu.s
 
 # target to generate assembly for a file
-menu.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/menu.c.s
-.PHONY : menu.c.s
+src/menu.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/menu.c.s
+.PHONY : src/menu.c.s
 
-minisentry.o: minisentry.c.o
+src/minisentry.o: src/minisentry.c.o
 
-.PHONY : minisentry.o
+.PHONY : src/minisentry.o
 
 # target to build an object file
-minisentry.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/minisentry.c.o
-.PHONY : minisentry.c.o
+src/minisentry.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/minisentry.c.o
+.PHONY : src/minisentry.c.o
 
-minisentry.i: minisentry.c.i
+src/minisentry.i: src/minisentry.c.i
 
-.PHONY : minisentry.i
+.PHONY : src/minisentry.i
 
 # target to preprocess a source file
-minisentry.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/minisentry.c.i
-.PHONY : minisentry.c.i
+src/minisentry.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/minisentry.c.i
+.PHONY : src/minisentry.c.i
 
-minisentry.s: minisentry.c.s
+src/minisentry.s: src/minisentry.c.s
 
-.PHONY : minisentry.s
+.PHONY : src/minisentry.s
 
 # target to generate assembly for a file
-minisentry.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/minisentry.c.s
-.PHONY : minisentry.c.s
+src/minisentry.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/minisentry.c.s
+.PHONY : src/minisentry.c.s
 
-misc_stuff.o: misc_stuff.c.o
+src/misc_stuff.o: src/misc_stuff.c.o
 
-.PHONY : misc_stuff.o
+.PHONY : src/misc_stuff.o
 
 # target to build an object file
-misc_stuff.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/misc_stuff.c.o
-.PHONY : misc_stuff.c.o
+src/misc_stuff.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/misc_stuff.c.o
+.PHONY : src/misc_stuff.c.o
 
-misc_stuff.i: misc_stuff.c.i
+src/misc_stuff.i: src/misc_stuff.c.i
 
-.PHONY : misc_stuff.i
+.PHONY : src/misc_stuff.i
 
 # target to preprocess a source file
-misc_stuff.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/misc_stuff.c.i
-.PHONY : misc_stuff.c.i
+src/misc_stuff.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/misc_stuff.c.i
+.PHONY : src/misc_stuff.c.i
 
-misc_stuff.s: misc_stuff.c.s
+src/misc_stuff.s: src/misc_stuff.c.s
 
-.PHONY : misc_stuff.s
+.PHONY : src/misc_stuff.s
 
 # target to generate assembly for a file
-misc_stuff.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/misc_stuff.c.s
-.PHONY : misc_stuff.c.s
+src/misc_stuff.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/misc_stuff.c.s
+.PHONY : src/misc_stuff.c.s
 
-p_client.o: p_client.c.o
+src/p_client.o: src/p_client.c.o
 
-.PHONY : p_client.o
+.PHONY : src/p_client.o
 
 # target to build an object file
-p_client.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_client.c.o
-.PHONY : p_client.c.o
+src/p_client.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_client.c.o
+.PHONY : src/p_client.c.o
 
-p_client.i: p_client.c.i
+src/p_client.i: src/p_client.c.i
 
-.PHONY : p_client.i
+.PHONY : src/p_client.i
 
 # target to preprocess a source file
-p_client.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_client.c.i
-.PHONY : p_client.c.i
+src/p_client.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_client.c.i
+.PHONY : src/p_client.c.i
 
-p_client.s: p_client.c.s
+src/p_client.s: src/p_client.c.s
 
-.PHONY : p_client.s
+.PHONY : src/p_client.s
 
 # target to generate assembly for a file
-p_client.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_client.c.s
-.PHONY : p_client.c.s
+src/p_client.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_client.c.s
+.PHONY : src/p_client.c.s
 
-p_hook.o: p_hook.c.o
+src/p_hook.o: src/p_hook.c.o
 
-.PHONY : p_hook.o
+.PHONY : src/p_hook.o
 
 # target to build an object file
-p_hook.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_hook.c.o
-.PHONY : p_hook.c.o
+src/p_hook.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_hook.c.o
+.PHONY : src/p_hook.c.o
 
-p_hook.i: p_hook.c.i
+src/p_hook.i: src/p_hook.c.i
 
-.PHONY : p_hook.i
+.PHONY : src/p_hook.i
 
 # target to preprocess a source file
-p_hook.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_hook.c.i
-.PHONY : p_hook.c.i
+src/p_hook.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_hook.c.i
+.PHONY : src/p_hook.c.i
 
-p_hook.s: p_hook.c.s
+src/p_hook.s: src/p_hook.c.s
 
-.PHONY : p_hook.s
+.PHONY : src/p_hook.s
 
 # target to generate assembly for a file
-p_hook.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_hook.c.s
-.PHONY : p_hook.c.s
+src/p_hook.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_hook.c.s
+.PHONY : src/p_hook.c.s
 
-p_hud.o: p_hud.c.o
+src/p_hud.o: src/p_hud.c.o
 
-.PHONY : p_hud.o
+.PHONY : src/p_hud.o
 
 # target to build an object file
-p_hud.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_hud.c.o
-.PHONY : p_hud.c.o
+src/p_hud.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_hud.c.o
+.PHONY : src/p_hud.c.o
 
-p_hud.i: p_hud.c.i
+src/p_hud.i: src/p_hud.c.i
 
-.PHONY : p_hud.i
+.PHONY : src/p_hud.i
 
 # target to preprocess a source file
-p_hud.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_hud.c.i
-.PHONY : p_hud.c.i
+src/p_hud.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_hud.c.i
+.PHONY : src/p_hud.c.i
 
-p_hud.s: p_hud.c.s
+src/p_hud.s: src/p_hud.c.s
 
-.PHONY : p_hud.s
+.PHONY : src/p_hud.s
 
 # target to generate assembly for a file
-p_hud.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_hud.c.s
-.PHONY : p_hud.c.s
+src/p_hud.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_hud.c.s
+.PHONY : src/p_hud.c.s
 
-p_menu.o: p_menu.c.o
+src/p_menu.o: src/p_menu.c.o
 
-.PHONY : p_menu.o
+.PHONY : src/p_menu.o
 
 # target to build an object file
-p_menu.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_menu.c.o
-.PHONY : p_menu.c.o
+src/p_menu.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_menu.c.o
+.PHONY : src/p_menu.c.o
 
-p_menu.i: p_menu.c.i
+src/p_menu.i: src/p_menu.c.i
 
-.PHONY : p_menu.i
+.PHONY : src/p_menu.i
 
 # target to preprocess a source file
-p_menu.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_menu.c.i
-.PHONY : p_menu.c.i
+src/p_menu.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_menu.c.i
+.PHONY : src/p_menu.c.i
 
-p_menu.s: p_menu.c.s
+src/p_menu.s: src/p_menu.c.s
 
-.PHONY : p_menu.s
+.PHONY : src/p_menu.s
 
 # target to generate assembly for a file
-p_menu.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_menu.c.s
-.PHONY : p_menu.c.s
+src/p_menu.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_menu.c.s
+.PHONY : src/p_menu.c.s
 
-p_parasite.o: p_parasite.c.o
+src/p_parasite.o: src/p_parasite.c.o
 
-.PHONY : p_parasite.o
+.PHONY : src/p_parasite.o
 
 # target to build an object file
-p_parasite.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_parasite.c.o
-.PHONY : p_parasite.c.o
+src/p_parasite.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_parasite.c.o
+.PHONY : src/p_parasite.c.o
 
-p_parasite.i: p_parasite.c.i
+src/p_parasite.i: src/p_parasite.c.i
 
-.PHONY : p_parasite.i
+.PHONY : src/p_parasite.i
 
 # target to preprocess a source file
-p_parasite.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_parasite.c.i
-.PHONY : p_parasite.c.i
+src/p_parasite.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_parasite.c.i
+.PHONY : src/p_parasite.c.i
 
-p_parasite.s: p_parasite.c.s
+src/p_parasite.s: src/p_parasite.c.s
 
-.PHONY : p_parasite.s
+.PHONY : src/p_parasite.s
 
 # target to generate assembly for a file
-p_parasite.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_parasite.c.s
-.PHONY : p_parasite.c.s
+src/p_parasite.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_parasite.c.s
+.PHONY : src/p_parasite.c.s
 
-p_trail.o: p_trail.c.o
+src/p_trail.o: src/p_trail.c.o
 
-.PHONY : p_trail.o
+.PHONY : src/p_trail.o
 
 # target to build an object file
-p_trail.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_trail.c.o
-.PHONY : p_trail.c.o
+src/p_trail.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_trail.c.o
+.PHONY : src/p_trail.c.o
 
-p_trail.i: p_trail.c.i
+src/p_trail.i: src/p_trail.c.i
 
-.PHONY : p_trail.i
+.PHONY : src/p_trail.i
 
 # target to preprocess a source file
-p_trail.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_trail.c.i
-.PHONY : p_trail.c.i
+src/p_trail.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_trail.c.i
+.PHONY : src/p_trail.c.i
 
-p_trail.s: p_trail.c.s
+src/p_trail.s: src/p_trail.c.s
 
-.PHONY : p_trail.s
+.PHONY : src/p_trail.s
 
 # target to generate assembly for a file
-p_trail.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_trail.c.s
-.PHONY : p_trail.c.s
+src/p_trail.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_trail.c.s
+.PHONY : src/p_trail.c.s
 
-p_view.o: p_view.c.o
+src/p_view.o: src/p_view.c.o
 
-.PHONY : p_view.o
+.PHONY : src/p_view.o
 
 # target to build an object file
-p_view.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_view.c.o
-.PHONY : p_view.c.o
+src/p_view.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_view.c.o
+.PHONY : src/p_view.c.o
 
-p_view.i: p_view.c.i
+src/p_view.i: src/p_view.c.i
 
-.PHONY : p_view.i
+.PHONY : src/p_view.i
 
 # target to preprocess a source file
-p_view.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_view.c.i
-.PHONY : p_view.c.i
+src/p_view.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_view.c.i
+.PHONY : src/p_view.c.i
 
-p_view.s: p_view.c.s
+src/p_view.s: src/p_view.c.s
 
-.PHONY : p_view.s
+.PHONY : src/p_view.s
 
 # target to generate assembly for a file
-p_view.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_view.c.s
-.PHONY : p_view.c.s
+src/p_view.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_view.c.s
+.PHONY : src/p_view.c.s
 
-p_weapon.o: p_weapon.c.o
+src/p_weapon.o: src/p_weapon.c.o
 
-.PHONY : p_weapon.o
+.PHONY : src/p_weapon.o
 
 # target to build an object file
-p_weapon.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_weapon.c.o
-.PHONY : p_weapon.c.o
+src/p_weapon.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_weapon.c.o
+.PHONY : src/p_weapon.c.o
 
-p_weapon.i: p_weapon.c.i
+src/p_weapon.i: src/p_weapon.c.i
 
-.PHONY : p_weapon.i
+.PHONY : src/p_weapon.i
 
 # target to preprocess a source file
-p_weapon.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_weapon.c.i
-.PHONY : p_weapon.c.i
+src/p_weapon.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_weapon.c.i
+.PHONY : src/p_weapon.c.i
 
-p_weapon.s: p_weapon.c.s
+src/p_weapon.s: src/p_weapon.c.s
 
-.PHONY : p_weapon.s
+.PHONY : src/p_weapon.s
 
 # target to generate assembly for a file
-p_weapon.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/p_weapon.c.s
-.PHONY : p_weapon.c.s
+src/p_weapon.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/p_weapon.c.s
+.PHONY : src/p_weapon.c.s
 
-player_points.o: player_points.c.o
+src/player_points.o: src/player_points.c.o
 
-.PHONY : player_points.o
+.PHONY : src/player_points.o
 
 # target to build an object file
-player_points.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/player_points.c.o
-.PHONY : player_points.c.o
+src/player_points.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/player_points.c.o
+.PHONY : src/player_points.c.o
 
-player_points.i: player_points.c.i
+src/player_points.i: src/player_points.c.i
 
-.PHONY : player_points.i
+.PHONY : src/player_points.i
 
 # target to preprocess a source file
-player_points.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/player_points.c.i
-.PHONY : player_points.c.i
+src/player_points.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/player_points.c.i
+.PHONY : src/player_points.c.i
 
-player_points.s: player_points.c.s
+src/player_points.s: src/player_points.c.s
 
-.PHONY : player_points.s
+.PHONY : src/player_points.s
 
 # target to generate assembly for a file
-player_points.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/player_points.c.s
-.PHONY : player_points.c.s
+src/player_points.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/player_points.c.s
+.PHONY : src/player_points.c.s
 
-playerlog.o: playerlog.c.o
+src/playerlog.o: src/playerlog.c.o
 
-.PHONY : playerlog.o
+.PHONY : src/playerlog.o
 
 # target to build an object file
-playerlog.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/playerlog.c.o
-.PHONY : playerlog.c.o
+src/playerlog.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/playerlog.c.o
+.PHONY : src/playerlog.c.o
 
-playerlog.i: playerlog.c.i
+src/playerlog.i: src/playerlog.c.i
 
-.PHONY : playerlog.i
+.PHONY : src/playerlog.i
 
 # target to preprocess a source file
-playerlog.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/playerlog.c.i
-.PHONY : playerlog.c.i
+src/playerlog.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/playerlog.c.i
+.PHONY : src/playerlog.c.i
 
-playerlog.s: playerlog.c.s
+src/playerlog.s: src/playerlog.c.s
 
-.PHONY : playerlog.s
+.PHONY : src/playerlog.s
 
 # target to generate assembly for a file
-playerlog.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/playerlog.c.s
-.PHONY : playerlog.c.s
+src/playerlog.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/playerlog.c.s
+.PHONY : src/playerlog.c.s
 
-playertoberserk.o: playertoberserk.c.o
+src/playertoberserk.o: src/playertoberserk.c.o
 
-.PHONY : playertoberserk.o
+.PHONY : src/playertoberserk.o
 
 # target to build an object file
-playertoberserk.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/playertoberserk.c.o
-.PHONY : playertoberserk.c.o
+src/playertoberserk.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/playertoberserk.c.o
+.PHONY : src/playertoberserk.c.o
 
-playertoberserk.i: playertoberserk.c.i
+src/playertoberserk.i: src/playertoberserk.c.i
 
-.PHONY : playertoberserk.i
+.PHONY : src/playertoberserk.i
 
 # target to preprocess a source file
-playertoberserk.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/playertoberserk.c.i
-.PHONY : playertoberserk.c.i
+src/playertoberserk.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/playertoberserk.c.i
+.PHONY : src/playertoberserk.c.i
 
-playertoberserk.s: playertoberserk.c.s
+src/playertoberserk.s: src/playertoberserk.c.s
 
-.PHONY : playertoberserk.s
+.PHONY : src/playertoberserk.s
 
 # target to generate assembly for a file
-playertoberserk.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/playertoberserk.c.s
-.PHONY : playertoberserk.c.s
+src/playertoberserk.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/playertoberserk.c.s
+.PHONY : src/playertoberserk.c.s
 
-playertoflyer.o: playertoflyer.c.o
+src/playertoflyer.o: src/playertoflyer.c.o
 
-.PHONY : playertoflyer.o
+.PHONY : src/playertoflyer.o
 
 # target to build an object file
-playertoflyer.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/playertoflyer.c.o
-.PHONY : playertoflyer.c.o
+src/playertoflyer.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/playertoflyer.c.o
+.PHONY : src/playertoflyer.c.o
 
-playertoflyer.i: playertoflyer.c.i
+src/playertoflyer.i: src/playertoflyer.c.i
 
-.PHONY : playertoflyer.i
+.PHONY : src/playertoflyer.i
 
 # target to preprocess a source file
-playertoflyer.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/playertoflyer.c.i
-.PHONY : playertoflyer.c.i
+src/playertoflyer.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/playertoflyer.c.i
+.PHONY : src/playertoflyer.c.i
 
-playertoflyer.s: playertoflyer.c.s
+src/playertoflyer.s: src/playertoflyer.c.s
 
-.PHONY : playertoflyer.s
+.PHONY : src/playertoflyer.s
 
 # target to generate assembly for a file
-playertoflyer.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/playertoflyer.c.s
-.PHONY : playertoflyer.c.s
+src/playertoflyer.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/playertoflyer.c.s
+.PHONY : src/playertoflyer.c.s
 
-playertomedic.o: playertomedic.c.o
+src/playertomedic.o: src/playertomedic.c.o
 
-.PHONY : playertomedic.o
+.PHONY : src/playertomedic.o
 
 # target to build an object file
-playertomedic.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/playertomedic.c.o
-.PHONY : playertomedic.c.o
+src/playertomedic.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/playertomedic.c.o
+.PHONY : src/playertomedic.c.o
 
-playertomedic.i: playertomedic.c.i
+src/playertomedic.i: src/playertomedic.c.i
 
-.PHONY : playertomedic.i
+.PHONY : src/playertomedic.i
 
 # target to preprocess a source file
-playertomedic.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/playertomedic.c.i
-.PHONY : playertomedic.c.i
+src/playertomedic.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/playertomedic.c.i
+.PHONY : src/playertomedic.c.i
 
-playertomedic.s: playertomedic.c.s
+src/playertomedic.s: src/playertomedic.c.s
 
-.PHONY : playertomedic.s
+.PHONY : src/playertomedic.s
 
 # target to generate assembly for a file
-playertomedic.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/playertomedic.c.s
-.PHONY : playertomedic.c.s
+src/playertomedic.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/playertomedic.c.s
+.PHONY : src/playertomedic.c.s
 
-playertomutant.o: playertomutant.c.o
+src/playertomutant.o: src/playertomutant.c.o
 
-.PHONY : playertomutant.o
+.PHONY : src/playertomutant.o
 
 # target to build an object file
-playertomutant.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/playertomutant.c.o
-.PHONY : playertomutant.c.o
+src/playertomutant.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/playertomutant.c.o
+.PHONY : src/playertomutant.c.o
 
-playertomutant.i: playertomutant.c.i
+src/playertomutant.i: src/playertomutant.c.i
 
-.PHONY : playertomutant.i
+.PHONY : src/playertomutant.i
 
 # target to preprocess a source file
-playertomutant.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/playertomutant.c.i
-.PHONY : playertomutant.c.i
+src/playertomutant.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/playertomutant.c.i
+.PHONY : src/playertomutant.c.i
 
-playertomutant.s: playertomutant.c.s
+src/playertomutant.s: src/playertomutant.c.s
 
-.PHONY : playertomutant.s
+.PHONY : src/playertomutant.s
 
 # target to generate assembly for a file
-playertomutant.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/playertomutant.c.s
-.PHONY : playertomutant.c.s
+src/playertomutant.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/playertomutant.c.s
+.PHONY : src/playertomutant.c.s
 
-playertoparasite.o: playertoparasite.c.o
+src/playertoparasite.o: src/playertoparasite.c.o
 
-.PHONY : playertoparasite.o
+.PHONY : src/playertoparasite.o
 
 # target to build an object file
-playertoparasite.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/playertoparasite.c.o
-.PHONY : playertoparasite.c.o
+src/playertoparasite.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/playertoparasite.c.o
+.PHONY : src/playertoparasite.c.o
 
-playertoparasite.i: playertoparasite.c.i
+src/playertoparasite.i: src/playertoparasite.c.i
 
-.PHONY : playertoparasite.i
+.PHONY : src/playertoparasite.i
 
 # target to preprocess a source file
-playertoparasite.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/playertoparasite.c.i
-.PHONY : playertoparasite.c.i
+src/playertoparasite.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/playertoparasite.c.i
+.PHONY : src/playertoparasite.c.i
 
-playertoparasite.s: playertoparasite.c.s
+src/playertoparasite.s: src/playertoparasite.c.s
 
-.PHONY : playertoparasite.s
+.PHONY : src/playertoparasite.s
 
 # target to generate assembly for a file
-playertoparasite.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/playertoparasite.c.s
-.PHONY : playertoparasite.c.s
+src/playertoparasite.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/playertoparasite.c.s
+.PHONY : src/playertoparasite.c.s
 
-playertotank.o: playertotank.c.o
+src/playertotank.o: src/playertotank.c.o
 
-.PHONY : playertotank.o
+.PHONY : src/playertotank.o
 
 # target to build an object file
-playertotank.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/playertotank.c.o
-.PHONY : playertotank.c.o
+src/playertotank.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/playertotank.c.o
+.PHONY : src/playertotank.c.o
 
-playertotank.i: playertotank.c.i
+src/playertotank.i: src/playertotank.c.i
 
-.PHONY : playertotank.i
+.PHONY : src/playertotank.i
 
 # target to preprocess a source file
-playertotank.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/playertotank.c.i
-.PHONY : playertotank.c.i
+src/playertotank.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/playertotank.c.i
+.PHONY : src/playertotank.c.i
 
-playertotank.s: playertotank.c.s
+src/playertotank.s: src/playertotank.c.s
 
-.PHONY : playertotank.s
+.PHONY : src/playertotank.s
 
 # target to generate assembly for a file
-playertotank.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/playertotank.c.s
-.PHONY : playertotank.c.s
+src/playertotank.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/playertotank.c.s
+.PHONY : src/playertotank.c.s
 
-pvb.o: pvb.c.o
+src/pvb.o: src/pvb.c.o
 
-.PHONY : pvb.o
+.PHONY : src/pvb.o
 
 # target to build an object file
-pvb.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/pvb.c.o
-.PHONY : pvb.c.o
+src/pvb.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/pvb.c.o
+.PHONY : src/pvb.c.o
 
-pvb.i: pvb.c.i
+src/pvb.i: src/pvb.c.i
 
-.PHONY : pvb.i
+.PHONY : src/pvb.i
 
 # target to preprocess a source file
-pvb.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/pvb.c.i
-.PHONY : pvb.c.i
+src/pvb.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/pvb.c.i
+.PHONY : src/pvb.c.i
 
-pvb.s: pvb.c.s
+src/pvb.s: src/pvb.c.s
 
-.PHONY : pvb.s
+.PHONY : src/pvb.s
 
 # target to generate assembly for a file
-pvb.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/pvb.c.s
-.PHONY : pvb.c.s
+src/pvb.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/pvb.c.s
+.PHONY : src/pvb.c.s
 
-q_shared.o: q_shared.c.o
+src/q_shared.o: src/q_shared.c.o
 
-.PHONY : q_shared.o
+.PHONY : src/q_shared.o
 
 # target to build an object file
-q_shared.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/q_shared.c.o
-.PHONY : q_shared.c.o
+src/q_shared.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/q_shared.c.o
+.PHONY : src/q_shared.c.o
 
-q_shared.i: q_shared.c.i
+src/q_shared.i: src/q_shared.c.i
 
-.PHONY : q_shared.i
+.PHONY : src/q_shared.i
 
 # target to preprocess a source file
-q_shared.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/q_shared.c.i
-.PHONY : q_shared.c.i
+src/q_shared.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/q_shared.c.i
+.PHONY : src/q_shared.c.i
 
-q_shared.s: q_shared.c.s
+src/q_shared.s: src/q_shared.c.s
 
-.PHONY : q_shared.s
+.PHONY : src/q_shared.s
 
 # target to generate assembly for a file
-q_shared.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/q_shared.c.s
-.PHONY : q_shared.c.s
+src/q_shared.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/q_shared.c.s
+.PHONY : src/q_shared.c.s
 
-repairstation.o: repairstation.c.o
+src/repairstation.o: src/repairstation.c.o
 
-.PHONY : repairstation.o
+.PHONY : src/repairstation.o
 
 # target to build an object file
-repairstation.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/repairstation.c.o
-.PHONY : repairstation.c.o
+src/repairstation.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/repairstation.c.o
+.PHONY : src/repairstation.c.o
 
-repairstation.i: repairstation.c.i
+src/repairstation.i: src/repairstation.c.i
 
-.PHONY : repairstation.i
+.PHONY : src/repairstation.i
 
 # target to preprocess a source file
-repairstation.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/repairstation.c.i
-.PHONY : repairstation.c.i
+src/repairstation.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/repairstation.c.i
+.PHONY : src/repairstation.c.i
 
-repairstation.s: repairstation.c.s
+src/repairstation.s: src/repairstation.c.s
 
-.PHONY : repairstation.s
+.PHONY : src/repairstation.s
 
 # target to generate assembly for a file
-repairstation.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/repairstation.c.s
-.PHONY : repairstation.c.s
+src/repairstation.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/repairstation.c.s
+.PHONY : src/repairstation.c.s
 
-runes.o: runes.c.o
+src/runes.o: src/runes.c.o
 
-.PHONY : runes.o
+.PHONY : src/runes.o
 
 # target to build an object file
-runes.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/runes.c.o
-.PHONY : runes.c.o
+src/runes.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/runes.c.o
+.PHONY : src/runes.c.o
 
-runes.i: runes.c.i
+src/runes.i: src/runes.c.i
 
-.PHONY : runes.i
+.PHONY : src/runes.i
 
 # target to preprocess a source file
-runes.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/runes.c.i
-.PHONY : runes.c.i
+src/runes.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/runes.c.i
+.PHONY : src/runes.c.i
 
-runes.s: runes.c.s
+src/runes.s: src/runes.c.s
 
-.PHONY : runes.s
+.PHONY : src/runes.s
 
 # target to generate assembly for a file
-runes.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/runes.c.s
-.PHONY : runes.c.s
+src/runes.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/runes.c.s
+.PHONY : src/runes.c.s
 
-scanner.o: scanner.c.o
+src/scanner.o: src/scanner.c.o
 
-.PHONY : scanner.o
+.PHONY : src/scanner.o
 
 # target to build an object file
-scanner.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/scanner.c.o
-.PHONY : scanner.c.o
+src/scanner.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/scanner.c.o
+.PHONY : src/scanner.c.o
 
-scanner.i: scanner.c.i
+src/scanner.i: src/scanner.c.i
 
-.PHONY : scanner.i
+.PHONY : src/scanner.i
 
 # target to preprocess a source file
-scanner.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/scanner.c.i
-.PHONY : scanner.c.i
+src/scanner.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/scanner.c.i
+.PHONY : src/scanner.c.i
 
-scanner.s: scanner.c.s
+src/scanner.s: src/scanner.c.s
 
-.PHONY : scanner.s
+.PHONY : src/scanner.s
 
 # target to generate assembly for a file
-scanner.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/scanner.c.s
-.PHONY : scanner.c.s
+src/scanner.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/scanner.c.s
+.PHONY : src/scanner.c.s
 
-sentrygun2.o: sentrygun2.c.o
+src/sentrygun2.o: src/sentrygun2.c.o
 
-.PHONY : sentrygun2.o
+.PHONY : src/sentrygun2.o
 
 # target to build an object file
-sentrygun2.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/sentrygun2.c.o
-.PHONY : sentrygun2.c.o
+src/sentrygun2.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/sentrygun2.c.o
+.PHONY : src/sentrygun2.c.o
 
-sentrygun2.i: sentrygun2.c.i
+src/sentrygun2.i: src/sentrygun2.c.i
 
-.PHONY : sentrygun2.i
+.PHONY : src/sentrygun2.i
 
 # target to preprocess a source file
-sentrygun2.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/sentrygun2.c.i
-.PHONY : sentrygun2.c.i
+src/sentrygun2.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/sentrygun2.c.i
+.PHONY : src/sentrygun2.c.i
 
-sentrygun2.s: sentrygun2.c.s
+src/sentrygun2.s: src/sentrygun2.c.s
 
-.PHONY : sentrygun2.s
+.PHONY : src/sentrygun2.s
 
 # target to generate assembly for a file
-sentrygun2.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/sentrygun2.c.s
-.PHONY : sentrygun2.c.s
+src/sentrygun2.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/sentrygun2.c.s
+.PHONY : src/sentrygun2.c.s
 
-shaman.o: shaman.c.o
+src/shaman.o: src/shaman.c.o
 
-.PHONY : shaman.o
+.PHONY : src/shaman.o
 
 # target to build an object file
-shaman.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/shaman.c.o
-.PHONY : shaman.c.o
+src/shaman.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/shaman.c.o
+.PHONY : src/shaman.c.o
 
-shaman.i: shaman.c.i
+src/shaman.i: src/shaman.c.i
 
-.PHONY : shaman.i
+.PHONY : src/shaman.i
 
 # target to preprocess a source file
-shaman.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/shaman.c.i
-.PHONY : shaman.c.i
+src/shaman.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/shaman.c.i
+.PHONY : src/shaman.c.i
 
-shaman.s: shaman.c.s
+src/shaman.s: src/shaman.c.s
 
-.PHONY : shaman.s
+.PHONY : src/shaman.s
 
 # target to generate assembly for a file
-shaman.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/shaman.c.s
-.PHONY : shaman.c.s
+src/shaman.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/shaman.c.s
+.PHONY : src/shaman.c.s
 
-special_items.o: special_items.c.o
+src/special_items.o: src/special_items.c.o
 
-.PHONY : special_items.o
+.PHONY : src/special_items.o
 
 # target to build an object file
-special_items.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/special_items.c.o
-.PHONY : special_items.c.o
+src/special_items.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/special_items.c.o
+.PHONY : src/special_items.c.o
 
-special_items.i: special_items.c.i
+src/special_items.i: src/special_items.c.i
 
-.PHONY : special_items.i
+.PHONY : src/special_items.i
 
 # target to preprocess a source file
-special_items.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/special_items.c.i
-.PHONY : special_items.c.i
+src/special_items.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/special_items.c.i
+.PHONY : src/special_items.c.i
 
-special_items.s: special_items.c.s
+src/special_items.s: src/special_items.c.s
 
-.PHONY : special_items.s
+.PHONY : src/special_items.s
 
 # target to generate assembly for a file
-special_items.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/special_items.c.s
-.PHONY : special_items.c.s
+src/special_items.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/special_items.c.s
+.PHONY : src/special_items.c.s
 
-sqlite3.o: sqlite3.c.o
+src/sqlite3.o: src/sqlite3.c.o
 
-.PHONY : sqlite3.o
+.PHONY : src/sqlite3.o
 
 # target to build an object file
-sqlite3.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/sqlite3.c.o
-.PHONY : sqlite3.c.o
+src/sqlite3.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/sqlite3.c.o
+.PHONY : src/sqlite3.c.o
 
-sqlite3.i: sqlite3.c.i
+src/sqlite3.i: src/sqlite3.c.i
 
-.PHONY : sqlite3.i
+.PHONY : src/sqlite3.i
 
 # target to preprocess a source file
-sqlite3.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/sqlite3.c.i
-.PHONY : sqlite3.c.i
+src/sqlite3.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/sqlite3.c.i
+.PHONY : src/sqlite3.c.i
 
-sqlite3.s: sqlite3.c.s
+src/sqlite3.s: src/sqlite3.c.s
 
-.PHONY : sqlite3.s
+.PHONY : src/sqlite3.s
 
 # target to generate assembly for a file
-sqlite3.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/sqlite3.c.s
-.PHONY : sqlite3.c.s
+src/sqlite3.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/sqlite3.c.s
+.PHONY : src/sqlite3.c.s
 
-supplystation.o: supplystation.c.o
+src/supplystation.o: src/supplystation.c.o
 
-.PHONY : supplystation.o
+.PHONY : src/supplystation.o
 
 # target to build an object file
-supplystation.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/supplystation.c.o
-.PHONY : supplystation.c.o
+src/supplystation.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/supplystation.c.o
+.PHONY : src/supplystation.c.o
 
-supplystation.i: supplystation.c.i
+src/supplystation.i: src/supplystation.c.i
 
-.PHONY : supplystation.i
+.PHONY : src/supplystation.i
 
 # target to preprocess a source file
-supplystation.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/supplystation.c.i
-.PHONY : supplystation.c.i
+src/supplystation.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/supplystation.c.i
+.PHONY : src/supplystation.c.i
 
-supplystation.s: supplystation.c.s
+src/supplystation.s: src/supplystation.c.s
 
-.PHONY : supplystation.s
+.PHONY : src/supplystation.s
 
 # target to generate assembly for a file
-supplystation.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/supplystation.c.s
-.PHONY : supplystation.c.s
+src/supplystation.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/supplystation.c.s
+.PHONY : src/supplystation.c.s
 
-teamplay.o: teamplay.c.o
+src/teamplay.o: src/teamplay.c.o
 
-.PHONY : teamplay.o
+.PHONY : src/teamplay.o
 
 # target to build an object file
-teamplay.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/teamplay.c.o
-.PHONY : teamplay.c.o
+src/teamplay.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/teamplay.c.o
+.PHONY : src/teamplay.c.o
 
-teamplay.i: teamplay.c.i
+src/teamplay.i: src/teamplay.c.i
 
-.PHONY : teamplay.i
+.PHONY : src/teamplay.i
 
 # target to preprocess a source file
-teamplay.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/teamplay.c.i
-.PHONY : teamplay.c.i
+src/teamplay.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/teamplay.c.i
+.PHONY : src/teamplay.c.i
 
-teamplay.s: teamplay.c.s
+src/teamplay.s: src/teamplay.c.s
 
-.PHONY : teamplay.s
+.PHONY : src/teamplay.s
 
 # target to generate assembly for a file
-teamplay.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/teamplay.c.s
-.PHONY : teamplay.c.s
+src/teamplay.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/teamplay.c.s
+.PHONY : src/teamplay.c.s
 
-totems.o: totems.c.o
+src/totems.o: src/totems.c.o
 
-.PHONY : totems.o
+.PHONY : src/totems.o
 
 # target to build an object file
-totems.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/totems.c.o
-.PHONY : totems.c.o
+src/totems.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/totems.c.o
+.PHONY : src/totems.c.o
 
-totems.i: totems.c.i
+src/totems.i: src/totems.c.i
 
-.PHONY : totems.i
+.PHONY : src/totems.i
 
 # target to preprocess a source file
-totems.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/totems.c.i
-.PHONY : totems.c.i
+src/totems.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/totems.c.i
+.PHONY : src/totems.c.i
 
-totems.s: totems.c.s
+src/totems.s: src/totems.c.s
 
-.PHONY : totems.s
+.PHONY : src/totems.s
 
 # target to generate assembly for a file
-totems.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/totems.c.s
-.PHONY : totems.c.s
+src/totems.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/totems.c.s
+.PHONY : src/totems.c.s
 
-trade.o: trade.c.o
+src/trade.o: src/trade.c.o
 
-.PHONY : trade.o
+.PHONY : src/trade.o
 
 # target to build an object file
-trade.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/trade.c.o
-.PHONY : trade.c.o
+src/trade.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/trade.c.o
+.PHONY : src/trade.c.o
 
-trade.i: trade.c.i
+src/trade.i: src/trade.c.i
 
-.PHONY : trade.i
+.PHONY : src/trade.i
 
 # target to preprocess a source file
-trade.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/trade.c.i
-.PHONY : trade.c.i
+src/trade.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/trade.c.i
+.PHONY : src/trade.c.i
 
-trade.s: trade.c.s
+src/trade.s: src/trade.c.s
 
-.PHONY : trade.s
+.PHONY : src/trade.s
 
 # target to generate assembly for a file
-trade.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/trade.c.s
-.PHONY : trade.c.s
+src/trade.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/trade.c.s
+.PHONY : src/trade.c.s
 
-upgrades.o: upgrades.c.o
+src/upgrades.o: src/upgrades.c.o
 
-.PHONY : upgrades.o
+.PHONY : src/upgrades.o
 
 # target to build an object file
-upgrades.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/upgrades.c.o
-.PHONY : upgrades.c.o
+src/upgrades.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/upgrades.c.o
+.PHONY : src/upgrades.c.o
 
-upgrades.i: upgrades.c.i
+src/upgrades.i: src/upgrades.c.i
 
-.PHONY : upgrades.i
+.PHONY : src/upgrades.i
 
 # target to preprocess a source file
-upgrades.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/upgrades.c.i
-.PHONY : upgrades.c.i
+src/upgrades.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/upgrades.c.i
+.PHONY : src/upgrades.c.i
 
-upgrades.s: upgrades.c.s
+src/upgrades.s: src/upgrades.c.s
 
-.PHONY : upgrades.s
+.PHONY : src/upgrades.s
 
 # target to generate assembly for a file
-upgrades.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/upgrades.c.s
-.PHONY : upgrades.c.s
+src/upgrades.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/upgrades.c.s
+.PHONY : src/upgrades.c.s
 
-v_cmd.o: v_cmd.c.o
+src/v_cmd.o: src/v_cmd.c.o
 
-.PHONY : v_cmd.o
+.PHONY : src/v_cmd.o
 
 # target to build an object file
-v_cmd.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_cmd.c.o
-.PHONY : v_cmd.c.o
+src/v_cmd.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_cmd.c.o
+.PHONY : src/v_cmd.c.o
 
-v_cmd.i: v_cmd.c.i
+src/v_cmd.i: src/v_cmd.c.i
 
-.PHONY : v_cmd.i
+.PHONY : src/v_cmd.i
 
 # target to preprocess a source file
-v_cmd.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_cmd.c.i
-.PHONY : v_cmd.c.i
+src/v_cmd.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_cmd.c.i
+.PHONY : src/v_cmd.c.i
 
-v_cmd.s: v_cmd.c.s
+src/v_cmd.s: src/v_cmd.c.s
 
-.PHONY : v_cmd.s
+.PHONY : src/v_cmd.s
 
 # target to generate assembly for a file
-v_cmd.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_cmd.c.s
-.PHONY : v_cmd.c.s
+src/v_cmd.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_cmd.c.s
+.PHONY : src/v_cmd.c.s
 
-v_file_IO.o: v_file_IO.c.o
+src/v_file_IO.o: src/v_file_IO.c.o
 
-.PHONY : v_file_IO.o
+.PHONY : src/v_file_IO.o
 
 # target to build an object file
-v_file_IO.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_file_IO.c.o
-.PHONY : v_file_IO.c.o
+src/v_file_IO.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_file_IO.c.o
+.PHONY : src/v_file_IO.c.o
 
-v_file_IO.i: v_file_IO.c.i
+src/v_file_IO.i: src/v_file_IO.c.i
 
-.PHONY : v_file_IO.i
+.PHONY : src/v_file_IO.i
 
 # target to preprocess a source file
-v_file_IO.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_file_IO.c.i
-.PHONY : v_file_IO.c.i
+src/v_file_IO.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_file_IO.c.i
+.PHONY : src/v_file_IO.c.i
 
-v_file_IO.s: v_file_IO.c.s
+src/v_file_IO.s: src/v_file_IO.c.s
 
-.PHONY : v_file_IO.s
+.PHONY : src/v_file_IO.s
 
 # target to generate assembly for a file
-v_file_IO.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_file_IO.c.s
-.PHONY : v_file_IO.c.s
+src/v_file_IO.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_file_IO.c.s
+.PHONY : src/v_file_IO.c.s
 
-v_hw.o: v_hw.c.o
+src/v_hw.o: src/v_hw.c.o
 
-.PHONY : v_hw.o
+.PHONY : src/v_hw.o
 
 # target to build an object file
-v_hw.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_hw.c.o
-.PHONY : v_hw.c.o
+src/v_hw.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_hw.c.o
+.PHONY : src/v_hw.c.o
 
-v_hw.i: v_hw.c.i
+src/v_hw.i: src/v_hw.c.i
 
-.PHONY : v_hw.i
+.PHONY : src/v_hw.i
 
 # target to preprocess a source file
-v_hw.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_hw.c.i
-.PHONY : v_hw.c.i
+src/v_hw.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_hw.c.i
+.PHONY : src/v_hw.c.i
 
-v_hw.s: v_hw.c.s
+src/v_hw.s: src/v_hw.c.s
 
-.PHONY : v_hw.s
+.PHONY : src/v_hw.s
 
 # target to generate assembly for a file
-v_hw.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_hw.c.s
-.PHONY : v_hw.c.s
+src/v_hw.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_hw.c.s
+.PHONY : src/v_hw.c.s
 
-v_items.o: v_items.c.o
+src/v_items.o: src/v_items.c.o
 
-.PHONY : v_items.o
+.PHONY : src/v_items.o
 
 # target to build an object file
-v_items.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_items.c.o
-.PHONY : v_items.c.o
+src/v_items.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_items.c.o
+.PHONY : src/v_items.c.o
 
-v_items.i: v_items.c.i
+src/v_items.i: src/v_items.c.i
 
-.PHONY : v_items.i
+.PHONY : src/v_items.i
 
 # target to preprocess a source file
-v_items.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_items.c.i
-.PHONY : v_items.c.i
+src/v_items.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_items.c.i
+.PHONY : src/v_items.c.i
 
-v_items.s: v_items.c.s
+src/v_items.s: src/v_items.c.s
 
-.PHONY : v_items.s
+.PHONY : src/v_items.s
 
 # target to generate assembly for a file
-v_items.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_items.c.s
-.PHONY : v_items.c.s
+src/v_items.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_items.c.s
+.PHONY : src/v_items.c.s
 
-v_maplist.o: v_maplist.c.o
+src/v_maplist.o: src/v_maplist.c.o
 
-.PHONY : v_maplist.o
+.PHONY : src/v_maplist.o
 
 # target to build an object file
-v_maplist.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_maplist.c.o
-.PHONY : v_maplist.c.o
+src/v_maplist.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_maplist.c.o
+.PHONY : src/v_maplist.c.o
 
-v_maplist.i: v_maplist.c.i
+src/v_maplist.i: src/v_maplist.c.i
 
-.PHONY : v_maplist.i
+.PHONY : src/v_maplist.i
 
 # target to preprocess a source file
-v_maplist.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_maplist.c.i
-.PHONY : v_maplist.c.i
+src/v_maplist.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_maplist.c.i
+.PHONY : src/v_maplist.c.i
 
-v_maplist.s: v_maplist.c.s
+src/v_maplist.s: src/v_maplist.c.s
 
-.PHONY : v_maplist.s
+.PHONY : src/v_maplist.s
 
 # target to generate assembly for a file
-v_maplist.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_maplist.c.s
-.PHONY : v_maplist.c.s
+src/v_maplist.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_maplist.c.s
+.PHONY : src/v_maplist.c.s
 
-v_mysql_gds.o: v_mysql_gds.c.o
+src/v_mysql_gds.o: src/v_mysql_gds.c.o
 
-.PHONY : v_mysql_gds.o
+.PHONY : src/v_mysql_gds.o
 
 # target to build an object file
-v_mysql_gds.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_mysql_gds.c.o
-.PHONY : v_mysql_gds.c.o
+src/v_mysql_gds.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_mysql_gds.c.o
+.PHONY : src/v_mysql_gds.c.o
 
-v_mysql_gds.i: v_mysql_gds.c.i
+src/v_mysql_gds.i: src/v_mysql_gds.c.i
 
-.PHONY : v_mysql_gds.i
+.PHONY : src/v_mysql_gds.i
 
 # target to preprocess a source file
-v_mysql_gds.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_mysql_gds.c.i
-.PHONY : v_mysql_gds.c.i
+src/v_mysql_gds.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_mysql_gds.c.i
+.PHONY : src/v_mysql_gds.c.i
 
-v_mysql_gds.s: v_mysql_gds.c.s
+src/v_mysql_gds.s: src/v_mysql_gds.c.s
 
-.PHONY : v_mysql_gds.s
+.PHONY : src/v_mysql_gds.s
 
 # target to generate assembly for a file
-v_mysql_gds.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_mysql_gds.c.s
-.PHONY : v_mysql_gds.c.s
+src/v_mysql_gds.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_mysql_gds.c.s
+.PHONY : src/v_mysql_gds.c.s
 
-v_tbi.o: v_tbi.c.o
+src/v_tbi.o: src/v_tbi.c.o
 
-.PHONY : v_tbi.o
+.PHONY : src/v_tbi.o
 
 # target to build an object file
-v_tbi.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_tbi.c.o
-.PHONY : v_tbi.c.o
+src/v_tbi.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_tbi.c.o
+.PHONY : src/v_tbi.c.o
 
-v_tbi.i: v_tbi.c.i
+src/v_tbi.i: src/v_tbi.c.i
 
-.PHONY : v_tbi.i
+.PHONY : src/v_tbi.i
 
 # target to preprocess a source file
-v_tbi.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_tbi.c.i
-.PHONY : v_tbi.c.i
+src/v_tbi.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_tbi.c.i
+.PHONY : src/v_tbi.c.i
 
-v_tbi.s: v_tbi.c.s
+src/v_tbi.s: src/v_tbi.c.s
 
-.PHONY : v_tbi.s
+.PHONY : src/v_tbi.s
 
 # target to generate assembly for a file
-v_tbi.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_tbi.c.s
-.PHONY : v_tbi.c.s
+src/v_tbi.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_tbi.c.s
+.PHONY : src/v_tbi.c.s
 
-v_utils.o: v_utils.c.o
+src/v_utils.o: src/v_utils.c.o
 
-.PHONY : v_utils.o
+.PHONY : src/v_utils.o
 
 # target to build an object file
-v_utils.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_utils.c.o
-.PHONY : v_utils.c.o
+src/v_utils.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_utils.c.o
+.PHONY : src/v_utils.c.o
 
-v_utils.i: v_utils.c.i
+src/v_utils.i: src/v_utils.c.i
 
-.PHONY : v_utils.i
+.PHONY : src/v_utils.i
 
 # target to preprocess a source file
-v_utils.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_utils.c.i
-.PHONY : v_utils.c.i
+src/v_utils.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_utils.c.i
+.PHONY : src/v_utils.c.i
 
-v_utils.s: v_utils.c.s
+src/v_utils.s: src/v_utils.c.s
 
-.PHONY : v_utils.s
+.PHONY : src/v_utils.s
 
 # target to generate assembly for a file
-v_utils.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/v_utils.c.s
-.PHONY : v_utils.c.s
+src/v_utils.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/v_utils.c.s
+.PHONY : src/v_utils.c.s
 
-vote.o: vote.c.o
+src/vote.o: src/vote.c.o
 
-.PHONY : vote.o
+.PHONY : src/vote.o
 
 # target to build an object file
-vote.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/vote.c.o
-.PHONY : vote.c.o
+src/vote.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/vote.c.o
+.PHONY : src/vote.c.o
 
-vote.i: vote.c.i
+src/vote.i: src/vote.c.i
 
-.PHONY : vote.i
+.PHONY : src/vote.i
 
 # target to preprocess a source file
-vote.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/vote.c.i
-.PHONY : vote.c.i
+src/vote.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/vote.c.i
+.PHONY : src/vote.c.i
 
-vote.s: vote.c.s
+src/vote.s: src/vote.c.s
 
-.PHONY : vote.s
+.PHONY : src/vote.s
 
 # target to generate assembly for a file
-vote.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/vote.c.s
-.PHONY : vote.c.s
+src/vote.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/vote.c.s
+.PHONY : src/vote.c.s
 
-weapon_upgrades.o: weapon_upgrades.c.o
+src/weapon_upgrades.o: src/weapon_upgrades.c.o
 
-.PHONY : weapon_upgrades.o
+.PHONY : src/weapon_upgrades.o
 
 # target to build an object file
-weapon_upgrades.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/weapon_upgrades.c.o
-.PHONY : weapon_upgrades.c.o
+src/weapon_upgrades.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/weapon_upgrades.c.o
+.PHONY : src/weapon_upgrades.c.o
 
-weapon_upgrades.i: weapon_upgrades.c.i
+src/weapon_upgrades.i: src/weapon_upgrades.c.i
 
-.PHONY : weapon_upgrades.i
+.PHONY : src/weapon_upgrades.i
 
 # target to preprocess a source file
-weapon_upgrades.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/weapon_upgrades.c.i
-.PHONY : weapon_upgrades.c.i
+src/weapon_upgrades.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/weapon_upgrades.c.i
+.PHONY : src/weapon_upgrades.c.i
 
-weapon_upgrades.s: weapon_upgrades.c.s
+src/weapon_upgrades.s: src/weapon_upgrades.c.s
 
-.PHONY : weapon_upgrades.s
+.PHONY : src/weapon_upgrades.s
 
 # target to generate assembly for a file
-weapon_upgrades.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/weapon_upgrades.c.s
-.PHONY : weapon_upgrades.c.s
+src/weapon_upgrades.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/weapon_upgrades.c.s
+.PHONY : src/weapon_upgrades.c.s
 
-weapons.o: weapons.c.o
+src/weapons.o: src/weapons.c.o
 
-.PHONY : weapons.o
+.PHONY : src/weapons.o
 
 # target to build an object file
-weapons.c.o:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/weapons.c.o
-.PHONY : weapons.c.o
+src/weapons.c.o:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/weapons.c.o
+.PHONY : src/weapons.c.o
 
-weapons.i: weapons.c.i
+src/weapons.i: src/weapons.c.i
 
-.PHONY : weapons.i
+.PHONY : src/weapons.i
 
 # target to preprocess a source file
-weapons.c.i:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/weapons.c.i
-.PHONY : weapons.c.i
+src/weapons.c.i:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/weapons.c.i
+.PHONY : src/weapons.c.i
 
-weapons.s: weapons.c.s
+src/weapons.s: src/weapons.c.s
 
-.PHONY : weapons.s
+.PHONY : src/weapons.s
 
 # target to generate assembly for a file
-weapons.c.s:
-	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/weapons.c.s
-.PHONY : weapons.c.s
+src/weapons.c.s:
+	$(MAKE) -f CMakeFiles/gamex86_64.dir/build.make CMakeFiles/gamex86_64.dir/src/weapons.c.s
+.PHONY : src/weapons.c.s
 
 # Help Target
 help:
@@ -3642,396 +3642,396 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... gamex86_64"
 	@echo "... edit_cache"
-	@echo "... Player.o"
-	@echo "... Player.i"
-	@echo "... Player.s"
-	@echo "... Spirit.o"
-	@echo "... Spirit.i"
-	@echo "... Spirit.s"
-	@echo "... Talents.o"
-	@echo "... Talents.i"
-	@echo "... Talents.s"
-	@echo "... ai/AStar.o"
-	@echo "... ai/AStar.i"
-	@echo "... ai/AStar.s"
-	@echo "... ai/ai_class_dmbot.o"
-	@echo "... ai/ai_class_dmbot.i"
-	@echo "... ai/ai_class_dmbot.s"
-	@echo "... ai/ai_class_monster_default.o"
-	@echo "... ai/ai_class_monster_default.i"
-	@echo "... ai/ai_class_monster_default.s"
-	@echo "... ai/ai_dropnodes.o"
-	@echo "... ai/ai_dropnodes.i"
-	@echo "... ai/ai_dropnodes.s"
-	@echo "... ai/ai_items.o"
-	@echo "... ai/ai_items.i"
-	@echo "... ai/ai_items.s"
-	@echo "... ai/ai_links.o"
-	@echo "... ai/ai_links.i"
-	@echo "... ai/ai_links.s"
-	@echo "... ai/ai_main.o"
-	@echo "... ai/ai_main.i"
-	@echo "... ai/ai_main.s"
-	@echo "... ai/ai_movement.o"
-	@echo "... ai/ai_movement.i"
-	@echo "... ai/ai_movement.s"
-	@echo "... ai/ai_navigation.o"
-	@echo "... ai/ai_navigation.i"
-	@echo "... ai/ai_navigation.s"
-	@echo "... ai/ai_nodes.o"
-	@echo "... ai/ai_nodes.i"
-	@echo "... ai/ai_nodes.s"
-	@echo "... ai/ai_tools.o"
-	@echo "... ai/ai_tools.i"
-	@echo "... ai/ai_tools.s"
-	@echo "... ai/ai_weapons.o"
-	@echo "... ai/ai_weapons.i"
-	@echo "... ai/ai_weapons.s"
-	@echo "... ai/bot_common.o"
-	@echo "... ai/bot_common.i"
-	@echo "... ai/bot_common.s"
-	@echo "... ai/bot_spawn.o"
-	@echo "... ai/bot_spawn.i"
-	@echo "... ai/bot_spawn.s"
-	@echo "... ally.o"
-	@echo "... ally.i"
-	@echo "... ally.s"
-	@echo "... armory.o"
-	@echo "... armory.i"
-	@echo "... armory.s"
-	@echo "... auras.o"
-	@echo "... auras.i"
-	@echo "... auras.s"
-	@echo "... backpack.o"
-	@echo "... backpack.i"
-	@echo "... backpack.s"
-	@echo "... bombspell.o"
-	@echo "... bombspell.i"
-	@echo "... bombspell.s"
-	@echo "... boss_general.o"
-	@echo "... boss_general.i"
-	@echo "... boss_general.s"
-	@echo "... boss_makron.o"
-	@echo "... boss_makron.i"
-	@echo "... boss_makron.s"
-	@echo "... boss_tank.o"
-	@echo "... boss_tank.i"
-	@echo "... boss_tank.s"
-	@echo "... class_brain.o"
-	@echo "... class_brain.i"
-	@echo "... class_brain.s"
-	@echo "... class_demon.o"
-	@echo "... class_demon.i"
-	@echo "... class_demon.s"
-	@echo "... cloak.o"
-	@echo "... cloak.i"
-	@echo "... cloak.s"
-	@echo "... ctf.o"
-	@echo "... ctf.i"
-	@echo "... ctf.s"
-	@echo "... damage.o"
-	@echo "... damage.i"
-	@echo "... damage.s"
-	@echo "... domination.o"
-	@echo "... domination.i"
-	@echo "... domination.s"
-	@echo "... drone_ai.o"
-	@echo "... drone_ai.i"
-	@echo "... drone_ai.s"
-	@echo "... drone_berserk.o"
-	@echo "... drone_berserk.i"
-	@echo "... drone_berserk.s"
-	@echo "... drone_bitch.o"
-	@echo "... drone_bitch.i"
-	@echo "... drone_bitch.s"
-	@echo "... drone_brain.o"
-	@echo "... drone_brain.i"
-	@echo "... drone_brain.s"
-	@echo "... drone_decoy.o"
-	@echo "... drone_decoy.i"
-	@echo "... drone_decoy.s"
-	@echo "... drone_gladiator.o"
-	@echo "... drone_gladiator.i"
-	@echo "... drone_gladiator.s"
-	@echo "... drone_gunner.o"
-	@echo "... drone_gunner.i"
-	@echo "... drone_gunner.s"
-	@echo "... drone_infantry.o"
-	@echo "... drone_infantry.i"
-	@echo "... drone_infantry.s"
-	@echo "... drone_jorg.o"
-	@echo "... drone_jorg.i"
-	@echo "... drone_jorg.s"
-	@echo "... drone_makron.o"
-	@echo "... drone_makron.i"
-	@echo "... drone_makron.s"
-	@echo "... drone_medic.o"
-	@echo "... drone_medic.i"
-	@echo "... drone_medic.s"
-	@echo "... drone_misc.o"
-	@echo "... drone_misc.i"
-	@echo "... drone_misc.s"
-	@echo "... drone_move.o"
-	@echo "... drone_move.i"
-	@echo "... drone_move.s"
-	@echo "... drone_mutant.o"
-	@echo "... drone_mutant.i"
-	@echo "... drone_mutant.s"
-	@echo "... drone_parasite.o"
-	@echo "... drone_parasite.i"
-	@echo "... drone_parasite.s"
-	@echo "... drone_retard.o"
-	@echo "... drone_retard.i"
-	@echo "... drone_retard.s"
-	@echo "... drone_soldier.o"
-	@echo "... drone_soldier.i"
-	@echo "... drone_soldier.s"
-	@echo "... drone_supertank.o"
-	@echo "... drone_supertank.i"
-	@echo "... drone_supertank.s"
-	@echo "... drone_tank.o"
-	@echo "... drone_tank.i"
-	@echo "... drone_tank.s"
-	@echo "... ents.o"
-	@echo "... ents.i"
-	@echo "... ents.s"
-	@echo "... file_output.o"
-	@echo "... file_output.i"
-	@echo "... file_output.s"
-	@echo "... flying_skull.o"
-	@echo "... flying_skull.i"
-	@echo "... flying_skull.s"
-	@echo "... forcewall.o"
-	@echo "... forcewall.i"
-	@echo "... forcewall.s"
-	@echo "... g_chase.o"
-	@echo "... g_chase.i"
-	@echo "... g_chase.s"
-	@echo "... g_cmds.o"
-	@echo "... g_cmds.i"
-	@echo "... g_cmds.s"
-	@echo "... g_combat.o"
-	@echo "... g_combat.i"
-	@echo "... g_combat.s"
-	@echo "... g_flame.o"
-	@echo "... g_flame.i"
-	@echo "... g_flame.s"
-	@echo "... g_func.o"
-	@echo "... g_func.i"
-	@echo "... g_func.s"
-	@echo "... g_items.o"
-	@echo "... g_items.i"
-	@echo "... g_items.s"
-	@echo "... g_lasers.o"
-	@echo "... g_lasers.i"
-	@echo "... g_lasers.s"
-	@echo "... g_main.o"
-	@echo "... g_main.i"
-	@echo "... g_main.s"
-	@echo "... g_misc.o"
-	@echo "... g_misc.i"
-	@echo "... g_misc.s"
-	@echo "... g_monster.o"
-	@echo "... g_monster.i"
-	@echo "... g_monster.s"
-	@echo "... g_phys.o"
-	@echo "... g_phys.i"
-	@echo "... g_phys.s"
-	@echo "... g_save.o"
-	@echo "... g_save.i"
-	@echo "... g_save.s"
-	@echo "... g_spawn.o"
-	@echo "... g_spawn.i"
-	@echo "... g_spawn.s"
-	@echo "... g_svcmds.o"
-	@echo "... g_svcmds.i"
-	@echo "... g_svcmds.s"
-	@echo "... g_sword.o"
-	@echo "... g_sword.i"
-	@echo "... g_sword.s"
-	@echo "... g_target.o"
-	@echo "... g_target.i"
-	@echo "... g_target.s"
-	@echo "... g_trigger.o"
-	@echo "... g_trigger.i"
-	@echo "... g_trigger.s"
-	@echo "... g_utils.o"
-	@echo "... g_utils.i"
-	@echo "... g_utils.s"
-	@echo "... g_weapon.o"
-	@echo "... g_weapon.i"
-	@echo "... g_weapon.s"
-	@echo "... gds.o"
-	@echo "... gds.i"
-	@echo "... gds.s"
-	@echo "... grid.o"
-	@echo "... grid.i"
-	@echo "... grid.s"
-	@echo "... hash_32a.o"
-	@echo "... hash_32a.i"
-	@echo "... hash_32a.s"
-	@echo "... help.o"
-	@echo "... help.i"
-	@echo "... help.s"
-	@echo "... invasion.o"
-	@echo "... invasion.i"
-	@echo "... invasion.s"
-	@echo "... item_menu.o"
-	@echo "... item_menu.i"
-	@echo "... item_menu.s"
-	@echo "... jetpack.o"
-	@echo "... jetpack.i"
-	@echo "... jetpack.s"
-	@echo "... lasers.o"
-	@echo "... lasers.i"
-	@echo "... lasers.s"
-	@echo "... lasersight.o"
-	@echo "... lasersight.i"
-	@echo "... lasersight.s"
-	@echo "... laserstuff.o"
-	@echo "... laserstuff.i"
-	@echo "... laserstuff.s"
-	@echo "... m_flash.o"
-	@echo "... m_flash.i"
-	@echo "... m_flash.s"
-	@echo "... magic.o"
-	@echo "... magic.i"
-	@echo "... magic.s"
-	@echo "... maplist.o"
-	@echo "... maplist.i"
-	@echo "... maplist.s"
-	@echo "... menu.o"
-	@echo "... menu.i"
-	@echo "... menu.s"
-	@echo "... minisentry.o"
-	@echo "... minisentry.i"
-	@echo "... minisentry.s"
-	@echo "... misc_stuff.o"
-	@echo "... misc_stuff.i"
-	@echo "... misc_stuff.s"
-	@echo "... p_client.o"
-	@echo "... p_client.i"
-	@echo "... p_client.s"
-	@echo "... p_hook.o"
-	@echo "... p_hook.i"
-	@echo "... p_hook.s"
-	@echo "... p_hud.o"
-	@echo "... p_hud.i"
-	@echo "... p_hud.s"
-	@echo "... p_menu.o"
-	@echo "... p_menu.i"
-	@echo "... p_menu.s"
-	@echo "... p_parasite.o"
-	@echo "... p_parasite.i"
-	@echo "... p_parasite.s"
-	@echo "... p_trail.o"
-	@echo "... p_trail.i"
-	@echo "... p_trail.s"
-	@echo "... p_view.o"
-	@echo "... p_view.i"
-	@echo "... p_view.s"
-	@echo "... p_weapon.o"
-	@echo "... p_weapon.i"
-	@echo "... p_weapon.s"
-	@echo "... player_points.o"
-	@echo "... player_points.i"
-	@echo "... player_points.s"
-	@echo "... playerlog.o"
-	@echo "... playerlog.i"
-	@echo "... playerlog.s"
-	@echo "... playertoberserk.o"
-	@echo "... playertoberserk.i"
-	@echo "... playertoberserk.s"
-	@echo "... playertoflyer.o"
-	@echo "... playertoflyer.i"
-	@echo "... playertoflyer.s"
-	@echo "... playertomedic.o"
-	@echo "... playertomedic.i"
-	@echo "... playertomedic.s"
-	@echo "... playertomutant.o"
-	@echo "... playertomutant.i"
-	@echo "... playertomutant.s"
-	@echo "... playertoparasite.o"
-	@echo "... playertoparasite.i"
-	@echo "... playertoparasite.s"
-	@echo "... playertotank.o"
-	@echo "... playertotank.i"
-	@echo "... playertotank.s"
-	@echo "... pvb.o"
-	@echo "... pvb.i"
-	@echo "... pvb.s"
-	@echo "... q_shared.o"
-	@echo "... q_shared.i"
-	@echo "... q_shared.s"
-	@echo "... repairstation.o"
-	@echo "... repairstation.i"
-	@echo "... repairstation.s"
-	@echo "... runes.o"
-	@echo "... runes.i"
-	@echo "... runes.s"
-	@echo "... scanner.o"
-	@echo "... scanner.i"
-	@echo "... scanner.s"
-	@echo "... sentrygun2.o"
-	@echo "... sentrygun2.i"
-	@echo "... sentrygun2.s"
-	@echo "... shaman.o"
-	@echo "... shaman.i"
-	@echo "... shaman.s"
-	@echo "... special_items.o"
-	@echo "... special_items.i"
-	@echo "... special_items.s"
-	@echo "... sqlite3.o"
-	@echo "... sqlite3.i"
-	@echo "... sqlite3.s"
-	@echo "... supplystation.o"
-	@echo "... supplystation.i"
-	@echo "... supplystation.s"
-	@echo "... teamplay.o"
-	@echo "... teamplay.i"
-	@echo "... teamplay.s"
-	@echo "... totems.o"
-	@echo "... totems.i"
-	@echo "... totems.s"
-	@echo "... trade.o"
-	@echo "... trade.i"
-	@echo "... trade.s"
-	@echo "... upgrades.o"
-	@echo "... upgrades.i"
-	@echo "... upgrades.s"
-	@echo "... v_cmd.o"
-	@echo "... v_cmd.i"
-	@echo "... v_cmd.s"
-	@echo "... v_file_IO.o"
-	@echo "... v_file_IO.i"
-	@echo "... v_file_IO.s"
-	@echo "... v_hw.o"
-	@echo "... v_hw.i"
-	@echo "... v_hw.s"
-	@echo "... v_items.o"
-	@echo "... v_items.i"
-	@echo "... v_items.s"
-	@echo "... v_maplist.o"
-	@echo "... v_maplist.i"
-	@echo "... v_maplist.s"
-	@echo "... v_mysql_gds.o"
-	@echo "... v_mysql_gds.i"
-	@echo "... v_mysql_gds.s"
-	@echo "... v_tbi.o"
-	@echo "... v_tbi.i"
-	@echo "... v_tbi.s"
-	@echo "... v_utils.o"
-	@echo "... v_utils.i"
-	@echo "... v_utils.s"
-	@echo "... vote.o"
-	@echo "... vote.i"
-	@echo "... vote.s"
-	@echo "... weapon_upgrades.o"
-	@echo "... weapon_upgrades.i"
-	@echo "... weapon_upgrades.s"
-	@echo "... weapons.o"
-	@echo "... weapons.i"
-	@echo "... weapons.s"
+	@echo "... src/Player.o"
+	@echo "... src/Player.i"
+	@echo "... src/Player.s"
+	@echo "... src/Spirit.o"
+	@echo "... src/Spirit.i"
+	@echo "... src/Spirit.s"
+	@echo "... src/Talents.o"
+	@echo "... src/Talents.i"
+	@echo "... src/Talents.s"
+	@echo "... src/ai/AStar.o"
+	@echo "... src/ai/AStar.i"
+	@echo "... src/ai/AStar.s"
+	@echo "... src/ai/ai_class_dmbot.o"
+	@echo "... src/ai/ai_class_dmbot.i"
+	@echo "... src/ai/ai_class_dmbot.s"
+	@echo "... src/ai/ai_class_monster_default.o"
+	@echo "... src/ai/ai_class_monster_default.i"
+	@echo "... src/ai/ai_class_monster_default.s"
+	@echo "... src/ai/ai_dropnodes.o"
+	@echo "... src/ai/ai_dropnodes.i"
+	@echo "... src/ai/ai_dropnodes.s"
+	@echo "... src/ai/ai_items.o"
+	@echo "... src/ai/ai_items.i"
+	@echo "... src/ai/ai_items.s"
+	@echo "... src/ai/ai_links.o"
+	@echo "... src/ai/ai_links.i"
+	@echo "... src/ai/ai_links.s"
+	@echo "... src/ai/ai_main.o"
+	@echo "... src/ai/ai_main.i"
+	@echo "... src/ai/ai_main.s"
+	@echo "... src/ai/ai_movement.o"
+	@echo "... src/ai/ai_movement.i"
+	@echo "... src/ai/ai_movement.s"
+	@echo "... src/ai/ai_navigation.o"
+	@echo "... src/ai/ai_navigation.i"
+	@echo "... src/ai/ai_navigation.s"
+	@echo "... src/ai/ai_nodes.o"
+	@echo "... src/ai/ai_nodes.i"
+	@echo "... src/ai/ai_nodes.s"
+	@echo "... src/ai/ai_tools.o"
+	@echo "... src/ai/ai_tools.i"
+	@echo "... src/ai/ai_tools.s"
+	@echo "... src/ai/ai_weapons.o"
+	@echo "... src/ai/ai_weapons.i"
+	@echo "... src/ai/ai_weapons.s"
+	@echo "... src/ai/bot_common.o"
+	@echo "... src/ai/bot_common.i"
+	@echo "... src/ai/bot_common.s"
+	@echo "... src/ai/bot_spawn.o"
+	@echo "... src/ai/bot_spawn.i"
+	@echo "... src/ai/bot_spawn.s"
+	@echo "... src/ally.o"
+	@echo "... src/ally.i"
+	@echo "... src/ally.s"
+	@echo "... src/armory.o"
+	@echo "... src/armory.i"
+	@echo "... src/armory.s"
+	@echo "... src/auras.o"
+	@echo "... src/auras.i"
+	@echo "... src/auras.s"
+	@echo "... src/backpack.o"
+	@echo "... src/backpack.i"
+	@echo "... src/backpack.s"
+	@echo "... src/bombspell.o"
+	@echo "... src/bombspell.i"
+	@echo "... src/bombspell.s"
+	@echo "... src/boss_general.o"
+	@echo "... src/boss_general.i"
+	@echo "... src/boss_general.s"
+	@echo "... src/boss_makron.o"
+	@echo "... src/boss_makron.i"
+	@echo "... src/boss_makron.s"
+	@echo "... src/boss_tank.o"
+	@echo "... src/boss_tank.i"
+	@echo "... src/boss_tank.s"
+	@echo "... src/class_brain.o"
+	@echo "... src/class_brain.i"
+	@echo "... src/class_brain.s"
+	@echo "... src/class_demon.o"
+	@echo "... src/class_demon.i"
+	@echo "... src/class_demon.s"
+	@echo "... src/cloak.o"
+	@echo "... src/cloak.i"
+	@echo "... src/cloak.s"
+	@echo "... src/ctf.o"
+	@echo "... src/ctf.i"
+	@echo "... src/ctf.s"
+	@echo "... src/damage.o"
+	@echo "... src/damage.i"
+	@echo "... src/damage.s"
+	@echo "... src/domination.o"
+	@echo "... src/domination.i"
+	@echo "... src/domination.s"
+	@echo "... src/drone_ai.o"
+	@echo "... src/drone_ai.i"
+	@echo "... src/drone_ai.s"
+	@echo "... src/drone_berserk.o"
+	@echo "... src/drone_berserk.i"
+	@echo "... src/drone_berserk.s"
+	@echo "... src/drone_bitch.o"
+	@echo "... src/drone_bitch.i"
+	@echo "... src/drone_bitch.s"
+	@echo "... src/drone_brain.o"
+	@echo "... src/drone_brain.i"
+	@echo "... src/drone_brain.s"
+	@echo "... src/drone_decoy.o"
+	@echo "... src/drone_decoy.i"
+	@echo "... src/drone_decoy.s"
+	@echo "... src/drone_gladiator.o"
+	@echo "... src/drone_gladiator.i"
+	@echo "... src/drone_gladiator.s"
+	@echo "... src/drone_gunner.o"
+	@echo "... src/drone_gunner.i"
+	@echo "... src/drone_gunner.s"
+	@echo "... src/drone_infantry.o"
+	@echo "... src/drone_infantry.i"
+	@echo "... src/drone_infantry.s"
+	@echo "... src/drone_jorg.o"
+	@echo "... src/drone_jorg.i"
+	@echo "... src/drone_jorg.s"
+	@echo "... src/drone_makron.o"
+	@echo "... src/drone_makron.i"
+	@echo "... src/drone_makron.s"
+	@echo "... src/drone_medic.o"
+	@echo "... src/drone_medic.i"
+	@echo "... src/drone_medic.s"
+	@echo "... src/drone_misc.o"
+	@echo "... src/drone_misc.i"
+	@echo "... src/drone_misc.s"
+	@echo "... src/drone_move.o"
+	@echo "... src/drone_move.i"
+	@echo "... src/drone_move.s"
+	@echo "... src/drone_mutant.o"
+	@echo "... src/drone_mutant.i"
+	@echo "... src/drone_mutant.s"
+	@echo "... src/drone_parasite.o"
+	@echo "... src/drone_parasite.i"
+	@echo "... src/drone_parasite.s"
+	@echo "... src/drone_retard.o"
+	@echo "... src/drone_retard.i"
+	@echo "... src/drone_retard.s"
+	@echo "... src/drone_soldier.o"
+	@echo "... src/drone_soldier.i"
+	@echo "... src/drone_soldier.s"
+	@echo "... src/drone_supertank.o"
+	@echo "... src/drone_supertank.i"
+	@echo "... src/drone_supertank.s"
+	@echo "... src/drone_tank.o"
+	@echo "... src/drone_tank.i"
+	@echo "... src/drone_tank.s"
+	@echo "... src/ents.o"
+	@echo "... src/ents.i"
+	@echo "... src/ents.s"
+	@echo "... src/file_output.o"
+	@echo "... src/file_output.i"
+	@echo "... src/file_output.s"
+	@echo "... src/flying_skull.o"
+	@echo "... src/flying_skull.i"
+	@echo "... src/flying_skull.s"
+	@echo "... src/forcewall.o"
+	@echo "... src/forcewall.i"
+	@echo "... src/forcewall.s"
+	@echo "... src/g_chase.o"
+	@echo "... src/g_chase.i"
+	@echo "... src/g_chase.s"
+	@echo "... src/g_cmds.o"
+	@echo "... src/g_cmds.i"
+	@echo "... src/g_cmds.s"
+	@echo "... src/g_combat.o"
+	@echo "... src/g_combat.i"
+	@echo "... src/g_combat.s"
+	@echo "... src/g_flame.o"
+	@echo "... src/g_flame.i"
+	@echo "... src/g_flame.s"
+	@echo "... src/g_func.o"
+	@echo "... src/g_func.i"
+	@echo "... src/g_func.s"
+	@echo "... src/g_items.o"
+	@echo "... src/g_items.i"
+	@echo "... src/g_items.s"
+	@echo "... src/g_lasers.o"
+	@echo "... src/g_lasers.i"
+	@echo "... src/g_lasers.s"
+	@echo "... src/g_main.o"
+	@echo "... src/g_main.i"
+	@echo "... src/g_main.s"
+	@echo "... src/g_misc.o"
+	@echo "... src/g_misc.i"
+	@echo "... src/g_misc.s"
+	@echo "... src/g_monster.o"
+	@echo "... src/g_monster.i"
+	@echo "... src/g_monster.s"
+	@echo "... src/g_phys.o"
+	@echo "... src/g_phys.i"
+	@echo "... src/g_phys.s"
+	@echo "... src/g_save.o"
+	@echo "... src/g_save.i"
+	@echo "... src/g_save.s"
+	@echo "... src/g_spawn.o"
+	@echo "... src/g_spawn.i"
+	@echo "... src/g_spawn.s"
+	@echo "... src/g_svcmds.o"
+	@echo "... src/g_svcmds.i"
+	@echo "... src/g_svcmds.s"
+	@echo "... src/g_sword.o"
+	@echo "... src/g_sword.i"
+	@echo "... src/g_sword.s"
+	@echo "... src/g_target.o"
+	@echo "... src/g_target.i"
+	@echo "... src/g_target.s"
+	@echo "... src/g_trigger.o"
+	@echo "... src/g_trigger.i"
+	@echo "... src/g_trigger.s"
+	@echo "... src/g_utils.o"
+	@echo "... src/g_utils.i"
+	@echo "... src/g_utils.s"
+	@echo "... src/g_weapon.o"
+	@echo "... src/g_weapon.i"
+	@echo "... src/g_weapon.s"
+	@echo "... src/gds.o"
+	@echo "... src/gds.i"
+	@echo "... src/gds.s"
+	@echo "... src/grid.o"
+	@echo "... src/grid.i"
+	@echo "... src/grid.s"
+	@echo "... src/hash_32a.o"
+	@echo "... src/hash_32a.i"
+	@echo "... src/hash_32a.s"
+	@echo "... src/help.o"
+	@echo "... src/help.i"
+	@echo "... src/help.s"
+	@echo "... src/invasion.o"
+	@echo "... src/invasion.i"
+	@echo "... src/invasion.s"
+	@echo "... src/item_menu.o"
+	@echo "... src/item_menu.i"
+	@echo "... src/item_menu.s"
+	@echo "... src/jetpack.o"
+	@echo "... src/jetpack.i"
+	@echo "... src/jetpack.s"
+	@echo "... src/lasers.o"
+	@echo "... src/lasers.i"
+	@echo "... src/lasers.s"
+	@echo "... src/lasersight.o"
+	@echo "... src/lasersight.i"
+	@echo "... src/lasersight.s"
+	@echo "... src/laserstuff.o"
+	@echo "... src/laserstuff.i"
+	@echo "... src/laserstuff.s"
+	@echo "... src/m_flash.o"
+	@echo "... src/m_flash.i"
+	@echo "... src/m_flash.s"
+	@echo "... src/magic.o"
+	@echo "... src/magic.i"
+	@echo "... src/magic.s"
+	@echo "... src/maplist.o"
+	@echo "... src/maplist.i"
+	@echo "... src/maplist.s"
+	@echo "... src/menu.o"
+	@echo "... src/menu.i"
+	@echo "... src/menu.s"
+	@echo "... src/minisentry.o"
+	@echo "... src/minisentry.i"
+	@echo "... src/minisentry.s"
+	@echo "... src/misc_stuff.o"
+	@echo "... src/misc_stuff.i"
+	@echo "... src/misc_stuff.s"
+	@echo "... src/p_client.o"
+	@echo "... src/p_client.i"
+	@echo "... src/p_client.s"
+	@echo "... src/p_hook.o"
+	@echo "... src/p_hook.i"
+	@echo "... src/p_hook.s"
+	@echo "... src/p_hud.o"
+	@echo "... src/p_hud.i"
+	@echo "... src/p_hud.s"
+	@echo "... src/p_menu.o"
+	@echo "... src/p_menu.i"
+	@echo "... src/p_menu.s"
+	@echo "... src/p_parasite.o"
+	@echo "... src/p_parasite.i"
+	@echo "... src/p_parasite.s"
+	@echo "... src/p_trail.o"
+	@echo "... src/p_trail.i"
+	@echo "... src/p_trail.s"
+	@echo "... src/p_view.o"
+	@echo "... src/p_view.i"
+	@echo "... src/p_view.s"
+	@echo "... src/p_weapon.o"
+	@echo "... src/p_weapon.i"
+	@echo "... src/p_weapon.s"
+	@echo "... src/player_points.o"
+	@echo "... src/player_points.i"
+	@echo "... src/player_points.s"
+	@echo "... src/playerlog.o"
+	@echo "... src/playerlog.i"
+	@echo "... src/playerlog.s"
+	@echo "... src/playertoberserk.o"
+	@echo "... src/playertoberserk.i"
+	@echo "... src/playertoberserk.s"
+	@echo "... src/playertoflyer.o"
+	@echo "... src/playertoflyer.i"
+	@echo "... src/playertoflyer.s"
+	@echo "... src/playertomedic.o"
+	@echo "... src/playertomedic.i"
+	@echo "... src/playertomedic.s"
+	@echo "... src/playertomutant.o"
+	@echo "... src/playertomutant.i"
+	@echo "... src/playertomutant.s"
+	@echo "... src/playertoparasite.o"
+	@echo "... src/playertoparasite.i"
+	@echo "... src/playertoparasite.s"
+	@echo "... src/playertotank.o"
+	@echo "... src/playertotank.i"
+	@echo "... src/playertotank.s"
+	@echo "... src/pvb.o"
+	@echo "... src/pvb.i"
+	@echo "... src/pvb.s"
+	@echo "... src/q_shared.o"
+	@echo "... src/q_shared.i"
+	@echo "... src/q_shared.s"
+	@echo "... src/repairstation.o"
+	@echo "... src/repairstation.i"
+	@echo "... src/repairstation.s"
+	@echo "... src/runes.o"
+	@echo "... src/runes.i"
+	@echo "... src/runes.s"
+	@echo "... src/scanner.o"
+	@echo "... src/scanner.i"
+	@echo "... src/scanner.s"
+	@echo "... src/sentrygun2.o"
+	@echo "... src/sentrygun2.i"
+	@echo "... src/sentrygun2.s"
+	@echo "... src/shaman.o"
+	@echo "... src/shaman.i"
+	@echo "... src/shaman.s"
+	@echo "... src/special_items.o"
+	@echo "... src/special_items.i"
+	@echo "... src/special_items.s"
+	@echo "... src/sqlite3.o"
+	@echo "... src/sqlite3.i"
+	@echo "... src/sqlite3.s"
+	@echo "... src/supplystation.o"
+	@echo "... src/supplystation.i"
+	@echo "... src/supplystation.s"
+	@echo "... src/teamplay.o"
+	@echo "... src/teamplay.i"
+	@echo "... src/teamplay.s"
+	@echo "... src/totems.o"
+	@echo "... src/totems.i"
+	@echo "... src/totems.s"
+	@echo "... src/trade.o"
+	@echo "... src/trade.i"
+	@echo "... src/trade.s"
+	@echo "... src/upgrades.o"
+	@echo "... src/upgrades.i"
+	@echo "... src/upgrades.s"
+	@echo "... src/v_cmd.o"
+	@echo "... src/v_cmd.i"
+	@echo "... src/v_cmd.s"
+	@echo "... src/v_file_IO.o"
+	@echo "... src/v_file_IO.i"
+	@echo "... src/v_file_IO.s"
+	@echo "... src/v_hw.o"
+	@echo "... src/v_hw.i"
+	@echo "... src/v_hw.s"
+	@echo "... src/v_items.o"
+	@echo "... src/v_items.i"
+	@echo "... src/v_items.s"
+	@echo "... src/v_maplist.o"
+	@echo "... src/v_maplist.i"
+	@echo "... src/v_maplist.s"
+	@echo "... src/v_mysql_gds.o"
+	@echo "... src/v_mysql_gds.i"
+	@echo "... src/v_mysql_gds.s"
+	@echo "... src/v_tbi.o"
+	@echo "... src/v_tbi.i"
+	@echo "... src/v_tbi.s"
+	@echo "... src/v_utils.o"
+	@echo "... src/v_utils.i"
+	@echo "... src/v_utils.s"
+	@echo "... src/vote.o"
+	@echo "... src/vote.i"
+	@echo "... src/vote.s"
+	@echo "... src/weapon_upgrades.o"
+	@echo "... src/weapon_upgrades.i"
+	@echo "... src/weapon_upgrades.s"
+	@echo "... src/weapons.o"
+	@echo "... src/weapons.i"
+	@echo "... src/weapons.s"
 .PHONY : help
 
 
