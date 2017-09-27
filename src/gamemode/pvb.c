@@ -1,5 +1,5 @@
 #include "g_local.h"
-#include "boss.h"
+#include "monster/boss.h"
 
 #define PVB_BOSS_EXPERIENCE		3000
 #define PVB_BOSS_MIN_EXP		100

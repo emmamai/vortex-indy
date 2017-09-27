@@ -16,8 +16,15 @@ option(VRX_USEHASH "Use hashing on commands instead of iterating through the lis
 
 # Source files
 file (GLOB VRX_FILES ./src/*.c)
+file (GLOB VRX_BOT_FILES ./src/ai/*.c)
+file (GLOB VRX_ABIL_FILES ./src/abil/*.c)
+file (GLOB VRX_GAMEMODE_FILES ./src/gamemode/*.c)
+file (GLOB VRX_MENU_FILES ./src/menu/*.c)
+file (GLOB VRX_PLAYER_FILES ./src/player/*.c)
+file (GLOB VRX_MONSTER_FILES ./src/monster/*.c)
+file (GLOB VRX_MISC_FILES ./src/misc/*.c)
+file (GLOB VRX_SQL_FILES ./src/sql/*.c)
 file (GLOB VRX_SUBDIR_FILES ./src/*/*.c)
-#file (GLOB VRX_BOT_FILES ./src/ai/*.c)
 
 # Set the platform-specific library name and use platform-specific files.
 if (WIN32)
@@ -32,8 +39,12 @@ else ()
   message (FATAL "Unknown platform")
 endif ()
 
+# Specify include directories
+
+include_directories( ./src/ ./src/*/ )
+
 # Specify the source files for the game library
-add_library (${CC_LIB_NAME} SHARED ${VRX_FILES} ${VRX_BOT_FILES})
+add_library (${CC_LIB_NAME} SHARED ${VRX_FILES} ${VRX_SUBDIR_FILES})
 
 if (VRX_USE_MYSQL AND WIN32)
     set (CC_LINK_LIBS ${CC_LINK_LIBS} libmysql)

@@ -1,5 +1,5 @@
 #include "g_local.h"
-#include "m_mutant.h"
+#include "monster/m_mutant.h"
 
 #define MUTANT_FRAMES_IDLE_START	62
 #define MUTANT_FRAMES_IDLE_END		125

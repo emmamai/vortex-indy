@@ -1,5 +1,5 @@
 #include "g_local.h"
-#include "boss.h"
+#include "monster/boss.h"
 
 #define TANK_FRAMES_START_STAND		0
 #define TANK_FRAMES_END_STAND		29

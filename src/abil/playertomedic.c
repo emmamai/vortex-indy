@@ -1,5 +1,5 @@
 #include "g_local.h"
-#include "m_medic.h"
+#include "monster/m_medic.h"
 
 #define MEDIC_FRAMES_IDLE_START		12
 #define MEDIC_FRAMES_IDLE_END		101
