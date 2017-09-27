@@ -16,7 +16,8 @@ option(VRX_USEHASH "Use hashing on commands instead of iterating through the lis
 
 # Source files
 file (GLOB VRX_FILES ./src/*.c)
-file (GLOB VRX_BOT_FILES ./src/ai/*.c)
+file (GLOB VRX_SUBDIR_FILES ./src/*/*.c)
+#file (GLOB VRX_BOT_FILES ./src/ai/*.c)
 
 # Set the platform-specific library name and use platform-specific files.
 if (WIN32)

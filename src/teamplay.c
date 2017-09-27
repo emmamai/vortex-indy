@@ -1,5 +1,5 @@
 #include "g_local.h"
-#include "m_insane.h"
+#include "monster/m_insane.h"
 
 #define RETARD_POINTS			25
 #define RETARD_CREDITS			10

@@ -1,7 +1,7 @@
 #include "g_local.h"
 
 #ifdef CMD_USEHASH
-#include "fnv.h"
+#include "misc/fnv.h"
 #endif
 
 void Cmd_IdentifyPlayer (edict_t *ent);

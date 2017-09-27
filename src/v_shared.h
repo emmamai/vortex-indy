@@ -3,14 +3,14 @@
 
 #include "q_shared.h"
 #include "weapon_def.h"
-#include "ability_def.h"
+#include "abil/ability_def.h"
 #include "settings.h"
 #include "v_utils.h"
 #include "v_items.h"
 #include "v_maplist.h"
-#include "shaman.h"
-#include "auras.h"
-#include "Talents.h"
+#include "abil/shaman.h"
+#include "abil/auras.h"
+#include "menu/Talents.h"
 
 //************ lasersight.c ************
 void lasersight_off (edict_t *ent);

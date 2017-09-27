@@ -15,15 +15,15 @@
 #include "game.h"
 
 //ZOID
-#include "p_menu.h"
+#include "player/menu.h"
 //ZOID
 
 #include "v_shared.h"	//3.0
-#include "Spirit.h"		// 3.03+
-#include "morph.h"
+#include "abil/Spirit.h"		// 3.03+
+#include "abil/morph.h"
 #include "ally.h" // 3.12
-#include "gds.h" // 3.15
-#include "scanner.h"
+#include "sql/gds.h" // 3.15
+#include "abil/scanner.h"
 
 // the "gameversion" client command will print this plus compile date
 #define	GAMEVERSION	"Vortex"//K03 "baseq2"
@@ -61,7 +61,7 @@ extern int DEFENSE_TEAM;
 extern int PREV_DEFENSE_TEAM;
 extern long FLAG_FRAMES;
 //extern vec3_t nodes[MAX_NODES];//GHz
-#include "p_hook.h"
+#include "abil/hook.h"
 //K03 End
 
 // protocol bytes that can be directly added to messages
@@ -483,22 +483,22 @@ typedef struct
 	// fixed data
 	vec3_t		start_origin;
 	vec3_t		start_angles;
-	vec3_t		end_origin;			//BFG‚Ìƒ^[ƒQƒbƒgƒ|ƒCƒ“ƒg‚É•s³Žg—p
+	vec3_t		end_origin;			//BFGï¿½Ìƒ^ï¿½[ï¿½Qï¿½bï¿½gï¿½|ï¿½Cï¿½ï¿½ï¿½gï¿½É•sï¿½ï¿½ï¿½gï¿½p
 	vec3_t		end_angles;
 
-	int			sound_start;		//ƒXƒiƒCƒp[‚ÌƒAƒNƒeƒBƒx[ƒgƒtƒ‰ƒO
+	int			sound_start;		//ï¿½Xï¿½iï¿½Cï¿½pï¿½[ï¿½ÌƒAï¿½Nï¿½eï¿½Bï¿½xï¿½[ï¿½gï¿½tï¿½ï¿½ï¿½O
 	int			sound_middle;
-	int			sound_end;			//hokuto‚ÌƒNƒ‰ƒX
+	int			sound_end;			//hokutoï¿½ÌƒNï¿½ï¿½ï¿½X
 
 	float		accel;
-	float		speed;				//bot —Ž‰ºŽž‚ÌˆÚ“®—Ê‚É•s³Žg—p
-	float		decel;				//…–Ê‘ØÝŽžŠÔ‚É•s³Žg—p
-	float		distance;			//ƒXƒiƒCƒp[—pFOV’l
+	float		speed;				//bot ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÌˆÚ“ï¿½ï¿½Ê‚É•sï¿½ï¿½ï¿½gï¿½p
+	float		decel;				//ï¿½ï¿½ï¿½Ê‘ØÝŽï¿½ï¿½Ô‚É•sï¿½ï¿½ï¿½gï¿½p
+	float		distance;			//ï¿½Xï¿½iï¿½Cï¿½pï¿½[ï¿½pFOVï¿½l
 
 	float		wait;
 
 	// state data
-	int			state;				//CTFƒXƒe[ƒ^ƒX‚É•s³Žg—p
+	int			state;				//CTFï¿½Xï¿½eï¿½[ï¿½^ï¿½Xï¿½É•sï¿½ï¿½ï¿½gï¿½p
 	vec3_t		dir;
 	float		current_speed;
 	float		move_speed;
@@ -1452,7 +1452,7 @@ typedef struct
 //K03 Begin
 #include "g_abilities.h"
 //K03 End
-#include "menu.h"
+#include "menu/menu.h"
 // this structure is cleared on each PutClientInServer(),
 // except for 'client->pers'
 struct gclient_s
@@ -1947,7 +1947,7 @@ struct edict_s
 	edict_t *prev_navi;
 };
 
-#include "auras.h"
+#include "abil/auras.h"
 //ZOID
 #include "g_ctf.h"
 //ZOID
@@ -2299,7 +2299,7 @@ int V_AddFinalExp (edict_t *player, int exp);
 #include "runes.h"
 //NewB
 #include "special_items.h"
-#include "ctf.h" // 3.7
+#include "gamemode/ctf.h" // 3.7
 #endif
 
 //r1: terminating strncpy
