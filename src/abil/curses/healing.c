@@ -1,6 +1,13 @@
 #include "g_local.h"
 #include "curses.h"
 
+#define HEALING_DELAY			2
+#define HEALING_DURATION_BASE	10.5	//allow for 10 "ticks"
+#define HEALING_DURATION_BONUS	0
+#define HEALING_COST			50
+#define HEALING_HEAL_BASE		0
+#define HEALING_HEAL_BONUS		1
+
 //************************************************************************************************
 //			Healing (Blessing)
 //************************************************************************************************
@@ -82,10 +89,6 @@ void Healing_think(edict_t *self)
 	}
 }
 
-
-
-
-
 void Cmd_Healing(edict_t *ent)
 {
 	int radius;
@@ -101,7 +104,7 @@ void Cmd_Healing(edict_t *ent)
 	if (!G_CanUseAbilities(ent, ent->myskills.abilities[HEALING].current_level, HEALING_COST))
 		return;
 
-	radius = SHAMAN_CURSE_RADIUS_BASE + (SHAMAN_CURSE_RADIUS_BONUS * ent->myskills.abilities[HEALING].current_level);
+	radius = BLESSING_RADIUS_BASE + (BLESSING_RADIUS_BONUS * ent->myskills.abilities[HEALING].current_level);
 	duration = HEALING_DURATION_BASE + (HEALING_DURATION_BONUS * ent->myskills.abilities[HEALING].current_level);
 
 	//Blessing self?

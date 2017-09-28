@@ -1,6 +1,12 @@
 #include "g_local.h"
 #include "curses.h"
 
+#define WEAKEN_DELAY			2
+#define WEAKEN_DURATION_BASE	0
+#define WEAKEN_DURATION_BONUS	1.0
+#define WEAKEN_COST				50
+// Four additional defines in curses.h
+
 //************************************************************************************************
 //			Weaken Curse
 //************************************************************************************************

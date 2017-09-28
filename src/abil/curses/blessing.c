@@ -1,6 +1,12 @@
 #include "g_local.h"
 #include "curses.h"
 
+#define BLESS_DELAY				0
+#define BLESS_DURATION_BASE		0
+#define BLESS_DURATION_BONUS	0.5
+#define BLESS_COST				50
+// Two more defines in curses.h
+
 //************************************************************************************************
 //			Bless (Blessing)
 //************************************************************************************************
@@ -53,7 +59,7 @@ void Cmd_Bless(edict_t *ent)
 	if (!V_CanUseAbilities(ent, BLESS, BLESS_COST, true))
 		return;
 
-	radius = SHAMAN_CURSE_RADIUS_BASE + (SHAMAN_CURSE_RADIUS_BONUS * ent->myskills.abilities[BLESS].current_level);
+	radius = BLESSING_RADIUS_BASE + (BLESSING_RADIUS_BONUS * ent->myskills.abilities[BLESS].current_level);
 	duration = BLESS_DURATION_BASE + (BLESS_DURATION_BONUS * ent->myskills.abilities[BLESS].current_level);
 
 	//Blessing self?

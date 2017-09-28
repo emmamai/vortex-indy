@@ -8,7 +8,7 @@
 #include "v_utils.h"
 #include "v_items.h"
 #include "v_maplist.h"
-#include "abil/shaman.h"
+#include "abil/curses/curses.h"
 #include "abil/auras.h"
 #include "menu/Talents.h"
 

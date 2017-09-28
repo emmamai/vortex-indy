@@ -1,6 +1,16 @@
 #include "g_local.h"
 #include "curses.h"
 
+#define LOWER_RESIST_INITIAL_RANGE			512
+#define LOWER_RESIST_ADDON_RANGE			0
+#define LOWER_RESIST_INITIAL_RADIUS			256
+#define LOWER_RESIST_ADDON_RADIUS			0
+#define LOWER_RESIST_INITIAL_DURATION		0
+#define LOWER_RESIST_ADDON_DURATION			1.0
+#define LOWER_RESIST_COST					50
+#define LOWER_RESIST_DELAY					1.0
+// two additional defines in curses.h
+
 //************************************************************************************************
 //			Lower Resist Curse
 //************************************************************************************************

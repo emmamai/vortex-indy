@@ -1,6 +1,11 @@
 #include "g_local.h"
 #include "curses.h"
 
+#define AMNESIA_DELAY			2
+#define AMNESIA_DURATION_BASE	0
+#define AMNESIA_DURATION_BONUS	2
+#define AMNESIA_COST			50
+
 //************************************************************************************************
 //			Disables all skills, called when target is cursed with amnesia
 //************************************************************************************************
@@ -47,7 +52,7 @@ void Cmd_Amnesia(edict_t *ent)
 	if (!G_CanUseAbilities(ent, ent->myskills.abilities[AMNESIA].current_level, cost))
 		return;
 
-	radius = SHAMAN_CURSE_RADIUS_BASE + (SHAMAN_CURSE_RADIUS_BONUS * ent->myskills.abilities[AMNESIA].current_level);
+	radius = BLESSING_RADIUS_BASE + (BLESSING_RADIUS_BONUS * ent->myskills.abilities[AMNESIA].current_level);
 	duration = AMNESIA_DURATION_BASE + (AMNESIA_DURATION_BONUS * ent->myskills.abilities[AMNESIA].current_level);
 
 	//Talent: Evil curse

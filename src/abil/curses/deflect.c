@@ -1,6 +1,12 @@
 #include "g_local.h"
 #include "curses.h"
 
+#define DEFLECT_INITIAL_DURATION			0
+#define DEFLECT_ADDON_DURATION				1.0	
+#define DEFLECT_COST						50
+#define DEFLECT_DELAY						2.0
+// 9 more defines in curses.h
+
 void ProjectileReverseCourse (edict_t *proj)
 {
 	VectorNegate(proj->movedir, proj->movedir);

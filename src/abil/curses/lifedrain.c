@@ -1,6 +1,14 @@
 #include "g_local.h"
 #include "curses.h"
 
+#define LIFE_DRAIN_DELAY			2
+#define LIFE_DRAIN_COST				50
+#define LIFE_DRAIN_HEALTH			10
+#define LIFE_DRAIN_DURATION_BASE	0
+#define LIFE_DRAIN_DURATION_BONUS	1.0
+#define LIFE_DRAIN_RANGE			256
+#define LIFE_DRAIN_UPDATETIME		1.0
+
 //************************************************************************************************
 //			Life Drain Curse
 //************************************************************************************************

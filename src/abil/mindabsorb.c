@@ -1,5 +1,10 @@
 #include "g_local.h"
 
+#define MIND_ABSORB_RADIUS_BASE		256
+#define MIND_ABSORB_RADIUS_BONUS	0
+#define MIND_ABSORB_AMOUNT_BASE		0
+#define MIND_ABSORB_AMOUNT_BONUS	10
+
 //************************************************************************************************
 //			Mind Absorb (passive skill)
 //************************************************************************************************

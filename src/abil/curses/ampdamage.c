@@ -1,6 +1,12 @@
 #include "g_local.h"
 #include "curses.h"
 
+#define AMP_DAMAGE_DELAY			2
+#define AMP_DAMAGE_DURATION_BASE	0
+#define AMP_DAMAGE_DURATION_BONUS	1.0
+#define AMP_DAMAGE_COST				50
+// Two additional defines in curses.h
+
 //************************************************************************************************
 //			Amp Damage Curse
 //************************************************************************************************

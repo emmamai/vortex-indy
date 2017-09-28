@@ -1,6 +1,11 @@
 #include "g_local.h"
 #include "curses.h"
 
+#define CURSE_DELAY				2
+#define CURSE_DURATION_BASE		0
+#define CURSE_DURATION_BONUS	1
+#define CURSE_COST				25
+
 //************************************************************************************************
 //			Curse
 //************************************************************************************************
