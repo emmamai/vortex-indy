@@ -3130,6 +3130,8 @@ void ClientCommand (edict_t *ent)
 		OpenWeaponUpgradeMenu(ent, 0);
 	else if (Q_stricmp(cmd, "talents") == 0)
 		OpenTalentUpgradeMenu(ent, 0);
+	else if (Q_stricmp(cmd, "combat") == 0)
+		OpenCombatMenu(ent, 0);
 	else if (Q_stricmp (cmd, "hook") == 0)
         hook_fire (ent);
     else if (Q_stricmp (cmd, "unhook") == 0)
