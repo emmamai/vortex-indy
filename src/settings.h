@@ -650,11 +650,6 @@ const char* Time();
 #define CORPSE_EXPLOSION_MAX_RANGE			8192
 #define CORPSE_EXPLOSION_SEARCH_RADIUS		128
 
-#define CRIPPLE_RANGE			256
-#define CRIPPLE_COST			25
-#define CRIPPLE_DELAY			2.0
-#define CRIPPLE_MAX_DAMAGE		500
-
 #define TELEPORT_COST	20
 
 #endif

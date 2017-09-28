@@ -20,7 +20,7 @@
 
 #include "v_shared.h"	//3.0
 #include "abil/Spirit.h"		// 3.03+
-#include "abil/morph.h"
+#include "abil/morph/morph.h"
 #include "ally.h" // 3.12
 #include "sql/gds.h" // 3.15
 #include "abil/scanner.h"
@@ -2291,14 +2291,10 @@ int numNearbyEntities (edict_t *ent, float dist, qboolean vis);
 void RemoveLasers (edict_t *ent);
 int V_AddFinalExp (edict_t *player, int exp);
 
-//GDS STUFF
-//#include "sqlstuff.h"
-//K03 End
+#define WEAPON_RUNE			1
+#define ABILITY_RUNE		2
+#define HEALTH_POTION		3
 
-//NewB
-#include "runes.h"
-//NewB
-#include "special_items.h"
 #include "gamemode/ctf.h" // 3.7
 #endif
 

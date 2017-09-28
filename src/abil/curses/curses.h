@@ -1,0 +1,11 @@
+qboolean G_CurseValidTarget (edict_t *self, edict_t *target, qboolean vis, qboolean isCurse);
+void curse_think(edict_t *self);
+qboolean curse_add(edict_t *target, edict_t *caster, int type, int curse_level, float duration);
+edict_t *curse_MultiAttack (edict_t *e, edict_t *caster, int type, int range, float duration, qboolean isCurse);
+edict_t *curse_Attack(edict_t *caster, int type, int radius, float duration, qboolean isCurse);
+qboolean CanCurseTarget (edict_t *caster, edict_t *target, int type, qboolean isCurse, qboolean vis);
+char *GetCurseName (int type);
+void CurseMessage (edict_t *caster, edict_t *target, int type, float duration, qboolean isCurse);
+void CurseRadiusAttack (edict_t *caster, int type, int range, int radius, float duration, qboolean isCurse);
+void CursedPlayer (edict_t *ent);
+void CurseEffects (edict_t *self, int num, int color);
