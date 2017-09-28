@@ -272,9 +272,9 @@ void ShowBasicsMenu(edict_t *ent)
 	addlinetomenu(ent, " ", 0);
 	addlinetomenu(ent, " To find out more about the", 0);
 	addlinetomenu(ent, " basics of Vortex, go", 0);
-	addlinetomenu(ent, " visit our website at:", 0);
+	addlinetomenu(ent, " see our manual at", 0);
 	addlinetomenu(ent, " ", 0);
-	addlinetomenu(ent, " www.project-vortex.com", MENU_GREEN_CENTERED);
+	addlinetomenu(ent, " https://git.io/vdOos", MENU_GREEN_CENTERED);
 	addlinetomenu(ent, " ", 0);
 	addlinetomenu(ent, " There is too much info", 0);
 	addlinetomenu(ent, " to show in this menu.", 0);

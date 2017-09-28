@@ -779,18 +779,17 @@ void OpenJoinMenu (edict_t *ent)
 
 	//				    xxxxxxxxxxxxxxxxxxxxxxxxxxx (max length 27 chars)
 
-	addlinetomenu(ent, va("Vortex Chile v%s", VRX_VERSION), MENU_GREEN_CENTERED);
-	//addlinetomenu(ent, "www.v2gamers.cl", MENU_GREEN_CENTERED);
+	addlinetomenu(ent, va("Vortex Indy v%s", VRX_VERSION), MENU_GREEN_CENTERED);
 	addlinetomenu(ent, " ", 0);
-	addlinetomenu(ent, " ", 0);
-	addlinetomenu(ent, "Original design by Kombat03.", 0);
-	addlinetomenu(ent, "Ideas borrowed from KOTS,", 0);
-	addlinetomenu(ent, "with input from our players!", 0);
-	addlinetomenu(ent, " ", 0);
-	addlinetomenu(ent, "Programmers:", 0);
-	addlinetomenu(ent, "GHz, Kombat03, Chamooze", 0);
-	addlinetomenu(ent, "NewB, and doomie.", 0);
-	addlinetomenu(ent, " ", 0);
+	addlinetomenu(ent, "", 0);
+	addlinetomenu(ent, "Original design by Kombat03", 0);
+	addlinetomenu(ent, "", 0);
+	addlinetomenu(ent, "Programming by GHz, NewB,", 0);
+	addlinetomenu(ent, "Kombat03, Chamooze, doomie", 0);
+	addlinetomenu(ent, "", 0);
+	addlinetomenu(ent, "Maintained by ky0ko", 0);
+	addlinetomenu(ent, "with help from darkzard", 0);
+	addlinetomenu(ent, "", 0);
 	addlinetomenu(ent, "Start your reign", 1);
 	addlinetomenu(ent, "Toggle chasecam", 2);
 	addlinetomenu(ent, "Exit", 3);
