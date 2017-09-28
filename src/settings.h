@@ -631,10 +631,10 @@ const char* Time();
 #define MIRV_DELAY					0.5
 #define MIRV_COST					35
 
-#define SPIKER_INITIAL_HEALTH			90
-#define SPIKER_ADDON_HEALTH				33
+#define SPIKER_INITIAL_HEALTH			95
+#define SPIKER_ADDON_HEALTH				36
 #define SPIKER_INITIAL_DAMAGE			50
-#define SPIKER_ADDON_DAMAGE				13
+#define SPIKER_ADDON_DAMAGE				17
 #define SPIKER_INITIAL_SPEED			1000
 #define SPIKER_ADDON_SPEED				0
 #define SPIKER_COST						25
