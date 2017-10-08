@@ -49,29 +49,22 @@ void setHardMax(edict_t *ent, int index)
 			// Special cases for the non-general ability mode.
 
 		case REGENERATION:
-			if (!generalabmode->value)
-			{
 				if (ent->myskills.abilities[index].general_skill)
 					ent->myskills.abilities[index].hard_max = 15;
 				break;
-			}
-
 		case STRENGTH:
 		case RESISTANCE:
-			if (!generalabmode->value)
-			{
-				if (ent->myskills.abilities[index].general_skill && 
-					!ent->myskills.class_num == CLASS_SOLDIER)
-				{					
-					ent->myskills.abilities[index].hard_max = 15;
-					
-				}
-				else
-				{
-					ent->myskills.abilities[index].hard_max = 30;					
-				}	
-				break;			
+			if (ent->myskills.abilities[index].general_skill && 
+				!ent->myskills.class_num == CLASS_SOLDIER)
+			{					
+				ent->myskills.abilities[index].hard_max = 15;
+				
 			}
+			else
+			{
+				ent->myskills.abilities[index].hard_max = 30;					
+			}	
+			break;			
 
 		//Everything else
 		default:
@@ -301,18 +294,15 @@ void setGeneralAbilities (edict_t *ent)
 
 	enableAbility(ent, SCANNER, 0, 1, 1);
 
-	// vrxchile 2.7 mobility skills
-	// vrxchile 3.2 disable mobility skills
-	/*
-	enableAbility(ent, GRAPPLE_HOOK, 0, 3, 2);
-	enableAbility(ent, JETPACK, 0, 1, 2);
-	enableAbility(ent, SUPER_SPEED, 0, 1, 2);
-	enableAbility(ent, DOUBLE_JUMP, 0, 1, 2);
-	enableAbility(ent, ANTIGRAV, 0, 1, 2);
-	enableAbility(ent, BLACKHOLE, 0, 1, 2);
-	enableAbility(ent, BOOST_SPELL, 0, 1, 2);
-	enableAbility(ent, TELEPORT, 0, 1, 2);
-	*/
+	enableAbility(ent, GRAPPLE_HOOK, 0, 3, 1);
+	enableAbility(ent, JETPACK, 0, 1, 1);
+	enableAbility(ent, SUPER_SPEED, 0, 1, 1);
+	enableAbility(ent, DOUBLE_JUMP, 0, 1, 1);
+	enableAbility(ent, ANTIGRAV, 0, 1, 1);
+	enableAbility(ent, BLACKHOLE, 0, 1, 1);
+	enableAbility(ent, BOOST_SPELL, 0, 1, 1);
+	enableAbility(ent, TELEPORT, 0, 1, 1);
+
 	if (ent->myskills.class_num == CLASS_WEAPONMASTER || generalabmode->value) // vrxchile 2.0: WMs are the new APs.
 	{
 		enableAbility(ent, VAMPIRE, 0, 5, 1);
@@ -358,7 +348,7 @@ void setGeneralAbilities (edict_t *ent)
 		enableAbility(ent, BLESS, 0, 5, 1);
 		enableAbility(ent, WEAKEN, 0, 5, 1);
 		enableAbility(ent, HEALING, 0, 5, 1);
-		//	enableAbility(ent, AMMO_UPGRADE, 0, 5, 1);
+		//enableAbility(ent, AMMO_UPGRADE, 0, 5, 1);
 		enableAbility(ent, YIN, 0, 5, 1);
 		enableAbility(ent, YANG, 0, 5, 1);
 		enableAbility(ent, FLYER, 0, 5, 1);

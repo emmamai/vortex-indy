@@ -1014,7 +1014,7 @@ qboolean G_CanUseAbilities (edict_t *ent, int ability_lvl, int pc_cost)
 	}
 	if (pc_cost && (ent->client->pers.inventory[power_cube_index] < pc_cost))
 	{
-		safe_cprintf(ent, PRINT_HIGH, "You need more %d power cubes to use this ability.\n",
+		safe_cprintf(ent, PRINT_HIGH, "You need %d more power cubes to use this ability.\n",
 			pc_cost-ent->client->pers.inventory[power_cube_index]);
 		return false;
 	}

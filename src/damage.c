@@ -518,7 +518,7 @@ float G_SubDamage (edict_t *targ, edict_t *inflictor, edict_t *attacker,
 		return 0; // az 2.5 vrxchile: no damage in trading mode
 	if (OnSameTeam(attacker, targ) && (attacker != targ))
 	{
-		if (invasion->value > 1)
+		if (invasion->value > 2)
 		{
 			// if none of them is a client and the target is not a piloted monster
 			if (!(G_GetClient(attacker) && G_GetClient(targ)))

@@ -7,15 +7,15 @@ void Cmd_Antigrav_f (edict_t *ent)
 	if(ent->myskills.abilities[ANTIGRAV].disable)
 		return;
 
-	if (!G_CanUseAbilities(ent, ent->myskills.abilities[ANTIGRAV].current_level, 0))
-		return;
-
 	if (ent->antigrav == true)
 	{
 		safe_cprintf(ent, PRINT_HIGH, "Antigrav disabled.\n");
 		ent->antigrav = false;
 		return;
 	}
+
+	if (!G_CanUseAbilities(ent, ent->myskills.abilities[ANTIGRAV].current_level, 0))
+		return;
 
 	if(ent->myskills.abilities[ANTIGRAV].disable)
 		return;

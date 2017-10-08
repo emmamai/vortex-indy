@@ -16,7 +16,10 @@ void Spirit_Shoot(edict_t *self, edict_t *target, int damage, float next_shot)
 	MonsterAim(self, -1, 1000, false, 0, forward, start);
 
 	//Fire!
-	monster_fire_blaster(self, start, forward, damage, 1000, EF_BLASTER, BLASTER_PROJ_BOLT, 2.0, false, 0);
+	if(self->activator && self->activator->myskills.abilities[YANG].current_level > 5 && self->activator->myskills.weapons[WEAPON_BLASTER].mods[3].current_level > 0)
+		monster_fire_blaster(self, start, forward, damage, 1000, EF_HYPERBLASTER, BLASTER_PROJ_BOLT, 2.0, false, 0);
+	else
+		monster_fire_blaster(self, start, forward, damage, 1000, EF_BLASTER, BLASTER_PROJ_BOLT, 2.0, false, 0);
 
 	//Set up for the next shot
 	self->delay = level.time + next_shot;
@@ -36,6 +39,10 @@ void Spirit_AttackSomething(edict_t *self)
 
 	//Randomize damage
 	damage = GetRandom((int)(damage * 0.66), damage);
+
+	//deal less in PVP
+	if ( !invasion->value && !pvm->value )
+		damage = damage * 0.75;
 
 	//Talent: Balance Spirit
 	//Reduce effectiveness if this is a balance spirit

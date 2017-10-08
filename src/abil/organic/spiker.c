@@ -11,6 +11,18 @@
 #define SPIKER_FRAME_READY				13
 #define SPIKER_FRAME_DEAD				18
 
+#define SPIKER_INITIAL_HEALTH			100
+#define SPIKER_ADDON_HEALTH				40
+#define SPIKER_INITIAL_DAMAGE			50
+#define SPIKER_ADDON_DAMAGE				20
+#define SPIKER_INITIAL_SPEED			1000
+#define SPIKER_ADDON_SPEED				0
+#define SPIKER_COST						25
+#define SPIKER_DELAY					1.0
+#define SPIKER_REFIRE_DELAY				2.0
+#define SPIKER_INITIAL_RANGE			512
+#define SPIKER_ADDON_RANGE				0
+
 void spiker_dead (edict_t *self)
 {
 	if (level.time > self->delay)

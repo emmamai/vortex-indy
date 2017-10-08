@@ -98,5 +98,6 @@ if (WIN32)
   add_custom_command (TARGET ${CC_LIB_NAME} POST_BUILD COMMAND mv ${CC_LIB_NAME}.dll ../${CC_LIB_NAME}.dll)
 endif ()
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g")
-set(CMAKE_BUILD_TYPE "Debug")
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS} -g")
+set(CMAKE_CXX_FLAGS_RELEASE "-O3 -DNDEBUG")
+set(CMAKE_BUILD_TYPE "Release")

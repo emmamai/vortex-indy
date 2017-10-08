@@ -103,7 +103,7 @@ void Cmd_LightningStorm_f (edict_t *ent, float skill_mult, float cost_mult)
 
 	// get starting position and forward vector
 	AngleVectors (ent->client->v_angle, forward, right, NULL);
-	VectorSet(offset, 0, 8,  ent->viewheight-8);
+	VectorSet(offset, 0, 0, ent->viewheight);
 	P_ProjectSource(ent->client, ent->s.origin, offset, forward, right, start);
 
 	// get ending position

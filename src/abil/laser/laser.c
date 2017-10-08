@@ -242,7 +242,7 @@ void SpawnLaser (edict_t *ent, int cost, float skill_mult, float delay_mult)
 
 	// get starting position and forward vector
 	AngleVectors (ent->client->v_angle, forward, right, NULL);
-	VectorSet(offset, 0, 8,  ent->viewheight-8);
+	VectorSet(offset, 0, 0,  ent->viewheight);
 	P_ProjectSource(ent->client, ent->s.origin, offset, forward, right, start);
 	// get end position
 	VectorMA(start, 64, forward, end);

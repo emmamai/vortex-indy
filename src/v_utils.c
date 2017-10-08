@@ -501,7 +501,7 @@ char *GetRuneValString(item_t *rune)
 	{
 	case ITEM_WEAPON:
 		{
-			switch(level / 2)
+			switch(level / 3)
 			{
 			case 0:	 return "Worthless";
 			case 1:  return "Cracked";
@@ -535,7 +535,7 @@ char *GetRuneValString(item_t *rune)
 		break;
 	case ITEM_COMBO:	
 		{
-			switch(level / 2)
+			switch(level / 3)
 			{
 			case 0:	 return "Worthless";
 			case 1:  return "Cracked";
@@ -554,7 +554,7 @@ char *GetRuneValString(item_t *rune)
 			{
 			case CLASS_ENGINEER:
 				{
-					switch(level / 2)
+					switch(level / 3)
 					{
 					case 0:	 return "Student's";
 					case 1:  return "Assistant's";
@@ -569,7 +569,7 @@ char *GetRuneValString(item_t *rune)
 				break;
 			case CLASS_SOLDIER:
 				{
-					switch(level / 2)
+					switch(level / 3)
 					{
 					case 0:	 return "Newbie's";
 					case 1:  return "Greenhorn's";
@@ -584,7 +584,7 @@ char *GetRuneValString(item_t *rune)
 				break;
 			case CLASS_MAGE:
 				{
-					switch(level / 2)
+					switch(level / 3)
 					{
 					case 0:	 return "Apprentice's";
 					case 1:  return "Illusionist's";
@@ -599,7 +599,7 @@ char *GetRuneValString(item_t *rune)
 				break;
 			case CLASS_NECROMANCER:
 				{
-					switch(level / 2)
+					switch(level / 3)
 					{
 					case 0:	 return "Excorcist's";
 					case 1:  return "Theurgist's";
@@ -614,7 +614,7 @@ char *GetRuneValString(item_t *rune)
 				break;
 			case CLASS_VAMPIRE:
 				{
-					switch(level / 2)
+					switch(level / 3)
 					{
 					case 0:	 return "Ghoul's";
 					case 1:  return "Geist's";
@@ -629,7 +629,7 @@ char *GetRuneValString(item_t *rune)
 				break;
 			case CLASS_POLTERGEIST:
 				{
-					switch(level / 2)
+					switch(level / 3)
 					{
 					case 0:	 return "Spook's";
 					case 1:  return "Spirit's";
@@ -644,7 +644,7 @@ char *GetRuneValString(item_t *rune)
 				break;
 			case CLASS_KNIGHT:
 				{
-					switch(level / 2)
+					switch(level / 3)
 					{
 					case 0:	 return "Commoner's";
 					case 1:  return "Squire's";
@@ -659,7 +659,7 @@ char *GetRuneValString(item_t *rune)
 				break;
 			case CLASS_CLERIC:
 				{
-					switch(level / 2)
+					switch(level / 3)
 					{
 					case 0:	 return "Follower's";
 					case 1:  return "Acolyte's";
@@ -674,7 +674,7 @@ char *GetRuneValString(item_t *rune)
 				break;
 			case CLASS_WEAPONMASTER:
 				{
-					switch(level / 2)
+					switch(level / 3)
 					{
 					case 0:  return "Amateur's";
 					case 1:	 return "Neophyte's";
@@ -704,7 +704,7 @@ char *GetRuneValString(item_t *rune)
 				break;
 			case CLASS_SHAMAN:
 				{
-					switch (level / 2)
+					switch (level / 3)
 					{
 					case 0:  return "Villager's";
 					case 1:	 return "Agricultor's";
@@ -713,6 +713,21 @@ char *GetRuneValString(item_t *rune)
 					case 4:  return "Mapudungun's";
 					case 5:  return "Spiriter's";
 					case 6:  return "Totem Manipulator's";
+					default: return "Cheater's";
+					}
+				}
+				break;
+			case CLASS_KAMIKAZE:
+				{
+					switch (level / 3)
+					{
+					case 0:  return "Suicidal's";
+					case 1:	 return "Suicide Attacker's";
+					case 2:  return "Self-Immolator's";
+					case 3:  return "Self-Sacrificer's";
+					case 4:  return "Martyr's";
+					case 5:  return "Tokubetsu's";
+					case 6:  return "Kamikaze's";
 					default: return "Cheater's";
 					}
 				}
