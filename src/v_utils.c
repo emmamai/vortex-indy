@@ -360,7 +360,7 @@ char *GetTalentString(int talent_ID)
 	case TALENT_EXPLODING_BODIES:	return "Exploding Body";
 		// Kamikaze talents
 	case TALENT_MARTYR:				return "Martyr";
-	case TALENT_INSTANTPROXYS:		return "Instant Proxys";
+	case TALENT_INSTANTPROXYS:		return "Instant Proxies";
 	case TALENT_MAGMINESELF:		return "Magmine Self";
 	case TALENT_BLAST_RESIST:		return "Blast Resist";
 	default: return va("talent ID = %d", talent_ID);
