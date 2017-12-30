@@ -857,7 +857,7 @@ int T_Damage (edict_t *targ, edict_t *inflictor, edict_t *attacker,
 	save = 0;
 
 	// check for invincibility
-	if ((client && client->invincible_framenum > level.framenum ) && !(dflags & DAMAGE_NO_PROTECTION))
+	if (((client && client->invincible_framenum > level.framenum) || (targ->mtype == P_TANK && targ->owner && targ->owner->client && targ->owner->client->invincible_framenum > level.framenum)) && !(dflags & DAMAGE_NO_PROTECTION))
 	{
 		if (targ->pain_debounce_time < level.time)
 		{
