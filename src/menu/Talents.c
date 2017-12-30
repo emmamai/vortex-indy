@@ -465,8 +465,9 @@ int writeTalentDescription(edict_t *ent, int talentID)
 		addlinetomenu(ent, "Sharply increases hellspawn", MENU_WHITE_CENTERED);
 		addlinetomenu(ent, "and monster health/armor and", MENU_WHITE_CENTERED);
 		addlinetomenu(ent, "slightly increases damage.", MENU_WHITE_CENTERED);
-		addlinetomenu(ent, "Can't combine with Life Tap.", MENU_WHITE_CENTERED);
-		return 4;
+		addlinetomenu(ent, "Can't combine with", MENU_WHITE_CENTERED);
+		addlinetomenu(ent, "Monstrous Power.", MENU_WHITE_CENTERED);
+		return 5;
 	case TALENT_LIFE_TAP:
 		addlinetomenu(ent, "Slightly increases hellspawn", MENU_WHITE_CENTERED);
 		addlinetomenu(ent, "and monster health/armor and", MENU_WHITE_CENTERED);
