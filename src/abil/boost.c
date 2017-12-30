@@ -38,9 +38,11 @@ void Cmd_BoostPlayer(edict_t *ent)
 	talentLevel = getTalentLevel(ent, TALENT_MOBILITY);
 	switch(talentLevel)
 	{
-	case 1:		boost_delay -= 0.15;	break;
-	case 2:		boost_delay -= 0.3;		break;
-	case 3:		boost_delay -= 0.5;		break;
+	case 1:		boost_delay -= 0.1;		break;
+	case 2:		boost_delay -= 0.2;		break;
+	case 3:		boost_delay -= 0.3;		break;
+	case 4:		boost_delay -= 0.4;		break;
+	case 5:		boost_delay -= 0.5;		break;
 	default:	//Do nothing
 		break;
 	}
