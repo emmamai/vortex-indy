@@ -533,24 +533,23 @@ int writeTalentDescription(edict_t *ent, int talentID)
 		return 2;
 	// Kamikaze talents
 	case TALENT_MARTYR:
-		addlinetomenu(ent, "Creates an explotion", MENU_WHITE_CENTERED);
+		addlinetomenu(ent, "Creates an explosion", MENU_WHITE_CENTERED);
 		addlinetomenu(ent, "when you die.", MENU_WHITE_CENTERED);
 		return 2;
 	case TALENT_BLAST_RESIST:
 		addlinetomenu(ent, "Increases defense against", MENU_WHITE_CENTERED);
-		addlinetomenu(ent, "radius damage.", MENU_WHITE_CENTERED);
+		addlinetomenu(ent, "explosive damage.", MENU_WHITE_CENTERED);
 		return 2;
 	case TALENT_MAGMINESELF:
 		addlinetomenu(ent, "Gain the ability", MENU_WHITE_CENTERED);
 		addlinetomenu(ent, "to turn into a living magmine", MENU_WHITE_CENTERED);
-		addlinetomenu(ent, "using 'magmine self'.", MENU_WHITE_CENTERED);
+		addlinetomenu(ent, "(cmd 'magmine self').", MENU_WHITE_CENTERED);
 		return 3;
 	case TALENT_INSTANTPROXYS:
-		addlinetomenu(ent, "Makes proxys be removed", MENU_WHITE_CENTERED);
-		addlinetomenu(ent, "instantly when they explode.", MENU_WHITE_CENTERED);
-		addlinetomenu(ent, "On level 2, it removes", MENU_WHITE_CENTERED);
-		addlinetomenu(ent, "hold time when building them.", MENU_WHITE_CENTERED);
-		return 4;
+		addlinetomenu(ent, "Makes proxies disappear", MENU_WHITE_CENTERED);
+		addlinetomenu(ent, "when they explode and", MENU_WHITE_CENTERED);
+		addlinetomenu(ent, "decreases build time.", MENU_WHITE_CENTERED);
+		return 3;
 	default:	return 0;
 	}
 }
