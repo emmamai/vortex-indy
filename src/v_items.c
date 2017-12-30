@@ -508,7 +508,7 @@ void spawnNorm(edict_t *rune, int targ_level, int type)
 		{
 			int abilityIndex = GetRandom(0, MAX_ABILITIES-1);
 
-			while (abilityIndex == ID)
+			while (abilityIndex == ID || abilityIndex == AMMO_UPGRADE)
 			{
 				abilityIndex = GetRandom(0, MAX_ABILITIES-1);
 			}
