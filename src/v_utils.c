@@ -925,6 +925,21 @@ int getClassRuneStat(int cIndex)
 			}
 		}
 		break;
+	case CLASS_KAMIKAZE:
+		{
+			index = GetRandom(0, 6);
+			switch(index)
+			{
+			case 0: return SELFDESTRUCT;
+			case 1: return HA_PICKUP;
+			case 2: return PROXY;
+			case 3: return CREATE_INVIN;
+			case 4: return AMNESIA;
+			case 5: return MAGMINE;
+			case 6: return FLASH;
+			}
+		}
+		break;
 	}
 	return -1;
 }
