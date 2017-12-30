@@ -341,7 +341,7 @@ char *GetTalentString(int talent_ID)
 	case TALENT_EVIL_CURSE:			return "Evil Curse";
 	case TALENT_CHEAPER_CURSES:		return "Cheaper Curses";
 	case TALENT_CORPULENCE:			return "Corpulence";
-	case TALENT_LIFE_TAP:			return "Life Tap";
+	case TALENT_LIFE_TAP:			return "Monstrous Power";
 	case TALENT_DIM_VISION:			return "Dim Vision";
 	case TALENT_FLIGHT:				return "Flight";
 	//Shaman Talents

@@ -462,15 +462,16 @@ int writeTalentDescription(edict_t *ent, int talentID)
 		addlinetomenu(ent, "Reduces curse cost.", MENU_WHITE_CENTERED);
 		return 1;
 	case TALENT_CORPULENCE:
-		addlinetomenu(ent, "Increases hellspawn", MENU_WHITE_CENTERED);
-		addlinetomenu(ent, "and monster health/armor,", MENU_WHITE_CENTERED);
-		addlinetomenu(ent, "but reduces damage. Can't,", MENU_WHITE_CENTERED);
-		addlinetomenu(ent, "combine with Life Tap.", MENU_WHITE_CENTERED);
-		return 4;
+		addlinetomenu(ent, "Sharply increases hellspawn", MENU_WHITE_CENTERED);
+		addlinetomenu(ent, "and monster health/armor and", MENU_WHITE_CENTERED);
+		addlinetomenu(ent, "slightly increases damage.", MENU_WHITE_CENTERED);
+		addlinetomenu(ent, "Can't combine with", MENU_WHITE_CENTERED);
+		addlinetomenu(ent, "Monstrous Power.", MENU_WHITE_CENTERED);
+		return 5;
 	case TALENT_LIFE_TAP:
-		addlinetomenu(ent, "Increases hellspawn", MENU_WHITE_CENTERED);
-		addlinetomenu(ent, "and monster damage,", MENU_WHITE_CENTERED);
-		addlinetomenu(ent, "but slowly saps life.", MENU_WHITE_CENTERED);
+		addlinetomenu(ent, "Slightly increases hellspawn", MENU_WHITE_CENTERED);
+		addlinetomenu(ent, "and monster health/armor and", MENU_WHITE_CENTERED);
+		addlinetomenu(ent, "sharply increases damage.", MENU_WHITE_CENTERED);
 		addlinetomenu(ent, "Can't combine with", MENU_WHITE_CENTERED);
 		addlinetomenu(ent, "Corpulence.", MENU_WHITE_CENTERED);
 		return 5;
