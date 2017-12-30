@@ -669,7 +669,7 @@ void Cmd_HellSpawn_f (edict_t *ent)
 		skull_attackcmd(ent->skull);
 		return;
 	}
-/*
+
 	if (!Q_strcasecmp(gi.args(), "recall") && ent->skull && ent->skull->inuse)
 	{
 		// toggle
@@ -685,7 +685,6 @@ void Cmd_HellSpawn_f (edict_t *ent)
 		}
 		return;
 	}
-*/
 
 	if (G_EntExists(ent->skull))
 	{
