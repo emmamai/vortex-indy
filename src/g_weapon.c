@@ -563,7 +563,11 @@ void fire_blaster (edict_t *self, vec3_t start, vec3_t dir, int damage, int spee
 	//gi.dprintf("fire_blaster()\n");
 
 	VectorNormalize (dir);
-
+	
+	if (speed > MAX_PROJECTILE_SPEED)
+	{
+		speed = MAX_PROJECTILE_SPEED;
+	}
 	bolt = G_Spawn();
 
 	// assign model by projectile type
@@ -1062,6 +1066,10 @@ void fire_rocket (edict_t *self, vec3_t start, vec3_t dir, int damage, int speed
 	// calling entity made a sound, used to alert monsters
 	self->lastsound = level.framenum;
 
+	if (speed > MAX_PROJECTILE_SPEED)
+	{
+		speed = MAX_PROJECTILE_SPEED;
+	}
 	rocket = G_Spawn();
 	VectorCopy (start, rocket->s.origin);
 	VectorCopy (dir, rocket->movedir);

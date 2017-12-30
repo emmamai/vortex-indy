@@ -640,4 +640,6 @@ const char* Time();
 
 #define TELEPORT_COST	20
 
+#define MAX_PROJECTILE_SPEED	2500
+
 #endif
