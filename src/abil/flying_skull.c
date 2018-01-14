@@ -589,8 +589,9 @@ void SpawnSkull (edict_t *ent)
 	
 	if ((ent && ent->inuse && ent->client) || (skull->activator && skull->activator->inuse && skull->activator->client))
 	{
-		talentLevel = getTalentLevel(ent, TALENT_CORPULENCE);
-		talentLevel2 = getTalentLevel(ent, TALENT_LIFE_TAP);
+		int talentLevel = getTalentLevel(ent, TALENT_CORPULENCE);
+		int talentLevel2 = getTalentLevel(ent, TALENT_LIFE_TAP);
+
 		if(talentLevel > 0)	mult +=	2.2 * talentLevel;	//+30% per upgrade
 		if(talentLevel2 > 0) mult += 1.1 * talentLevel2;
 	}
